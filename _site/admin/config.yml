@@ -10,3 +10,23 @@ backend:
       folder: '_posts/'
       fields:
         - { name: Title }
+    - name: 'authors'
+      label: 'Authors'
+      folder: '_authors/'
+      create: true
+      editor:
+        preview: false
+      fields:
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+        - {
+            label: 'Author',
+            name: 'author',
+            widget: 'relation',
+            collection: 'authors',
+            displayFields: [display_name],
+            searchFields: [display_name],
+            valueField: 'name',
+        }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
