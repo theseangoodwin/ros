@@ -6,7 +6,7 @@ backend:
 media_folder: 'assets/uploads'
 collections:
    - name: 'blog'
-     label: 'Blog'
+     label: 'Posts'
      folder: '_posts/'
      create: true
      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
