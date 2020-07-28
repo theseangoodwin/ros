@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"76. A Reflection on Death:  Poison I Was Born With " (M308)'
+title: '"76. A Reflection on Death:  Poison I Was Born With " (M. 308)'
 location: Montpellier, France
 date: 2020-07-28T15:31:40.676Z
 ---
