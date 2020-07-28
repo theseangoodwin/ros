@@ -21,8 +21,8 @@ collections:
            name: 'author',
            widget: 'relation',
            collection: 'authors',
-           displayFields: [display_name],
-           searchFields: [display_name],
+           # displayFields: [display_name],
+           # searchFields: [display_name],
            valueField: 'name',
         }
        - { label: 'Body', name: 'body', widget: 'markdown' }
