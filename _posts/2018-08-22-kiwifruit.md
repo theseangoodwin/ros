@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Title 3
+date: 2020-07-28T00:40:22.441Z
 author: ted
 ---
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
