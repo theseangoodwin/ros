@@ -13,14 +13,14 @@ layout: default
 <p>
   {{ page.date | date_to_string }}
   {% assign author = site.authors | where: 'name', page.author | first %}
-  {% if author %}
+  {# {% if author %}
     - <a href="{{ author.url }}">{{ author.display_name }}</a>
-  {% endif %}
+  {% endif %} #}
 </p>
 
 <img>
   {% if file %}
-    - <img src="{{ file.url }}">IMG TITLE</img>
+    - <img src="{{ file.url }}">
   {% endif %}
 </img>
 
