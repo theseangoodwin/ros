@@ -17,7 +17,20 @@
     <a href="/staff.html" >Staff</a>
   
 </nav>
-    <h1>hello world!</h1>
-
+    <head><script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script></head>
+<body>
+    <h1>hello pat!</h1>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+                });
+            }
+            });
+        }
+    </script>
+</body>
   </body>
 </html>

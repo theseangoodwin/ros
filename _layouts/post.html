@@ -18,11 +18,9 @@ layout: default
   {% endif %} -->
 </p>
 
-<img>
-  {% if file %}
-    - <img src="{{ page.file.url }}" alt="alt test" width="100%" height="100">
-    - <img src="/assets/uploads/image8.jpg" alt="alt test" width="100%" height="100">
-  {% endif %}
-</img>
+{% if page.file %}
+    - <img src="{{ page.file }}" alt="alt test">
+{% endif %}
+
 
 {{ content }}

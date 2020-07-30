@@ -1,70 +1,82 @@
 # config.yml
 
 backend:
-    name: git-gateway
-    branch: master # Branch to update (optional; defaults to master)
+   name: git-gateway
+   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
-    - name: 'blog'
-      label: 'Blog'
-      folder: '_posts/'
-      create: true
-      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-      editor:
-        preview: false
-    fields:
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-        - {
-            label: 'Author',
-            name: 'author',
-            widget: 'relation',
-            collection: 'authors',
-            displayFields: [display_name],
-            searchFields: [display_name],
-            valueField: 'name',
-            }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
+   - name: 'blog'
+     label: 'Posts'
+     folder: '_posts/'
+     create: true
+     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+     editor:
+       preview: false
+     fields:
+       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+       - { label: 'Title', name: 'title', widget: 'string' }
+       - { label: 'Entry No.', name: 'entry-number', widget: 'string', required: false }
+       - { label: 'Location', name: 'location', widget: 'string', required: false }
+       - { label: 'Publish Date', name: 'date', widget: 'datetime', required: false }
+       - { label: 'Entry length', name: 'length-layout', widget: 'select', required: false, options: ['X-Small', 'Small', 'Medium', 'Large', 'X-Large' ]}
+       - { label: 'Custom CSS', name: 'custom_css', widget: 'select', required: false, options: ['red-bg', 'blue-bg']}
+       - label: 'Media'
+         name: 'file'
+         widget: 'file'
+         required: false
+         media_library: 
+           config:
+             multiple: true 
+    #    - {
+    #        label: 'Author',
+    #        name: 'author',
+    #        widget: 'relation',
+    #        collection: 'authors',
+    #        displayFields: ['display_name'],
+    #        searchFields: ['display_name'],
+    #        valueField: 'name',
+    #     }
+       - { label: 'Body', name: 'body', widget: 'markdown' }
           
-    - name: 'authors'
-      label: 'Authors'
-      folder: '_authors/'
-      create: true
-      editor:
-        preview: false
-      fields:
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
-        - { label: 'Short Name', name: 'name', widget: 'string' }
-        - { label: 'Display Name', name: 'display_name', widget: 'string' }
-        - { label: 'Position', name: 'position', widget: 'string' }
-        - { label: 'Body', name: 'body', widget: 'markdown' }
+   - name: 'authors'
+     label: 'Authors'
+     folder: '_authors/'
+     create: true
+     editor:
+       preview: false
+     fields:
+       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
+       - { label: 'Short Name', name: 'name', widget: 'string' }
+       - { label: 'Display Name', name: 'display_name', widget: 'string' }
+       - { label: 'Position', name: 'position', widget: 'string' }
+       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-    - name: 'pages'
-      label: 'Pages'
-      editor:
-        preview: false
-      files:
-        - label: 'About Page'
-          name: 'about'
-          file: 'about.md'
-          fields:
-            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-            - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
-            - { label: 'Body', name: 'body', widget: 'markdown' }
+   - name: 'pages'
+     label: 'Pages'
+     editor:
+       preview: false
+     files:
+       - label: 'About Page'
+         name: 'about'
+         file: 'about.md'
+         fields:
+           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+           - { label: 'Body', name: 'body', widget: 'markdown' }
     
-    - name: "config"
-      label: "Config"
-      editor:
-        preview: false
-      files:
-        - label: "Navigation"
-          name: "navigation"
-          file: "_data/navigation.yml"
-          fields:
-            - label: "Navigation Items"
-              name: "items"
-              widget: "list"
-              fields:
-                - {label: Name, name: name, widget: string}
-                - {label: Link, name: link, widget: string}
+   - name: 'config'
+     label: 'Config'
+     editor:
+       preview: false
+     files:
+       - label: 'Navigation'
+         name: 'navigation'
+         file: '_data/navigation.yml'
+         fields:
+           - label: 'Navigation Items'
+             name: 'items'
+             widget: 'list'
+             fields:
+               - {label: 'Name', name: 'name', widget: 'string'}
+               - {label: 'Link', name: 'link', widget: 'string'}
+#
