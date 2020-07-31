@@ -1,8 +1,10 @@
 ---
 layout: post
-title: '"76. A Reflection on Death:  Poison I Was Born With " (M. 308)'
+title: "A Reflection on Death: Poison I Was Born With"
+entry_number: 76
 location: Montpellier, France
 date: 2020-07-28T15:31:40.676Z
+length_layout: Medium
 ---
 What if in my dreams, my death was only a dream? My visions of blood and pain, of sacrifice and courage, may not allude to my future in the way that I believe they do. The thought of death is so real that it is avoided. Who thinks about dying? Who thinks about how they will die? When you picture the face of death, can it look so real that it moves you to tears? Do you see the bloodshot eyes and mournful actions that follow death?\
 I’ve thought about this at length. Several days ago, I wrote letters for my mother to find in case something happened to me today. Those are words that I never want to read again. I never want her to read them; yet it felt as if I had no other choice but to die for something worthy of the love she’s given me. I would die for her. That’s not easy to say, because I mean it. The love she’s given me is unfailing, whole, and holy. The Savior I seek has been raising me from birth.\
