@@ -18,6 +18,8 @@ body { background-color: white; }
 
 .block { width: 100vw; height: auto; padding: 0px 60px; border-left: 2px solid black; }
 
+.block img { width: 400px; height: auto; }
+
 .wrapper { display: flex; flex-direction: row; width: 400vw; transform: rotate(90deg) translateY(-100vh); transform-origin: top left; }
 
 .outer-wrapper { width: 100vh; height: 100vw; transform: rotate(-90deg) translateX(-100vh); transform-origin: top left; overflow-y: scroll; overflow-x: hidden; position: absolute; }

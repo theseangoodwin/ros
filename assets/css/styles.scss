@@ -77,6 +77,11 @@ body {
     border-left: 2px solid black;
   }
 
+.block img {
+    width: 400px;
+    height: auto;
+}
+
 .wrapper {
     display: flex;
     flex-direction: row;

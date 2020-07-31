@@ -9,7 +9,7 @@ title: Blog
 <div class="outer-wrapper">
   <div class="wrapper">
   {% for post in site.posts %}
-    <div class="{{ post.class }}">
+    <div class="{{ post.class }} block">
       
       {% if post.custom_css %}
         {% for stylesheet in post.custom_css %}
