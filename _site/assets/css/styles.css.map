@@ -6,7 +6,7 @@
 		"_sass/main.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n\n* {\n    box-sizing: border-box;\n}\n\nh1 {\n    font: Georgia, serif;\n    color: black;\n    font-size: 6rem;\n    text-transform: uppercase;\n}\n\nh2 {\n    font: sans-serif;\n    color: black;\n    font-size: 1.5rem;\n}\n\nh3 {\n    font: Serif; // whatever h1 uses\n    color: black;\n    font-size: 2rem;\n}\n\nbody {\n    background-color: white;\n\n    // font\n    font: sans-serif;\n    color: black;\n    font-size: 1rem;\n  }\n\n  ////////\n",
+		"@import \"main\";\n\n* {\n    box-sizing: border-box;\n}\n\nh1 {\n    font: Georgia, serif;\n    color: black;\n    font-size: 6rem;\n    text-transform: uppercase;\n}\n\nh2 {\n    font: sans-serif;\n    color: black;\n    font-size: 1.5rem;\n}\n\nh3 {\n    font: Serif; // whatever h1 uses\n    color: black;\n    font-size: 2rem;\n}\n\nbody {\n    background-color: white;\n\n    // font\n    font: sans-serif;\n    color: black;\n    font-size: 1rem;\n  }\n",
 		""
 	],
 	"names": [],

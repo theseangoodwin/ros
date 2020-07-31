@@ -5,10 +5,7 @@ title: Blog
 <script src="assets/js/vanilla.js" type="text/javascript"></script>
 <h1>Latest Posts</h1>
 
-<div>
-  <div class="block" id="start">
-            Hello, scroll further
-  </div>
+<div class="container">
   {% for post in site.posts %}
     <div class="block">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
