@@ -16,4 +16,6 @@ body { background-color: white; font: sans-serif; color: black; font-size: 1rem;
 
 ::-webkit-scrollbar { display: none; }
 
+.big-date p { font-size: 3em; color: green; }
+
 /*# sourceMappingURL=styles.css.map */
