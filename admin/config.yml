@@ -15,7 +15,7 @@ collections:
      fields:
        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
        - { label: 'Title', name: 'title', widget: 'string' }
-       - { label: 'Entry No.', name: 'entry-number', widget: 'string', required: false }
+       - { label: 'Entry No.', name: 'entry_number', widget: 'string', required: false }
        - { label: 'Location', name: 'location', widget: 'string', required: false }
        - { label: 'Publish Date', name: 'date', widget: 'datetime', required: false }
        - { label: 'Entry length', name: 'length_layout', widget: 'select', required: false, options: ['X-Small', 'Small', 'Medium', 'Large', 'X-Large' ]}
