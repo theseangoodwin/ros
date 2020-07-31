@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Reflection on Odd Numbers (S 176)
+title: A Reflection on Odd Numbers
 entry-number: "1"
 entry_number: 24
 location: Sanctuary
