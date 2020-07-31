@@ -2,13 +2,17 @@
 layout: default
 title: Blog
 ---
+<script src="assets/js/vanilla.js" type="text/javascript"></script>
 <h1>Latest Posts</h1>
 
-<ul class="wrapper">
+<div>
+  <div class="block" id="start">
+            Hello, scroll further
+  </div>
   {% for post in site.posts %}
-    <li class="block">
+    <div class="block">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>
