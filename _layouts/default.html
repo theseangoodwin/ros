@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <script type="text/javascript" src="assets/js/hor-scroll.js"></script>
+    <!-- <script src="/assets/js/hor-scroll.js"></script> -->
+    <script type="text/javascript"> 
+      import HorizontalScroll from '@oberon-amsterdam/horizontal';
+
+      new HorizontalScroll();
+    </script> 
   </head>
   <body>
     {% include navigation.html %}

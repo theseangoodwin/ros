@@ -1,3 +1,15 @@
-.current { color: green; }
+* { box-sizing: border-box; }
+
+h1 { font: Georgia, serif; color: black; font-size: 6rem; text-transform: uppercase; }
+
+h2 { font: sans-serif; color: black; font-size: 1.5rem; }
+
+h3 { font: Serif; color: black; font-size: 2rem; }
+
+body { background-color: white; font: sans-serif; color: black; font-size: 1rem; }
+
+.container { display: flex; flex: 1; }
+
+.block { min-width: 60%; height: 100%; display: flex; align-items: center; justify-content: center; }
 
 /*# sourceMappingURL=styles.css.map */

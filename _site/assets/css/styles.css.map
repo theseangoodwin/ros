@@ -6,9 +6,9 @@
 		"_sass/main.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";",
-		".current {\n    color: green;\n  }"
+		"@import \"main\";\n\n* {\n    box-sizing: border-box;\n}\n\nh1 {\n    font: Georgia, serif;\n    color: black;\n    font-size: 6rem;\n    text-transform: uppercase;\n}\n\nh2 {\n    font: sans-serif;\n    color: black;\n    font-size: 1.5rem;\n}\n\nh3 {\n    font: Serif; // whatever h1 uses\n    color: black;\n    font-size: 2rem;\n}\n\n\n\nbody {\n    background-color: white;\n\n    // font\n    font: sans-serif;\n    color: black;\n    font-size: 1rem;\n  }\n\n.container {\n    display: flex;\n    flex: 1;\n}\n\n.block {\n    min-width: 60%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}",
+		""
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb"
+	"mappings": "AAEA,AAAA,CAAC,CAAC,EACE,UAAU,EAAE,UAAU,GACzB;;AAED,AAAA,EAAE,CAAC,EACC,IAAI,EAAE,cAAc,EACpB,KAAK,EAAE,KAAK,EACZ,SAAS,EAAE,IAAI,EACf,cAAc,EAAE,SAAS,GAC5B;;AAED,AAAA,EAAE,CAAC,EACC,IAAI,EAAE,UAAU,EAChB,KAAK,EAAE,KAAK,EACZ,SAAS,EAAE,MAAM,GACpB;;AAED,AAAA,EAAE,CAAC,EACC,IAAI,EAAE,KAAK,EACX,KAAK,EAAE,KAAK,EACZ,SAAS,EAAE,IAAI,GAClB;;AAID,AAAA,IAAI,CAAC,EACD,gBAAgB,EAAE,KAAK,EAGvB,IAAI,EAAE,UAAU,EAChB,KAAK,EAAE,KAAK,EACZ,SAAS,EAAE,IAAI,GAChB;;AAEH,AAAA,UAAU,CAAC,EACP,OAAO,EAAE,IAAI,EACb,IAAI,EAAE,CAAC,GACV;;AAED,AAAA,MAAM,CAAC,EACH,SAAS,EAAE,GAAG,EACd,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,IAAI,EACb,WAAW,EAAE,MAAM,EACnB,eAAe,EAAE,MAAM,GAC1B"
 }
