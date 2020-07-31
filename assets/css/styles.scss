@@ -3,36 +3,68 @@
 
 @import "main";
 
+/////
 * {
     box-sizing: border-box;
 }
 
+/////
+
 h1 {
-    font: Georgia, serif;
+    font-family: "freight-big-pro", sans-serif;
+    font-weight: 400;
     color: black;
-    font-size: 6rem;
+    font-size: 7.25rem;
+    line-height: 0.8em;
     text-transform: uppercase;
 }
 
 h2 {
-    font: sans-serif;
+    font-family:"neue-haas-grotesk-display";
+    font-weight: 600;
     color: black;
     font-size: 1.5rem;
 }
 
 h3 {
-    font: Serif; // whatever h1 uses
+    font-family: "freight-big-pro", sans-serif;
+    font-weight: 400;
     color: black;
-    font-size: 2rem;
+    font-size: 2.25rem;
 }
+
+h4 {
+    font-family: "freight-big-pro", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.0625rem;
+}
+
+p {
+    font-family:"aktiv-grotesk";
+    font-weight:400;
+    color: black;
+    font-size: 1rem;
+}
+
+a {
+    font-family:"aktiv-grotesk-extended";
+    font-weight:700;
+    color: black;
+    font-size: 1rem;
+}
+
+blockquote {
+    font-family:"aw-conqueror-didot";
+    font-weight:400;
+    color: black;
+    font-size: 1.75rem;
+}
+
+/////
 
 body {
     background-color: white;
-
-    // font
-    font: sans-serif;
-    color: black;
-    font-size: 1rem;
   }
 
 ///////
