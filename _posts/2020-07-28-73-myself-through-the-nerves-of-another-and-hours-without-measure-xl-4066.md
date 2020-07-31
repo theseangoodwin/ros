@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Myself, Through The Nerves of Another,  and Hours Without Measure (XL 4066)
+title: Myself, Through The Nerves of Another,  and Hours Without Measure
 entry_number: 73
 location: --
 date: 2020-07-28T14:58:25.755Z
+length_layout: X-Large
 ---
 It’s late and I watch the sun set with disappointment. I still don’t know where I’m staying tonight. I may bring myself to find a place, but I’ll probably convince myself otherwise. I am pushed onto the streets against my will just like I thought and dreamed. I face the west. Despite what I want, ambition keeps me to my word. “It’s one night,” I tell myself. It’s one out of a thousand that the homeless face. My internal conflict switches sides quickly and I lean back and forth. The eight euros that I spent on my hostel for the night weigh heavily on my mind. It’s cold, it’s not safe, and someone could steal my backpack if I fall asleep. If my phone and wallet were taken from me, I would feel it in the pit of my stomach for months to come. The money and documentation that were so difficult to obtain would be a nightmare to replace. I realize that I am risking more than just my possessions.
 
