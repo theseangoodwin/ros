@@ -20,6 +20,10 @@ title: Blog
       <h2>{{ post.title }}</h2>
       
       <p>{{ post.date | date_to_string }}</p>
+
+      {% if post.file %}
+        - <img src="{{ post.file }}" alt="alt test">
+      {% endif %}
       
       {{ post.excerpt }}
     </div>
