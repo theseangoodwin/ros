@@ -40,8 +40,9 @@ body {
 
 .block {
     width: 100vw;
-    height: 100vh;
-    margin: 40px;
+    height: auto;
+    padding: 0px 60px;
+    border-left: 2px solid black;
   }
 
 .wrapper {
