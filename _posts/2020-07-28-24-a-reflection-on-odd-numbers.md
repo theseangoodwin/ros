@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 24. A Reflection on Odd Numbers (S 176)
+entry-number: "1"
 location: Sanctuary
 date: 2020-07-28T16:27:45.633Z
 ---
