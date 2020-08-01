@@ -1,10 +1,24 @@
 
 
+
+
+{% comment %} Assigning variable based on page attribute {% endcomment %}
+
+{% if page.title == "One" %}
+    {% assign chap_min = 0 %}
+    {% assign chap_max = 18 %}
+{% elsif page.title == "Two" %}
+    {% assign chap_min = 19 %}
+    {% assign chap_max = 100 %}
+{% endif %}
+
 <div class="outer-wrapper">
   <div class="wrapper">
   {% for post in site.posts %}
     
-    {% if post.entry_number <= 18 %}
+    {% comment %} entry logic should go here {% endcomment %}
+    {% if post.entry_number <= chap_min or post.entry_number > chap_max %}
+
       <div class="{{ post.class }} block">
         
         {% if post.custom_css %}
@@ -23,7 +37,8 @@
         
         {{ post.excerpt }}
       </div>
-    
+
     {% endif %}
+
   {% endfor %}
 </div>

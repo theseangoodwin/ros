@@ -7,3 +7,5 @@ items:
     link: /blog.html
   - name: Chapter One
     link: /chapter_one.html
+  - name: Chapter Two
+    link: /chapter_two.html
