@@ -28,6 +28,12 @@
     {% if post.entry_number >= chap_min and post.entry_number <= chap_max %}
       <div class="{{ post.class }} block">
         
+        {% if post.length_layout %}
+          {% for stylesheet in post.length_layout %}
+          <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+          {% endfor %}
+        {% endif %}
+
         {% if post.custom_css %}
           {% for stylesheet in post.custom_css %}
           <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
