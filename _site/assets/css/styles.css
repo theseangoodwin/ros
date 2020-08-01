@@ -2,25 +2,25 @@
 
 h1 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: black; font-size: 7.25rem; line-height: 0.8em; text-transform: uppercase; }
 
-h2 { font-family: "neue-haas-grotesk-display"; font-weight: 600; color: black; font-size: 1.5rem; }
+h2 { font-family: "neue-haas-grotesk-display"; font-weight: 600; color: #000000; font-size: 1.5rem; }
 
-h3 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: black; font-size: 2.25rem; }
+h3 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: #000000; font-size: 2.25rem; }
 
-h4 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: black; font-size: 1.0625rem; }
+h4 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: #000000; font-size: 1.0625rem; }
 
-p { font-family: "aktiv-grotesk"; font-weight: 400; color: black; font-size: 1rem; }
+p { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 1rem; }
 
-a { font-family: "aktiv-grotesk-extended"; font-weight: 700; color: black; font-size: 1rem; }
+a { font-family: "aktiv-grotesk-extended"; font-weight: 700; color: #000000; font-size: 1rem; }
 
-blockquote { font-family: "aw-conqueror-didot"; font-weight: 400; color: black; font-size: 1.75rem; }
+blockquote { font-family: "aw-conqueror-didot"; font-weight: 400; color: #000000; font-size: 1.75rem; }
 
 body { background-color: white; }
 
-.block { width: 100vw; height: auto; padding: 0px 60px; border-left: 2px solid black; }
+.block { width: 100vw; height: auto; padding: 0px 60px; border-left: 2px solid #000000; }
 
 .block img { width: 400px; height: auto; }
 
-.wrapper { display: flex; flex-direction: row; width: 400vw; transform: rotate(90deg) translateY(-100vh); transform-origin: top left; }
+.wrapper { display: flex; flex-direction: row; width: 320vw; transform: rotate(90deg) translateY(-100vh); transform-origin: top left; }
 
 .outer-wrapper { width: 100vh; height: 100vw; transform: rotate(-90deg) translateX(-100vh); transform-origin: top left; overflow-y: scroll; overflow-x: hidden; position: absolute; }
 

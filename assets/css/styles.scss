@@ -8,8 +8,11 @@
     box-sizing: border-box;
 }
 
-// scss var
-$color-black: #000000 //black
+// scss color var
+$color-black: #000000; //black
+
+// scss space var
+$view-width: 80vw;
 
 // type
 h1 {
@@ -70,8 +73,12 @@ body {
 
 // hor scroll
 // https://redstapler.co/pure-css-horizontal-scrolling-website-tutorial/#:~:text=First%20we%20will%20create%20a,is%20in%20the%20right%20position.
-.block {
+@mixin block_width {
     width: 100vw;
+}
+
+.block {
+    @include block_width;
     height: auto;
     padding: 0px 60px;
     border-left: 2px solid $color-black;
@@ -84,7 +91,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: row;
-    width: 400vw;
+    width: $view-width*4;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
