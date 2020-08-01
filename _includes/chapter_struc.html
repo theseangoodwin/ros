@@ -26,13 +26,7 @@
   <div class="wrapper">
   {% for post in site.posts %}
     {% if post.entry_number >= chap_min and post.entry_number <= chap_max %}
-      <div class="{{ post.class }} block">
-        
-        {% if post.length_layout %}
-          {% for stylesheet in post.length_layout %}
-          <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
-          {% endfor %}
-        {% endif %}
+      <div class="{{ post.length_layout }} block">
 
         {% if post.custom_css %}
           {% for stylesheet in post.custom_css %}
