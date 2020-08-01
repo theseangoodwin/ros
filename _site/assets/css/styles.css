@@ -2,13 +2,15 @@
 
 h1 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: black; font-size: 7.25rem; line-height: 0.8em; text-transform: uppercase; }
 
-h2 { font-family: "neue-haas-grotesk-display"; font-weight: 600; color: #000000; font-size: 1.5rem; }
+h2 { font-family: "aw-conqueror-didot"; font-display: auto; font-weight: 400; color: #000000; font-size: 3.5rem; line-height: 89%; }
 
 h3 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: #000000; font-size: 2.25rem; }
 
-h4 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: #000000; font-size: 1.0625rem; }
+h4 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: #000000; font-size: 1.25rem; font-style: italic; }
 
-p { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 1rem; }
+h5 { font-family: "neue-haas-grotesk-display", sans-serif; font-weight: 600; color: #000000; font-size: 0.75rem; text-transform: uppercase; }
+
+p { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 0.9375rem; }
 
 a { font-family: "aktiv-grotesk-extended"; font-weight: 700; color: #000000; font-size: 1rem; }
 
@@ -26,4 +28,6 @@ body { background-color: white; }
 
 ::-webkit-scrollbar { display: none; }
 
-.entry-location p { font-size: 3em; color: green; }
+.entry_location { font-size: 3em; color: green; }
+
+/*# sourceMappingURL=styles.css.map */

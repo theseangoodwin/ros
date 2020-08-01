@@ -24,11 +24,20 @@ h1 {
     text-transform: uppercase;
 }
 
+// h2 {
+//     font-family:"neue-haas-grotesk-display";
+//     font-weight: 600;
+//     color: $color-black;
+//     font-size: 3.5rem;
+// }
+
 h2 {
-    font-family:"neue-haas-grotesk-display";
-    font-weight: 600;
+    font-family: "aw-conqueror-didot";
+    font-display: auto;
+    font-weight: 400;
     color: $color-black;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
+    line-height: 89%;
 }
 
 h3 {
@@ -42,14 +51,23 @@ h4 {
     font-family: "freight-big-pro", sans-serif;
     font-weight: 400;
     color: $color-black;
-    font-size: 1.0625rem;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+h5 {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    color: $color-black;
+    font-size: 0.75rem;
+    text-transform: uppercase;
 }
 
 p {
     font-family:"aktiv-grotesk";
     font-weight: 400;
     color: $color-black;
-    font-size: 1rem;
+    font-size: 0.9375rem;
 }
 
 a {
@@ -111,9 +129,7 @@ body {
 }
 
 // post classes
-.entry-location { 
-    p {
-        font-size: 3em;
-        color: green;
-    }
+.entry_location { 
+    font-size: 3em;
+    color: green;
 }
