@@ -75,12 +75,11 @@ body {
     height: auto;
     padding: 0px 60px;
     border-left: 2px solid $color-black;
+    img {
+        width: 400px;
+        height: auto;
+    }
   }
-
-.block img {
-    width: 400px;
-    height: auto;
-}
 
 .wrapper {
     display: flex;
@@ -105,7 +104,9 @@ body {
 }
 
 // post classes
-.big-date p {
-    font-size: 3em;
-    color: green;
+.big-date { 
+    p {
+        font-size: 3em;
+        color: green;
+    }
 }
