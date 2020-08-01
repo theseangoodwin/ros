@@ -3,13 +3,15 @@
 
 @import "main";
 
-/////
+// g
 * {
     box-sizing: border-box;
 }
 
-/////
+// scss var
+$color-black: #000000 //black
 
+// type
 h1 {
     font-family: "freight-big-pro", sans-serif;
     font-weight: 400;
@@ -22,59 +24,57 @@ h1 {
 h2 {
     font-family:"neue-haas-grotesk-display";
     font-weight: 600;
-    color: black;
+    color: $color-black;
     font-size: 1.5rem;
 }
 
 h3 {
     font-family: "freight-big-pro", sans-serif;
     font-weight: 400;
-    color: black;
+    color: $color-black;
     font-size: 2.25rem;
 }
 
 h4 {
     font-family: "freight-big-pro", sans-serif;
     font-weight: 400;
-    color: black;
+    color: $color-black;
     font-size: 1.0625rem;
 }
 
 p {
     font-family:"aktiv-grotesk";
-    font-weight:400;
-    color: black;
+    font-weight: 400;
+    color: $color-black;
     font-size: 1rem;
 }
 
 a {
     font-family:"aktiv-grotesk-extended";
-    font-weight:700;
-    color: black;
+    font-weight: 700;
+    color: $color-black;
     font-size: 1rem;
 }
 
 blockquote {
     font-family:"aw-conqueror-didot";
-    font-weight:400;
-    color: black;
+    font-weight: 400;
+    color: $color-black;
     font-size: 1.75rem;
 }
 
-/////
-
+// page g
 body {
     background-color: white;
   }
 
-///////
+// hor scroll
 // https://redstapler.co/pure-css-horizontal-scrolling-website-tutorial/#:~:text=First%20we%20will%20create%20a,is%20in%20the%20right%20position.
-
 .block {
     width: 100vw;
     height: auto;
     padding: 0px 60px;
-    border-left: 2px solid black;
+    border-left: 2px solid $color-black;
   }
 
 .block img {
@@ -105,7 +105,6 @@ body {
 }
 
 // post classes
-
 .big-date p {
     font-size: 3em;
     color: green;
