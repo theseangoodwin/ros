@@ -2,9 +2,11 @@
 layout: post
 title: A Reflection on Time From 37,001 Feet Above
 entry_number: 4
-location: "-"
+location: Unlisted
 date: 2015-12-02T04:32:00.000Z
 length_layout: Small
+custom_css:
+  - Reflect
 ---
 What is the significance of time if left undefined by color or by clockwork? If the shades are pulled down and the sun is gone, how do we measure the speed of our travel? 
 
