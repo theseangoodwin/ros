@@ -26,6 +26,4 @@ body { background-color: white; }
 
 ::-webkit-scrollbar { display: none; }
 
-.big-date p { font-size: 3em; color: green; }
-
-/*# sourceMappingURL=styles.css.map */
+.entry-location p { font-size: 3em; color: green; }

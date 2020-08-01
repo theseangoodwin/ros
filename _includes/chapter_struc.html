@@ -36,12 +36,15 @@
 
         <h2>{{ post.entry_number }}.&nbsp;{{ post.title }}</h2>
         
-        <p>
-        {{ post.date | date_to_string }}
-        {% if post.date ==  "01 Jan 2020" %}
-            TEST
+        <p class="entry_time">
+        {% if post.url contains "untitled" %}
+            --:--
+        {% elsif post.url %}
+            {{ post.date | date_to_string }}
         {% endif %}
         </p>
+
+        <p class="entry_location">{{ post.location }}</p>
 
         {% if post.file %}
           - <img src="{{ post.file }}" alt="alt test">
