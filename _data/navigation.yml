@@ -5,3 +5,5 @@ items:
     link: /about.html
   - name: Blog
     link: /blog.html
+  - name: Chapter One
+    link: /chapter_one.html
