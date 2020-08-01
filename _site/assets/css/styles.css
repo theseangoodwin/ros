@@ -2,7 +2,7 @@
 
 h1 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: black; font-size: 7.25rem; line-height: 0.8em; text-transform: uppercase; }
 
-h2 { font-family: "aw-conqueror-didot"; font-display: auto; font-weight: 400; color: #000000; font-size: 3.5rem; line-height: 89%; }
+h2 { font-family: "aw-conqueror-didot"; font-style: normal; font-weight: 400; color: #000000; font-size: 3.5rem; line-height: 89%; }
 
 h3 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: #000000; font-size: 2.25rem; }
 
@@ -10,7 +10,7 @@ h4 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: #00000
 
 h5 { font-family: "neue-haas-grotesk-display", sans-serif; font-weight: 600; color: #000000; font-size: 0.75rem; text-transform: uppercase; }
 
-p { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 0.9375rem; }
+p { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 0.9375rem; line-height: 1.66rem; widows: 0; }
 
 a { font-family: "aktiv-grotesk-extended"; font-weight: 700; color: #000000; font-size: 1rem; }
 
@@ -18,7 +18,7 @@ blockquote { font-family: "aw-conqueror-didot"; font-weight: 400; color: #000000
 
 body { background-color: white; }
 
-.block { width: 100vw; height: auto; padding: 0px 60px; border-left: 2px solid #000000; }
+.block { width: 100vw; height: auto; padding: 0px 25px; border-left: 2px solid #000000; }
 
 .block img { width: 400px; height: auto; }
 
@@ -28,9 +28,15 @@ body { background-color: white; }
 
 ::-webkit-scrollbar { display: none; }
 
+.location { margin: 0; padding-left: 10px; display: inline; }
+
+.time { margin: 0; display: inline; }
+
+.img { display: block; }
+
 .X-Small { background-color: green; }
 
-.Small { background-color: yellow; }
+.Small { background-color: yellow; max-width: 345px; }
 
 .Medium { background-color: red; }
 

@@ -36,7 +36,7 @@
 
         <h2>{{ post.entry_number }}.&nbsp;{{ post.title }}</h2>
         
-        <h5 class="entry_time">
+        <h5 class="time">
         {% if post.url contains "untitled" %}
             --:--
         {% elsif post.url %}
@@ -44,13 +44,13 @@
         {% endif %}
         </h5>
 
-        <h4>{{ post.location }}</h4>
+        <h4 class="location">{{ post.location }}</h4>
 
         {% if post.file %}
           - <img src="{{ post.file }}" alt="alt test">
         {% endif %}
         
-        {{ post.excerpt }}
+        {{ post.content }}
       </div>
     {% endif %}
   {% endfor %}

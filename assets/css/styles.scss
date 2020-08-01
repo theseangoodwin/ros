@@ -33,7 +33,7 @@ h1 {
 
 h2 {
     font-family: "aw-conqueror-didot";
-    font-display: auto;
+    font-style: normal;
     font-weight: 400;
     color: $color-black;
     font-size: 3.5rem;
@@ -68,6 +68,8 @@ p {
     font-weight: 400;
     color: $color-black;
     font-size: 0.9375rem;
+    line-height: 1.66rem;
+    widows: 0;
 }
 
 a {
@@ -98,7 +100,7 @@ body {
 .block {
     @include block_width;
     height: auto;
-    padding: 0px 60px;
+    padding: 0px 25px;
     border-left: 2px solid $color-black;
     img {
         width: 400px;
@@ -128,13 +130,32 @@ body {
     display:none;
 }
 
-// post classes
+// general post css
+
+.location {
+    margin: 0;
+    padding-left: 10px;
+    display: inline;
+}
+
+.time {
+    margin: 0;
+    display: inline;
+}
+
+.img {
+    display: block;
+}
+
+// post size classes
 .X-Small {
     background-color: green;
 }
 
 .Small {
     background-color: yellow;
+
+    max-width: 345px;
 }
 
 .Medium {
