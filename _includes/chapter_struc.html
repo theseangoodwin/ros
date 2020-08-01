@@ -36,7 +36,12 @@
 
         <h2>{{ post.entry_number }}.&nbsp;{{ post.title }}</h2>
         
-        <p>{{ post.date | date_to_string }}</p>
+        <p>
+        {{ post.date | date_to_string }}
+        {% if post.date ==  "01 Jan 2020" %}
+            TEST
+        {% endif %}
+        </p>
 
         {% if post.file %}
           - <img src="{{ post.file }}" alt="alt test">
