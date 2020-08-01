@@ -9,8 +9,7 @@ title: Blog
 <div class="outer-wrapper">
   <div class="wrapper">
   {% for post in site.posts %}
-    {% assign post.entry_number = post.entry_number | times: 1 %}
-    {% if post.entry_number <= 0 %}
+    {% if post.entry_number <= 30 %}
       <div class="{{ post.class }} block">
         
         {% if post.custom_css %}
