@@ -1,0 +1,29 @@
+
+
+<div class="outer-wrapper">
+  <div class="wrapper">
+  {% for post in site.posts %}
+    
+    {% if post.entry_number <= 18 %}
+      <div class="{{ post.class }} block">
+        
+        {% if post.custom_css %}
+          {% for stylesheet in post.custom_css %}
+          <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+          {% endfor %}
+        {% endif %}
+
+        <h2>{{ post.entry_number }}.&nbsp;{{ post.title }}</h2>
+        
+        <p>{{ post.date | date_to_string }}</p>
+
+        {% if post.file %}
+          - <img src="{{ post.file }}" alt="alt test">
+        {% endif %}
+        
+        {{ post.excerpt }}
+      </div>
+    
+    {% endif %}
+  {% endfor %}
+</div>
