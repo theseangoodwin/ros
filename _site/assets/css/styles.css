@@ -58,7 +58,9 @@ body { background-color: white; }
 
 .Small .text_div { align-self: flex-start; }
 
-.Medium .text_div { display: flex; flex-direction: column; }
+.Medium { margin-left: 200px; }
+
+.Medium .text_div .e_metadata .time { position: relative; left: -200px; }
 
 .Medium p { font-family: "freight-big-pro", serif; font-weight: 400; color: #000000; font-size: 1.125rem; }
 

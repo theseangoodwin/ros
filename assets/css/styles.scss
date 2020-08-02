@@ -218,13 +218,21 @@ body {
 }
 
 .Medium {
+    margin-left: 200px;
     .text_div {
-        display: flex;
-        flex-direction: column;
+        // display: flex;
+        // flex-direction: column;
         .e_metadata {
 
+            .date {
+                // align-self: flex-end;
+            }
             .time {
-            
+                position: relative;
+                left: -200px;
+            }
+            .location {
+                // align-self: flex-end;
             }  
         }
         .content_div {
