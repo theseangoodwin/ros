@@ -39,17 +39,18 @@ h2 {
     color: $color-black;
     font-size: 3.5rem;
     line-height: 89%;
+    margin: 0;
 }
 
 h3 {
-    font-family: "freight-big-pro", sans-serif;
+    font-family: "freight-big-pro", serif;
     font-weight: 400;
     color: $color-black;
     font-size: 2.25rem;
 }
 
 h4 {
-    font-family: "freight-big-pro", sans-serif;
+    font-family: "freight-big-pro", serif;
     font-weight: 400;
     color: $color-black;
     font-size: 1.25rem;
@@ -64,7 +65,7 @@ h5 {
     text-transform: uppercase;
 }
 
-p {
+@mixin p-sans {
     font-family:"aktiv-grotesk";
     font-weight: 400;
     color: $color-black;
@@ -73,17 +74,29 @@ p {
     widows: 0;
 }
 
+@mixin p-serif {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    color: $color-black;
+    font-size: 1.125rem;
+}
+
+p {
+    @include p-sans();
+}
+
 a {
     font-family:"aktiv-grotesk-extended";
     font-weight: 700;
     color: $color-black;
     font-size: 1rem;
 
-    :hover {
-        text-decoration: none;
-        background-color: yellow;
-        transition: 0.5s;
-    }
+    // &:hover {
+    //     text-decoration: none;
+    //     background-color: yellow;
+    //     transition: 0.5s;
+    //     content: url({{ post.file }})
+    // }
 
 }
 
@@ -94,7 +107,7 @@ blockquote {
     font-size: 1.75rem;
 }
 
-span {
+.blackletter {
     font-family: "UnifrakturMaguntia", cursive;
     font-size: 1.2rem; 
 }
@@ -107,17 +120,18 @@ body {
 // hor scroll
 // https://redstapler.co/pure-css-horizontal-scrolling-website-tutorial/#:~:text=First%20we%20will%20create%20a,is%20in%20the%20right%20position.
 @mixin block_width {
-    width: 100vw;
+    width: 60%;
 }
 
-.block {
+.e_block {
     @include block_width;
-    height: auto;
-    padding: 0px 25px;
-    border-left: 2px solid $color-black;
+    min-width: 800px;
+    max-width: 1000px;
+    height: min-content;
+    border-left: 1px solid $color-black;
     img {
-        width: 400px;
-        height: auto;
+        width: 100%;
+        // height: auto;
     }
   }
 
@@ -144,15 +158,21 @@ body {
 }
 
 // general post css
-.location {
-    margin: 0;
-    padding-left: 10px;
-    display: inline;
-}
+.e_metadata {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 20px;
 
-.time {
-    margin: 0;
-    display: inline;
+    .location {
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .time {
+        margin: 0;
+    }
 }
 
 .img {
@@ -161,11 +181,41 @@ body {
 
 // post size classes
 .X-Small {
-    background-color: green;
+    background-color: $color-white;
+    display: flex;
+    min-width: 450px;
+    max-width: 450px;
+
+    .e_subblock {
+        width: 70%;
+        margin: 20px;
+    }
+
+    .text_div {
+        align-self: flex-start;
+    }
+    
+    p {
+        @include p-serif();
+    }
 }
 
 .Small {
     background-color: $color-white;
+    display: flex;
+    flex-direction: row-reverse;
+
+    .e_subblock {
+        width: 50%;
+        margin: 20px;
+    }
+    .img_div {
+        align-self: flex-start;
+        border-left: 1px solid $color-black;
+    }
+    .text_div {
+        align-self: flex-start;
+    }
 }
 
 .Medium {
@@ -182,37 +232,15 @@ body {
 
 //post custom classes
 .Reflect {
-    display: grid;
     text-align: right;
-    grid-template-columns: auto auto;
-    grid-gap: 20px;
-
-    .grid_item_1 {
-        grid-column: 2;
-        grid-row: 1;
+    p {
+        @include p-serif();
     }
-
-    .grid_item_2 {
-        grid-column: 1;
-        grid-row: 1;
+    .e_metadata {
+        flex-direction: row-reverse;
     }
+}
 
-    .img_div {
-        grid-column: 2;
-    }
+.space {
 
-    img {
-        
-    }
-
-    .text_div {
-        min-width: 300px;
-        max-width: 400px;
-        border-right: 1px solid $color-black;
-        padding-right: 20px;
-
-        p {
-            font-family: "freight-big-pro", sans-serif;
-        }
-    }
 }
