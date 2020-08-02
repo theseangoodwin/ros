@@ -203,5 +203,9 @@ body {
         max-width: 400px;
         border-right: 1px solid $color-black;
         padding-right: 20px;
+
+        p {
+            font-family: "freight-big-pro", sans-serif;
+        }
     }
 }

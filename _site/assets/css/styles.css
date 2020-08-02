@@ -56,4 +56,6 @@ body { background-color: white; }
 
 .Reflect .text_div { min-width: 300px; max-width: 400px; border-right: 1px solid #000000; padding-right: 20px; }
 
+.Reflect .text_div p { font-family: "freight-big-pro", sans-serif; }
+
 /*# sourceMappingURL=styles.css.map */
