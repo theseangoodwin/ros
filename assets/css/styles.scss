@@ -10,6 +10,7 @@
 
 // scss color var
 $color-black: #000000; //black
+$color-white: #ffffff; //white
 
 // scss space var
 $view-width: 80vw;
@@ -67,8 +68,8 @@ p {
     font-family:"aktiv-grotesk";
     font-weight: 400;
     color: $color-black;
-    font-size: 0.9375rem;
-    line-height: 1.66rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     widows: 0;
 }
 
@@ -84,6 +85,11 @@ blockquote {
     font-weight: 400;
     color: $color-black;
     font-size: 1.75rem;
+}
+
+span {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 1.2rem; 
 }
 
 // page g
@@ -131,7 +137,6 @@ body {
 }
 
 // general post css
-
 .location {
     margin: 0;
     padding-left: 10px;
@@ -153,9 +158,7 @@ body {
 }
 
 .Small {
-    background-color: yellow;
-
-    max-width: 345px;
+    background-color: $color-white;
 }
 
 .Medium {
@@ -168,4 +171,37 @@ body {
 
 .X-Large {
     background-color: orange;
+}
+
+//post custom classes
+.Reflect {
+    display: grid;
+    text-align: right;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+
+    .grid_item_1 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .grid_item_2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .img_div {
+        grid-column: 2;
+    }
+
+    img {
+        
+    }
+
+    .text_div {
+        min-width: 300px;
+        max-width: 400px;
+        border-right: 1px solid $color-black;
+        padding-right: 20px;
+    }
 }

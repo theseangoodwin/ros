@@ -26,31 +26,35 @@
   <div class="wrapper">
   {% for post in site.posts %}
     {% if post.entry_number >= chap_min and post.entry_number <= chap_max %}
-      <div class="{{ post.length_layout }} block">
+      <div class="{{ post.length_layout }} {{ post.custom_css }} block">
 
+        {% if post.file %}
+            <div class="img_div grid_item_1">
+              - <img src="{{ post.file }}" alt="alt test">
+            </div>
+        {% endif %}
+<!--
         {% if post.custom_css %}
           {% for stylesheet in post.custom_css %}
           <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
           {% endfor %}
         {% endif %}
+-->
+        <div class="text_div grid_item_2">
+            <h2>{{ post.entry_number }}.&nbsp;{{ post.title }}</h2>
+            
+            <h5 class="time">
+                {% if post.url contains "untitled" %}
+                    --:--
+                {% elsif post.url %}
+                    {{ post.date | date: "%b. %d &nbsp; %H:%M" }}
+                {% endif %}
+            </h5>
 
-        <h2>{{ post.entry_number }}.&nbsp;{{ post.title }}</h2>
-        
-        <h5 class="time">
-        {% if post.url contains "untitled" %}
-            --:--
-        {% elsif post.url %}
-            {{ post.date | date: "%b. %d &nbsp; %H:%M" }}
-        {% endif %}
-        </h5>
-
-        <h4 class="location">{{ post.location }}</h4>
-
-        {% if post.file %}
-          - <img src="{{ post.file }}" alt="alt test">
-        {% endif %}
-        
-        {{ post.content }}
+            <h4 class="location">{{ post.location }}</h4>
+            
+            {{ post.content }}
+        </div>
       </div>
     {% endif %}
   {% endfor %}
