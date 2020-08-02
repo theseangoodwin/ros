@@ -193,7 +193,7 @@ body {
         width: 70%;
         margin: 20px;
     }
-    .text_div {
+    .entry_div {
         align-self: flex-start;
     }
     p {
@@ -206,19 +206,31 @@ body {
 
 .Small {
     background-color: $color-white;
-    display: flex;
-    flex-direction: row-reverse;
     .e_subblock {
-        width: 50%;
-        margin: 20px;
+        margin-left: 25px;
     }
-    .img_div {
-        align-self: flex-start;
-        border-left: 1px solid $color-black;
+    .entry_div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 45px auto auto;
+        grid-column-gap: 25px;
+        grid-row-gap: 0px;
+        .img_div {
+            grid-column: 2;
+            grid-row: 1 / 5;
+            justify-self: center;
+            padding-left: 50px;
+            border-left: 1px solid $color-black;
+            img {
+                width: 278px;
+                height: auto;
+            }
+        }
+        .e_title, .e_metadata, .content_div {
+            grid-column: 1;
+        }
     }
-    .text_div {
-        align-self: flex-start;
-    }
+    
 }
 
 .Medium {
@@ -229,7 +241,7 @@ body {
         column-count: 1;
         column-span: 1;
     }
-    .text_div {
+    .entry_div {
         // background-color: red;
         margin-left: 25px;
         .content_div {
@@ -273,7 +285,7 @@ body {
     .e_subblock {
         padding: 25% 10% 25% 25%;
         width: 80%;
-        .text_div {
+        .entry_div {
             align-self: flex-end;
         }
     }
@@ -318,7 +330,7 @@ body {
     .content_div {
         margin-top: 40px;
     }
-    .text_div {
+    .entry_div {
         padding-left: 25px;
         border-left: 1px solid $color-black;    
         .e_metadata {
@@ -364,17 +376,37 @@ body {
 }
 
 .AlignEntryCenter {
-    background-color: green;
+    // background-color: green;
+    max-width: 800px;
+    min-width: 800px;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     text-align: center;
-    .text_div {
+    .entry_div {
+        display: grid;
+        flex-direction: column;
+        .e_title {
+            order: 1;
+            padding-bottom: 50px;
+        }
+        .e_metadata {
+            justify-content: center;
+            order: 3;
+        }
+        .content_div {
+            column-count: 1;
+            order: 4;
+        }
+        .img_div {
+            order: 2;
+            padding-bottom: 10px;
+            img {
+                width: 316px;
+                height: 275px;
+                object-fit: cover;
+            }
+        }
+    }
 
-    }
-    img {
-        width: 316px;
-        height: 275px;
-        object-fit: fill;
-    }
 }

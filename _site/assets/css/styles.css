@@ -46,27 +46,31 @@ body { background-color: white; }
 
 .X-Small .e_subblock { width: 70%; margin: 20px; }
 
-.X-Small .text_div { align-self: flex-start; }
+.X-Small .entry_div { align-self: flex-start; }
 
 .X-Small p { font-family: "freight-big-pro", serif; font-weight: 400; color: #000000; font-size: 1.125rem; }
 
 .X-Small ul { display: none; }
 
-.Small { background-color: #ffffff; display: flex; flex-direction: row-reverse; }
+.Small { background-color: #ffffff; }
 
-.Small .e_subblock { width: 50%; margin: 20px; }
+.Small .e_subblock { margin-left: 25px; }
 
-.Small .img_div { align-self: flex-start; border-left: 1px solid #000000; }
+.Small .entry_div { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto 45px auto auto; grid-column-gap: 25px; grid-row-gap: 0px; }
 
-.Small .text_div { align-self: flex-start; }
+.Small .entry_div .img_div { grid-column: 2; grid-row: 1 / 5; justify-self: center; padding-left: 50px; border-left: 1px solid #000000; }
+
+.Small .entry_div .img_div img { width: 278px; height: auto; }
+
+.Small .entry_div .e_title, .Small .entry_div .e_metadata, .Small .entry_div .content_div { grid-column: 1; }
 
 .Medium { max-width: 1175px; min-width: 1175px; }
 
 .Medium h2 { column-count: 1; column-span: 1; }
 
-.Medium .text_div { margin-left: 25px; }
+.Medium .entry_div { margin-left: 25px; }
 
-.Medium .text_div .content_div { height: 500px; column-count: 2; column-gap: 25px; column-fill: auto; }
+.Medium .entry_div .content_div { height: 500px; column-count: 2; column-gap: 25px; column-fill: auto; }
 
 .Medium p { font-family: "freight-big-pro", serif; font-weight: 400; color: #000000; font-size: 1.125rem; }
 
@@ -86,7 +90,7 @@ body { background-color: white; }
 
 .BigSpace .e_subblock { padding: 25% 10% 25% 25%; width: 80%; }
 
-.BigSpace .e_subblock .text_div { align-self: flex-end; }
+.BigSpace .e_subblock .entry_div { align-self: flex-end; }
 
 .BigSpace .spinner { margin-left: -400px; margin-top: -100px; transform: translate(45deg); }
 
@@ -129,23 +133,33 @@ body { background-color: white; }
 
 .BigTime .content_div { margin-top: 40px; }
 
-.BigTime .text_div { padding-left: 25px; border-left: 1px solid #000000; }
+.BigTime .entry_div { padding-left: 25px; border-left: 1px solid #000000; }
 
-.BigTime .text_div .e_metadata { margin: 0px; height: 25px; margin-top: -98px; padding-bottom: 100px; }
+.BigTime .entry_div .e_metadata { margin: 0px; height: 25px; margin-top: -98px; padding-bottom: 100px; }
 
-.BigTime .text_div .e_metadata .time { position: relative; left: -300px; margin-top: -20px; font-size: 11.25rem; line-height: 9rem; -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */ -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #000000; }
+.BigTime .entry_div .e_metadata .time { position: relative; left: -300px; margin-top: -20px; font-size: 11.25rem; line-height: 9rem; -webkit-text-fill-color: #ffffff; /* Will override color (regardless of order) */ -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #000000; }
 
-.BigTime .text_div .e_metadata .time span::after { content: ""; display: block; }
+.BigTime .entry_div .e_metadata .time span::after { content: ""; display: block; }
 
-.BigTime .text_div .e_metadata .time .time_colon { margin: -2rem; animation: blink 3s step-start infinite; }
+.BigTime .entry_div .e_metadata .time .time_colon { margin: -2rem; animation: blink 3s step-start infinite; }
 
-.BigTime .text_div .e_metadata .location { margin-left: -205px; margin-top: -100px; }
+.BigTime .entry_div .e_metadata .location { margin-left: -205px; margin-top: -100px; }
 
 @keyframes blink { 20% { opacity: 0; }
   80% { opacity: 1; } }
 
-.AlignEntryCenter { background-color: green; display: flex; flex-direction: column; align-content: center; text-align: center; }
+.AlignEntryCenter { max-width: 800px; min-width: 800px; display: flex; flex-direction: column; align-items: center; text-align: center; }
 
-.AlignEntryCenter img { width: 316px; height: 275px; object-fit: fill; }
+.AlignEntryCenter .entry_div { display: grid; flex-direction: column; }
+
+.AlignEntryCenter .entry_div .e_title { order: 1; padding-bottom: 50px; }
+
+.AlignEntryCenter .entry_div .e_metadata { justify-content: center; order: 3; }
+
+.AlignEntryCenter .entry_div .content_div { column-count: 1; order: 4; }
+
+.AlignEntryCenter .entry_div .img_div { order: 2; padding-bottom: 10px; }
+
+.AlignEntryCenter .entry_div .img_div img { width: 316px; height: 275px; object-fit: cover; }
 
 /*# sourceMappingURL=styles.css.map */
