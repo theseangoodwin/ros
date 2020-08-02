@@ -185,16 +185,13 @@ body {
     display: flex;
     min-width: 450px;
     max-width: 450px;
-
     .e_subblock {
         width: 70%;
         margin: 20px;
     }
-
     .text_div {
         align-self: flex-start;
     }
-    
     p {
         @include p-serif();
     }
@@ -204,7 +201,6 @@ body {
     background-color: $color-white;
     display: flex;
     flex-direction: row-reverse;
-
     .e_subblock {
         width: 50%;
         margin: 20px;
@@ -241,6 +237,6 @@ body {
     }
 }
 
-.space {
-
+.BigSpace {
+    padding: 30%;
 }
