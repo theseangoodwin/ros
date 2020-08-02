@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Reflection on Location at  43°13’ 54.25” N 5° 26’ 4.87”
+title: A Reflection on Location at </br>43°13’ 54.25” N 5° 26’ 4.87”
 entry_number: 11
 location: Residence
 date: 2015-01-16T21:43:00.000Z
