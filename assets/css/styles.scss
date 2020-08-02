@@ -174,7 +174,7 @@ body {
         margin: 0;
     }
     .date {
-        margin: 0;
+        margin-right: 1px;
     }
 }
 
@@ -218,7 +218,20 @@ body {
 }
 
 .Medium {
-    
+    .text_div {
+        display: flex;
+        flex-direction: column;
+        .e_metadata {
+
+            .time {
+            
+            }  
+        }
+        .content_div {
+
+        }
+  
+    }
     p {
         @include p-serif();
     }
@@ -240,6 +253,9 @@ body {
     }
     .e_metadata {
         flex-direction: row-reverse;
+        .date {
+            margin-left: 5px;
+        }
     }
 }
 
@@ -254,10 +270,30 @@ body {
             align-self: flex-end;
         }
     }
-}
+} 
 
 .BigTime {
-    font-size: 20em;
+    
+    .time {
+        font-size: 11.25rem;
+        -webkit-text-fill-color: $color-white; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: $color-black;
+        .time_colon {
+            margin: -2rem;
+            animation: blink 1.5s step-start infinite;
+        }
+    }
+    
+}
+
+@keyframes blink {
+    20% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
 }
 
 // .X-Small {
