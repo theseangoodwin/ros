@@ -107,4 +107,6 @@ body { background-color: white; }
 @keyframes blink { 20% { opacity: 0; }
   80% { opacity: 1; } }
 
+.AlignEntryCenter { background-color: red; }
+
 /*# sourceMappingURL=styles.css.map */
