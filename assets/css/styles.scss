@@ -224,8 +224,8 @@ body {
 .Medium {
     // background-color: orange;
     max-width: 1175px;
-    min-width: 1175px;
-    padding-left: 205px; // width of BigTime (approx. 205px)
+    min-width: 1175px; // from Figma post
+    padding-left: 265px; // width of BigTime text (approx. 205px)
     h2 {
         column-count: 1;
         column-span: 1;
@@ -233,18 +233,15 @@ body {
     .text_div {
         // background-color: red;
         border-left: 1px solid $color-black;
-        padding-left: 50px;
+        padding-left: 25px;
         .e_metadata {
             margin: 0px;
             height: 25px;
             margin-top: -98px;
             padding-bottom: 100px;
-            .date {
-                
-            }
             .time {
                 position: relative;
-                left: -280px;
+                left: -300px;
                 margin-top: -20px;
                 span {
                     &::after {
@@ -342,7 +339,6 @@ body {
 } 
 
 .BigTime {
-    
     .time {
         font-size: 11.25rem;
         line-height: 9rem;
@@ -351,10 +347,9 @@ body {
         -webkit-text-stroke-color: $color-black;
         .time_colon {
             margin: -2rem;
-            animation: blink 1.5s step-start infinite;
+            animation: blink 3s step-start infinite;
         }
-    }
-    
+    }   
 }
 
 @keyframes blink {
