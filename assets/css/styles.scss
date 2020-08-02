@@ -165,7 +165,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    margin-top: 25px;
+    margin-top: 0px;
     .location {
         margin: 0;
         padding-left: 10px;
@@ -224,45 +224,20 @@ body {
 .Medium {
     // background-color: orange;
     max-width: 1175px;
-    min-width: 1175px; // from Figma post
-    padding-left: 265px; // width of BigTime text (approx. 205px)
+    min-width: 1175px; // from Figma entry design
     h2 {
         column-count: 1;
         column-span: 1;
     }
     .text_div {
         // background-color: red;
-        border-left: 1px solid $color-black;
-        padding-left: 25px;
-        .e_metadata {
-            margin: 0px;
-            height: 25px;
-            margin-top: -98px;
-            padding-bottom: 100px;
-            .time {
-                position: relative;
-                left: -300px;
-                margin-top: -20px;
-                span {
-                    &::after {
-                        content: "";
-                        display: block;
-                      }
-                }
-            }
-            .location {
-                margin-left: -205px;
-                margin-top: -100px;
-            }  
-        }
+        margin-left: 25px;
         .content_div {
-            margin-top: 40px;
             height: 500px;
             column-count: 2;
             column-gap: 25px;
             column-fill: auto;
         }
-  
     }
     p {
         @include p-serif();
@@ -302,54 +277,81 @@ body {
             align-self: flex-end;
         }
     }
-    .spinner {
-        margin-left: -400px;
-        margin-top: -100px;
-        transform: translate(45deg);
-    }
-    ul {
-        @include p-sans();
-        font-size: 2.5rem;
-        color: #888;
-        display: block;
-        margin: 100px;
-        list-style: none;
-        transform-style: preserve-3d;
-        animation: three-dimensions-circle 5s linear infinite;
-      }
-      li {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-      }
-      $char: 14;
-      @for $i from 1 through $char {
-        li:nth-child(#{$i}) {
-          transform: translate(-50%, -50%) rotate(#{$i * (360/$char) - (360/$char)}deg) translateY(-100px) rotateX(90deg);
-        }
-      }
-      @keyframes three-dimensions-circle {
-        0% {
-          transform: rotateX(-70deg) rotateY(-35deg) rotate(0);
-        }
-        100% {
-          transform: rotateX(-70deg) rotateY(-35deg) rotate(-360deg);
-        }
-      }
+    // .spinner {
+    //     margin-left: -400px;
+    //     margin-top: -100px;
+    //     transform: translate(45deg);
+    // }
+    // ul {
+    //     @include p-sans();
+    //     font-size: 2.5rem;
+    //     color: #888;
+    //     display: block;
+    //     margin: 100px;
+    //     list-style: none;
+    //     transform-style: preserve-3d;
+    //     animation: three-dimensions-circle 5s linear infinite;
+    //   }
+    //   li {
+    //     position: absolute;
+    //     top: 50%;
+    //     left: 50%;
+    //   }
+    //   $char: 14;
+    //   @for $i from 1 through $char {
+    //     li:nth-child(#{$i}) {
+    //       transform: translate(-50%, -50%) rotate(#{$i * (360/$char) - (360/$char)}deg) translateY(-100px) rotateX(90deg);
+    //     }
+    //   }
+    //   @keyframes three-dimensions-circle {
+    //     0% {
+    //       transform: rotateX(-70deg) rotateY(-35deg) rotate(0);
+    //     }
+    //     100% {
+    //       transform: rotateX(-70deg) rotateY(-35deg) rotate(-360deg);
+    //     }
+    //   }
 } 
 
 .BigTime {
-    .time {
-        font-size: 11.25rem;
-        line-height: 9rem;
-        -webkit-text-fill-color: $color-white; /* Will override color (regardless of order) */
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: $color-black;
-        .time_colon {
-            margin: -2rem;
-            animation: blink 3s step-start infinite;
+    padding-left: 265px; // width of BigTime text (approx. 205px)
+    .content_div {
+        margin-top: 40px;
+    }
+    .text_div {
+        padding-left: 25px;
+        border-left: 1px solid $color-black;    
+        .e_metadata {
+            margin: 0px;
+            height: 25px;
+            margin-top: -98px;
+            padding-bottom: 100px;
+            .time {
+                position: relative;
+                left: -300px;
+                margin-top: -20px;
+                span {
+                    &::after {
+                        content: "";
+                        display: block;
+                      }
+                }
+                font-size: 11.25rem;
+                line-height: 9rem;
+                -webkit-text-fill-color: $color-white; /* Will override color (regardless of order) */
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: $color-black;
+                .time_colon {
+                    margin: -2rem;
+                    animation: blink 3s step-start infinite;
+                }
+            }
+            .location {
+                margin-left: -205px;
+                margin-top: -100px;
+            }  
         }
-    }   
+    }
 }
 
 @keyframes blink {
@@ -360,20 +362,3 @@ body {
         opacity: 1;
     }
 }
-
-// .X-Small {
-//     background-color: $color-white;
-//     display: flex;
-//     min-width: 450px;
-//     max-width: 450px;
-//     .e_subblock {
-//         width: 70%;
-//         margin: 20px;
-//     }
-//     .text_div {
-//         align-self: flex-start;
-//     }
-//     p {
-//         @include p-serif();
-//     }
-// }
