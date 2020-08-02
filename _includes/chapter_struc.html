@@ -44,11 +44,17 @@
             <h2>{{ post.entry_number }}.&nbsp;{{ post.title }}</h2>
             
             <div class="e_metadata">
-                <h5 class="time">
+                <h5 class="date">
                     {% if post.url contains "untitled" %}
                         --:--
                     {% elsif post.url %}
-                        {{ post.date | date: "%b. %d &nbsp; %H:%M" }}
+                        {{ post.date | date: "%b. %d &nbsp;" }}
+                    {% endif %}
+                </h5>
+                <h5 class="time">
+                    {% if post.url contains "untitled" %}
+                    {% elsif post.url %}
+                        {{ post.date | date: "%H:%M" }}
                     {% endif %}
                 </h5>
                 <h4 class="location">{{ post.location }}</h4>

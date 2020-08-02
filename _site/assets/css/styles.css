@@ -1,6 +1,8 @@
 * { box-sizing: border-box; }
 
-h1 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: black; font-size: 7.25rem; line-height: 0.8em; text-transform: uppercase; }
+h1 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: #000000; font-size: 7.25rem; line-height: 0.8em; text-transform: uppercase; }
+
+h2 { font-family: "neue-haas-grotesk-display"; font-weight: 600; color: #000000; font-size: 3.5rem; }
 
 h2 { font-family: "aw-conqueror-didot"; font-style: normal; font-weight: 400; color: #000000; font-size: 3.5rem; line-height: 89%; margin: 0; }
 
@@ -20,7 +22,7 @@ blockquote { font-family: "aw-conqueror-didot"; font-weight: 400; color: #000000
 
 body { background-color: white; }
 
-.e_block { width: 60%; min-width: 800px; max-width: 1000px; height: min-content; border-left: 1px solid #000000; }
+.e_block { width: 60%; min-width: 800px; max-width: 1000px; height: 70%; min-height: 600px; max-height: 725px; border-left: 1px solid #000000; }
 
 .e_block img { width: 100%; }
 
@@ -30,11 +32,13 @@ body { background-color: white; }
 
 ::-webkit-scrollbar { display: none; }
 
-.e_metadata { display: flex; flex-direction: row; align-items: baseline; margin-top: 20px; }
+.e_metadata { display: flex; flex-direction: row; align-items: baseline; margin-top: 25px; }
 
 .e_metadata .location { margin: 0; padding-left: 10px; padding-right: 10px; }
 
 .e_metadata .time { margin: 0; }
+
+.e_metadata .date { margin: 0; }
 
 .img { display: block; }
 
@@ -54,7 +58,7 @@ body { background-color: white; }
 
 .Small .text_div { align-self: flex-start; }
 
-.Medium { background-color: red; }
+.Medium p { font-family: "freight-big-pro", serif; font-weight: 400; color: #000000; font-size: 1.125rem; }
 
 .Large { background-color: blue; }
 
@@ -66,6 +70,10 @@ body { background-color: white; }
 
 .Reflect .e_metadata { flex-direction: row-reverse; }
 
-.BigSpace { padding: 30%; }
+.BigSpace { width: 100%; min-width: 800px; max-width: 1000px; }
+
+.BigSpace .e_subblock { padding: 25% 10% 25% 25%; width: 80%; }
+
+.BigSpace .e_subblock .text_div { align-self: flex-end; }
 
 /*# sourceMappingURL=styles.css.map */

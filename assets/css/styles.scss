@@ -19,18 +19,18 @@ $view-width: 80vw;
 h1 {
     font-family: "freight-big-pro", sans-serif;
     font-weight: 400;
-    color: black;
+    color: $color-black;
     font-size: 7.25rem;
     line-height: 0.8em;
     text-transform: uppercase;
 }
 
-// h2 {
-//     font-family:"neue-haas-grotesk-display";
-//     font-weight: 600;
-//     color: $color-black;
-//     font-size: 3.5rem;
-// }
+h2 {
+    font-family:"neue-haas-grotesk-display";
+    font-weight: 600;
+    color: $color-black;
+    font-size: 3.5rem;
+}
 
 h2 {
     font-family: "aw-conqueror-didot";
@@ -127,7 +127,9 @@ body {
     @include block_width;
     min-width: 800px;
     max-width: 1000px;
-    height: min-content;
+    height: 70%;
+    min-height: 600px;
+    max-height: 725px;
     border-left: 1px solid $color-black;
     img {
         width: 100%;
@@ -162,15 +164,16 @@ body {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    margin-top: 20px;
-
+    margin-top: 25px;
     .location {
         margin: 0;
         padding-left: 10px;
         padding-right: 10px;
     }
-
     .time {
+        margin: 0;
+    }
+    .date {
         margin: 0;
     }
 }
@@ -215,7 +218,10 @@ body {
 }
 
 .Medium {
-    background-color: red;
+    
+    p {
+        @include p-serif();
+    }
 }
 
 .Large {
@@ -226,7 +232,7 @@ body {
     background-color: orange;
 }
 
-//post custom classes
+// post custom classes
 .Reflect {
     text-align: right;
     p {
@@ -238,5 +244,35 @@ body {
 }
 
 .BigSpace {
-    padding: 30%;
+    width: 100%;
+    min-width: 800px;
+    max-width: 1000px;
+    .e_subblock {
+        padding: 25% 10% 25% 25%;
+        width: 80%;
+        .text_div {
+            align-self: flex-end;
+        }
+    }
 }
+
+.BigTime {
+    
+}
+
+// .X-Small {
+//     background-color: $color-white;
+//     display: flex;
+//     min-width: 450px;
+//     max-width: 450px;
+//     .e_subblock {
+//         width: 70%;
+//         margin: 20px;
+//     }
+//     .text_div {
+//         align-self: flex-start;
+//     }
+//     p {
+//         @include p-serif();
+//     }
+// }
