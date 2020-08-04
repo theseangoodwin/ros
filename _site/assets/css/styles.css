@@ -14,7 +14,7 @@ h5 { font-family: "neue-haas-grotesk-display", sans-serif; font-weight: 600; col
 
 p { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 1rem; line-height: 1.5rem; widows: 0; }
 
-a { font-family: "aktiv-grotesk-extended"; font-weight: 700; color: #000000; font-size: 1rem; }
+a { font-family: "aktiv-grotesk-extended"; font-weight: 700; color: #000000; font-size: 1rem; text-decoration: underline; }
 
 blockquote { font-family: "aw-conqueror-didot"; font-weight: 400; color: #000000; font-size: 1.75rem; }
 
@@ -64,7 +64,7 @@ body { background-color: white; }
 
 .Small .entry_div .e_title, .Small .entry_div .e_metadata, .Small .entry_div .content_div { grid-column: 1; }
 
-.Medium { max-width: 1175px; min-width: 1175px; }
+.Medium { max-width: 72em; min-width: 72em; }
 
 .Medium h2 { column-count: 1; column-span: 1; }
 
@@ -74,7 +74,11 @@ body { background-color: white; }
 
 .Medium p { font-family: "freight-big-pro", serif; font-weight: 400; color: #000000; font-size: 1.125rem; }
 
-.Large { background-color: blue; }
+.Large { max-width: 108em; min-width: 108em; }
+
+.Large .entry_div { margin-left: 25px; }
+
+.Large .content_div { column-count: 3; column-gap: 25px; column-fill: auto; }
 
 .X-Large { background-color: orange; }
 
@@ -94,7 +98,7 @@ body { background-color: white; }
 
 .BigSpace .spinner { margin-left: -400px; margin-top: -100px; transform: translate(45deg); }
 
-.BigSpace ul { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 1rem; line-height: 1.5rem; widows: 0; font-size: 2.5rem; color: #888; display: block; margin: 100px; list-style: none; transform-style: preserve-3d; animation: three-dimensions-circle 5s linear infinite; }
+.BigSpace ul { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 1rem; line-height: 1.5rem; widows: 0; font-size: 2.5rem; color: #888; display: block; margin: 100px; list-style: none; transform-style: preserve-3d; animation: three-dimensions-circle 5s linear 10s; }
 
 .BigSpace li { position: absolute; top: 50%; left: 50%; }
 
@@ -161,5 +165,7 @@ body { background-color: white; }
 .AlignEntryCenter .entry_div .img_div { order: 2; padding-bottom: 10px; }
 
 .AlignEntryCenter .entry_div .img_div img { width: 316px; height: 275px; object-fit: cover; }
+
+.ImgAfter img { display: none; }
 
 /*# sourceMappingURL=styles.css.map */

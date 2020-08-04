@@ -14,6 +14,8 @@ $color-white: #ffffff; //white
 
 // scss space var
 $view-width: 80vw;
+$medium-entry: 72em;
+$large-entry: 108em;
 
 // type
 h1 {
@@ -90,6 +92,7 @@ a {
     font-weight: 700;
     color: $color-black;
     font-size: 1rem;
+    text-decoration: underline;
 
     // &:hover {
     //     text-decoration: none;
@@ -235,8 +238,8 @@ body {
 
 .Medium {
     // background-color: orange;
-    max-width: 1175px;
-    min-width: 1175px; // from Figma entry design
+    max-width: $medium-entry;
+    min-width: $medium-entry; // from Figma entry design
     h2 {
         column-count: 1;
         column-span: 1;
@@ -257,7 +260,18 @@ body {
 }
 
 .Large {
-    background-color: blue;
+    // background-color: blue;
+    max-width: $large-entry;
+    min-width: $large-entry; // from Figma entry design
+    .entry_div {
+        margin-left: 25px;
+    }
+    .content_div {
+        column-count: 3;
+        column-gap: 25px;
+        column-fill: auto;
+    }
+
 }
 
 .X-Large {
@@ -302,7 +316,7 @@ body {
         margin: 100px;
         list-style: none;
         transform-style: preserve-3d;
-        animation: three-dimensions-circle 5s linear infinite;
+        animation: three-dimensions-circle 5s linear 10s; //change 10s back to infinite to unfuck this
       }
       li {
         position: absolute;
@@ -410,3 +424,25 @@ body {
     }
 
 }
+
+.ImgAfter {
+    img {
+        display: none;
+    }
+
+}
+
+// .Large {
+//     // background-color: blue;
+//     max-width: $large-entry;
+//     min-width: $large-entry; // from Figma entry design
+//     .entry_div {
+//         margin-left: 25px;
+//     }
+//     .content_div {
+//         column-count: 3;
+//         column-gap: 25px;
+//         column-fill: auto;
+//     }
+
+// }
