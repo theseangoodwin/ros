@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Delta: Water and Numbers"
+title: "Delta: Water and <br>Numbers"
 entry_number: 10
 location: Campus Luminy
 date: 2015-01-14T18:04:00.000Z

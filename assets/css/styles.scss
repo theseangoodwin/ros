@@ -12,10 +12,41 @@
 $color-black: #000000; //black
 $color-white: #ffffff; //white
 
+// fields
+$color-glade-green: #667D65;
+$color-pampas: #F3F2EA;
+$color-green-white: #F2F5EF;
+$color-green-smoke: #A5A463;
+$color-flax-smoke: #807F61;
+$color-white-rock: #EAE8D6;
+
+// interaction pop
+$color-chartreuse: #DBFF00;
+
+// complement
+$color-dust-storm: #E5CFD0;
+$color-muted-pink: #C79B9A;
+$color-sepia: #A15246;
+
+// blacks
+$color-heavy-metal: #232823;
+$color-holly: #000503;
+
+// aux
+$color-kangaroo: #CBCABE;
+$color-eagle: #C0BFA7;
+
 // scss space var
 $view-width: 80vw;
 $medium-entry: 72em;
 $large-entry: 108em;
+$wrapper-padding: 9.375em;
+
+//style mixins
+@mixin VR_left {
+    padding-left: 25px;
+    border-left: 1px solid $color-black;  
+}
 
 // type
 h1 {
@@ -118,7 +149,12 @@ blockquote {
 // page g
 body {
     background-color: white;
+    margin: 0px;
   }
+
+nav {
+    display: none;
+}
 
 // hor scroll
 // https://redstapler.co/pure-css-horizontal-scrolling-website-tutorial/#:~:text=First%20we%20will%20create%20a,is%20in%20the%20right%20position.
@@ -129,6 +165,8 @@ body {
 .e_block {
     @include block_width;
     margin-left: 50px;
+    margin-top: $wrapper-padding;
+    margin-bottom: $wrapper-padding;
     min-width: 800px;
     max-width: 1000px;
     height: 70%;
@@ -145,6 +183,7 @@ body {
     display: flex;
     flex-direction: row;
     width: $view-width*4;
+    height: 100vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
@@ -237,7 +276,8 @@ body {
 }
 
 .Medium {
-    // background-color: orange;
+    // background-color: $color-heavy-metal;
+    mix-blend-mode: difference;
     max-width: $medium-entry;
     min-width: $medium-entry; // from Figma entry design
     h2 {
@@ -303,40 +343,40 @@ body {
             align-self: flex-end;
         }
     }
-    .spinner {
-        margin-left: -400px;
-        margin-top: -100px;
-        transform: translate(45deg);
-    }
-    ul {
-        @include p-sans();
-        font-size: 2.5rem;
-        color: #888;
-        display: block;
-        margin: 100px;
-        list-style: none;
-        transform-style: preserve-3d;
-        animation: three-dimensions-circle 5s linear 10s; //change 10s back to infinite to unfuck this
-      }
-      li {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-      }
-      $char: 14;
-      @for $i from 1 through $char {
-        li:nth-child(#{$i}) {
-          transform: translate(-50%, -50%) rotate(#{$i * (360/$char) - (360/$char)}deg) translateY(-100px) rotateX(90deg);
-        }
-      }
-      @keyframes three-dimensions-circle {
-        0% {
-          transform: rotateX(-70deg) rotateY(-35deg) rotate(0);
-        }
-        100% {
-          transform: rotateX(-70deg) rotateY(-35deg) rotate(-360deg);
-        }
-      }
+    // .spinner {
+    //     margin-left: -400px;
+    //     margin-top: -100px;
+    //     transform: translate(45deg);
+    // }
+    // ul {
+    //     @include p-sans();
+    //     font-size: 2.5rem;
+    //     color: #888;
+    //     display: block;
+    //     margin: 100px;
+    //     list-style: none;
+    //     transform-style: preserve-3d;
+    //     animation: three-dimensions-circle 5s linear 10s; //change 10s back to infinite to unfuck this
+    //   }
+    //   li {
+    //     position: absolute;
+    //     top: 50%;
+    //     left: 50%;
+    //   }
+    //   $char: 14;
+    //   @for $i from 1 through $char {
+    //     li:nth-child(#{$i}) {
+    //       transform: translate(-50%, -50%) rotate(#{$i * (360/$char) - (360/$char)}deg) translateY(-100px) rotateX(90deg);
+    //     }
+    //   }
+    //   @keyframes three-dimensions-circle {
+    //     0% {
+    //       transform: rotateX(-70deg) rotateY(-35deg) rotate(0);
+    //     }
+    //     100% {
+    //       transform: rotateX(-70deg) rotateY(-35deg) rotate(-360deg);
+    //     }
+    //   }
 } 
 
 .BigTime {
@@ -345,8 +385,7 @@ body {
         margin-top: 40px;
     }
     .entry_div {
-        padding-left: 25px;
-        border-left: 1px solid $color-black;    
+        @include VR_left();  
         .e_metadata {
             margin: 0px;
             height: 25px;
@@ -426,10 +465,30 @@ body {
 }
 
 .ImgAfter {
-    img {
-        display: none;
+    .entry_div {
+        display: grid;
+        grid-template-columns: $medium-entry 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 25px;
+        grid-row-gap: 0px;
+        .img_div {
+            grid-column: 2;
+            grid-row: 1 / 5;
+            margin-top: -$wrapper-padding;
+            background-color: $color-white-rock;
+            img {
+                height: 100vh;
+                width: auto;
+                mix-blend-mode: multiply;
+            }
+        }
+        .e_title, .e_metadata, .content_div {
+            grid-column: 1;
+        }
+        .content_div {
+            column-count: 2;
+        }
     }
-
 }
 
 // .Large {
