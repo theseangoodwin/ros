@@ -496,5 +496,41 @@ nav {
 }
 
 .Rotate180 {
-
+    width: 30em;
+    padding: 10em;
+    margin-right: -50px;
+    background-color: none;
+    transition-property: background-color;
+    transition-duration: 1s;
+    .e_subblock {
+        animation-name: hover-rotate;
+        animation-duration: 1000ms;
+        animation-fill-mode: backwards;
+        animation-play-state: paused;
+    }
+    .entry_div {
+        display: grid;
+        grid-template-columns: 1fr;
+        .img_div {
+            grid-column: 1;
+            grid-row: 1 / 1;
+        }
+    }
 }
+.Rotate180:hover {
+    background-color: $color-chartreuse;
+    transition: ease 1s;
+    .e_subblock {
+        animation-fill-mode: forwards;
+        animation-play-state: running;
+    }
+}
+@keyframes hover-rotate {
+    0% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(-0deg);
+    }
+  }
+  

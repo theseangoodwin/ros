@@ -143,4 +143,19 @@ nav { display: none; }
 
 .ImgAfter .entry_div .content_div { column-count: 2; }
 
+.Rotate180 { width: 30em; padding: 10em; margin-right: -50px; background-color: none; transition-property: background-color; transition-duration: 1s; }
+
+.Rotate180 .e_subblock { animation-name: hover-rotate; animation-duration: 1000ms; animation-fill-mode: backwards; animation-play-state: paused; }
+
+.Rotate180 .entry_div { display: grid; grid-template-columns: 1fr; }
+
+.Rotate180 .entry_div .img_div { grid-column: 1; grid-row: 1 / 1; }
+
+.Rotate180:hover { background-color: #DBFF00; transition: ease 1s; }
+
+.Rotate180:hover .e_subblock { animation-fill-mode: forwards; animation-play-state: running; }
+
+@keyframes hover-rotate { 0% { transform: rotate(180deg); }
+  100% { transform: rotate(0deg); } }
+
 /*# sourceMappingURL=styles.css.map */
