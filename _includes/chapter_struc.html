@@ -43,9 +43,15 @@
         <div class="e_subblock entry_div">
 
             {% if post.file %}
-                <div class="img_div">
-                    <img src="{{ post.file }}">
-                </div>
+                {% if post.file contains '.mp4' %}
+                    <video source src="{{ post.file }}" type="video/mp4" class="chap_video" controls autoplay loop muted>
+                        <p>Your browser doesn't support HTML5 video.</p>
+                    </video>
+                {% else %}
+                    <div class="img_div">
+                        <img src="{{ post.file }}">
+                    </div>
+                {% endif %}
             {% endif %}
 
             <h2 class="e_title">{{ post.entry_number }}.&nbsp;{{ post.title }}</h2>

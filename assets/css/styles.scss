@@ -225,6 +225,10 @@ nav {
     display: block;
 }
 
+.chap_video {
+    display: block;
+}
+
 // post size classes
 .X-Small {
     background-color: $color-white;
@@ -471,12 +475,12 @@ nav {
         grid-template-rows: auto auto auto auto;
         grid-gap: 25px;
         grid-row-gap: 0px;
-        .img_div {
+        .img_div, .chap_video {
             grid-column: 2;
             grid-row: 1 / 5;
             margin-top: -$wrapper-padding;
             background-color: $color-white-rock;
-            img {
+            img, video {
                 height: 100vh;
                 width: auto;
                 mix-blend-mode: multiply;
