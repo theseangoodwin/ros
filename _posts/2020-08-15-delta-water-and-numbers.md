@@ -1,14 +1,12 @@
 ---
 layout: post
-title: "Delta: Water and Numbers"
-entry_number: 10
+title: 12. On Losing Sleep
+entry_number: 12
 location: Campus Luminy
 date: 2020-08-15T19:31:21.874Z
-length_layout: Large
+length_layout: Small
 file: /assets/uploads/video_e7ca0235169c4d45ac52f0cb2fafd688.mp4
 ---
-Today I walk with purpose. Two days of life through a scavenger’s eyes has caused me to warmly welcome adequacy back to my side along with some new friends. I was only able to quickly stop by Camion de Snack to repay my debt to Martine and to pick up a water bottle before class. I make my way to my last class of the week, which also happens to be the first one I’ve been able to attend. Just outside the classroom, a scattered student mass begins to gather, waiting for the room to be available. Now is the first time that I’ve had a real chance to observe the smartly dressed and put-together typecast that is the French student body. Ladies and gentlemen, they care about the way they look. No ‘comfy’ clothes for lounging in lecture halls here. Dudes are wearing fitted slacks, tees, and the classic euro side-bags, while the women are completely blowing the American girls out of the water. Absolutely beautiful. And even more beautiful is the way they carry themselves. I turn to a relatably styled classmate next to me and introduce myself. She is tall, has mysterious eyes, and the persona to match. She is from Canada so of course I am the one who breaks the French a couple of moments into the conversation. She has an air about her that I wholeheartedly respect. Something like a subdued congeniality that asks me to appreciate the smallest details of her mannerisms. Her smile is honest and tells me that she appreciates our time together. Her name is Cynthia and I appreciated our time together as well.
+The nighttime has, for many months now, been losing its civility. Before I leave for the Vieux Port, I had not gotten enough sleep. Nerves, linguistics, and discomfort kept me awake. I closed my eyes and still they moved from side to side, as if I more than imagine the things in my head.
 
-I spend the majority of this class with a group of nine fellow students in the back of the classroom. There seems to be an existing friendship between all of the other people in the group. I’m not sure if this is the case or if the friendly camaraderie I’ve been shown these past couple of days is expedited without a language barrier. I am impressed with the productivity of our time together. From my first impression of the classroom, I expected something very different. There are archetypes you can pick out in any group. For a classroom, these may include the Clown: looking for an audience; Mr. Cool: sitting on a desk; Madam Popular: roping another person into closing the window she just opened moments ago; the list goes on and on. But when the time comes, these differences are discarded in favor of getting the work done. I am now comfortable saying that this is the best group I’ve ever worked with. We are able to divide and delegate tasks by volunteering rather than wasting time accusing other members of not stepping up to the plate. This is asset-based community building in a pure and natural situation. It may even be more beautiful than the French women. No. I’m going to take that one back. Productivity is beautiful in a different way.
-
-I made shopping plans with a guy named Enzo from my group. He’s going to show me some of the stores where I can buy things that will help me to stop living like a bum—but that’s tomorrow.
+I open my eyes, the sun is high, and I begin the new day.
