@@ -495,16 +495,16 @@ nav {
     }
 }
 #entry_sb_12, #entry_sb_12b, #entry_sb_12c {
-    
+    background-color: $color-dust-storm;
 }
 #entry_sb_12 {
-    
+    z-index: 5;
 }
 #entry_sb_12b {
-    
+    z-index: 4;
 }
 #entry_sb_12c {
-    
+    z-index: 3;
 }
 .Scatter {
     background-color: $color-muted-pink;

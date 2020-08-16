@@ -143,6 +143,14 @@ nav { display: none; }
 
 .ImgAfter .entry_div .content_div { column-count: 2; }
 
+#entry_sb_12, #entry_sb_12b, #entry_sb_12c { background-color: #E5CFD0; }
+
+#entry_sb_12 { z-index: 5; }
+
+#entry_sb_12b { z-index: 4; }
+
+#entry_sb_12c { z-index: 3; }
+
 .Scatter { background-color: #C79B9A; }
 
 .Rotate180 { padding: 10em; width: 20em; margin-right: -50px; background-color: none; transition-property: background-color; transition-duration: 1s; }
