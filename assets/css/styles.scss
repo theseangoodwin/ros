@@ -563,6 +563,10 @@ nav {
     }
 }
 
+.draggable {
+    touch-action: none;
+    user-select: none;
+}
 
 // post specific CSS
 #entry_1 {
