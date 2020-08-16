@@ -147,7 +147,9 @@ nav { display: none; }
 
 #entry_sb_12, #entry_sb_12b, #entry_sb_12c { background-color: #E5CFD0; padding: 5em; position: absolute; width: 29em; }
 
-#entry_sb_12 { z-index: 5; transform: translate(-50px, 100px) rotate(-112deg); }
+#entry_sb_12 { z-index: 5; transform: translate(-50px, 100px) rotate(-112deg); transition: 1s ease-in-out 1s; }
+
+#entry_sb_12:hover { transform: translate(50px, 50px) rotate(0deg) scale(1.15); box-shadow: 11px 10px 85px -19px rgba(0, 0, 0, 0.25); transition: 0.5s ease; position: fixed; }
 
 #entry_sb_12b { z-index: 4; transform: translate(-50px, -200px) rotate(112deg); }
 
