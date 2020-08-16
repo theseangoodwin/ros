@@ -165,19 +165,24 @@ nav {
 .e_block {
     @include block_width;
     margin-left: 50px;
-    margin-top: $wrapper-padding;
-    margin-bottom: $wrapper-padding;
+    padding-top: $wrapper-padding;
+    padding-bottom: $wrapper-padding;
     min-width: 640px;
     max-width: 1000px;
-    height: 70%;
+    // height: 70%;
     min-height: 600px;
-    max-height: 725px;
-    border-left: 1px solid $color-black;
+    // max-height: 725px;
     img {
         width: 100%;
         // height: auto;
     }
   }
+
+.e_subblock {
+    padding-left: 25px;
+    border-left: 1px solid $color-black;
+    max-height: 725px;
+}
 
 .wrapper {
     display: flex;
@@ -496,29 +501,31 @@ nav {
 }
 #entry_sb_12, #entry_sb_12b, #entry_sb_12c {
     background-color: $color-dust-storm;
+    padding: 5em;
+    position: absolute;
+    width: 29em;
 }
 #entry_sb_12 {
     z-index: 5;
+    transform: translate(-50px, 100px) rotate(-112deg);
 }
 #entry_sb_12b {
     z-index: 4;
+    // transform: (200px, -200px), rotate(200deg);
+    transform: translate(-50px, -200px) rotate(112deg);
 }
 #entry_sb_12c {
     z-index: 3;
+    transform: translate(-50px, 500px) rotate(112deg);
 }
 .Scatter {
     background-color: $color-muted-pink;
-}
-
-.Rotate180 {
-    padding: 10em;
-    width: 20em;
-    margin-right: -50px;
-    background-color: none;
-    transition-property: background-color;
-    transition-duration: 1s;
+    height: 100vh;
+    min-width: 360px;
+    overflow: hidden;
+    position: relative;
     .e_subblock {
-        width: 20em;
+        border-left: none;
     }
     .entry_div {
         display: grid;
@@ -529,4 +536,24 @@ nav {
         }
     }
 }
+
+// .Rotate180 {
+//     padding: 10em;
+//     width: 20em;
+//     margin-right: -50px;
+//     background-color: none;
+//     transition-property: background-color;
+//     transition-duration: 1s;
+//     .e_subblock {
+//         width: 20em;
+//     }
+//     .entry_div {
+//         display: grid;
+//         grid-template-columns: 1fr;
+//         .img_div {
+//             grid-column: 1;
+//             grid-row: 1 / 1;
+//         }
+//     }
+// }
   
