@@ -169,6 +169,8 @@ nav { display: none; }
 
 .Scatter .entry_div .img_div { grid-column: 1; grid-row: 1 / 1; }
 
+.draggable { touch-action: none; user-select: none; }
+
 #entry_1 { column-count: 1; background-color: #F3F2EA; }
 
 #entry_1 .content_div { column-count: 1; }
