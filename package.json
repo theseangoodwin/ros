@@ -16,5 +16,7 @@
     "url": "https://github.com/theseangoodwin/ros---jekyll-tutorial/issues"
   },
   "homepage": "https://github.com/theseangoodwin/ros---jekyll-tutorial#readme",
-  "dependencies": {}
+  "dependencies": {
+    "interactjs": "^1.9.21"
+  }
 }
