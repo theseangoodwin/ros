@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/ixj6bqd.css">
     <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <script src="/assets/js/scripts.js"></script>
   </head>
   <body>
     <nav>
@@ -34,13 +35,13 @@
     
   
     
-      <div class="Small  e_block">
+      <div class="Small  e_block" id="entry_24">
 
 <!--         -->
 <!--
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_24">
 
             
 
@@ -75,13 +76,13 @@ The difference One makes in the scale of eternity is far greater than I ever ima
     
   
     
-      <div class="Medium  e_block">
+      <div class="Medium  e_block" id="entry_76">
 
 <!--         -->
 <!--
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_76">
 
             
 
@@ -115,13 +116,13 @@ I know what it means to sacrifice your life for another, so I would never say th
     
   
     
-      <div class="X-Large  e_block">
+      <div class="X-Large  e_block" id="entry_73">
 
 <!--         -->
 <!--
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_73">
 
             
 
@@ -247,5 +248,26 @@ I continue, looking up every now and then to acknowledge the morning jogger and 
     
   
 </div>
+
+<script>
+// Get the element
+var elem = document.querySelector('#entry_sb_12');
+// Create a copy of it
+var clone = elem.cloneNode(true);
+// Update the ID and add a class
+clone.id = 'entry_sb_12b';
+clone.classList.add('rotate_entry_b');
+// Inject it into the DOM
+elem.after(clone);
+
+var elem = document.querySelector('#entry_sb_12');
+// Create a copy of it
+var clone = elem.cloneNode(true);
+// Update the ID and add a class
+clone.id = 'entry_sb_12c';
+clone.classList.add('rotate_entry_c');
+// Inject it into the DOM
+elem.after(clone);
+</script>
   </body>
 </html>

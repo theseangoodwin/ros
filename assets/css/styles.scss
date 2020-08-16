@@ -167,7 +167,7 @@ nav {
     margin-left: 50px;
     margin-top: $wrapper-padding;
     margin-bottom: $wrapper-padding;
-    min-width: 800px;
+    min-width: 640px;
     max-width: 1000px;
     height: 70%;
     min-height: 600px;
@@ -494,19 +494,31 @@ nav {
         }
     }
 }
+#entry_sb_12, #entry_sb_12b, #entry_sb_12c {
+    
+}
+#entry_sb_12 {
+    
+}
+#entry_sb_12b {
+    
+}
+#entry_sb_12c {
+    
+}
+.Scatter {
+    background-color: $color-muted-pink;
+}
 
 .Rotate180 {
-    width: 30em;
     padding: 10em;
+    width: 20em;
     margin-right: -50px;
     background-color: none;
     transition-property: background-color;
     transition-duration: 1s;
     .e_subblock {
-        animation-name: hover-rotate;
-        animation-duration: 1000ms;
-        animation-fill-mode: backwards;
-        animation-play-state: paused;
+        width: 20em;
     }
     .entry_div {
         display: grid;
@@ -517,20 +529,4 @@ nav {
         }
     }
 }
-.Rotate180:hover {
-    background-color: $color-chartreuse;
-    transition: ease 1s;
-    .e_subblock {
-        animation-fill-mode: forwards;
-        animation-play-state: running;
-    }
-}
-@keyframes hover-rotate {
-    0% {
-        transform: rotate(180deg);
-    }
-    100% {
-        transform: rotate(-0deg);
-    }
-  }
   

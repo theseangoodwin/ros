@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/ixj6bqd.css">
     <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <script src="/assets/js/scripts.js"></script>
   </head>
   <body>
     <nav>
@@ -30,7 +31,7 @@
   <div class="wrapper">
   
     
-      <div class="Small Rotate180 e_block">
+      <div class="Small Rotate180 e_block" id="entry_12">
 
 <!--         -->
 <!--
@@ -40,7 +41,7 @@
           
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_12">
 
             
 
@@ -74,7 +75,7 @@
     
   
     
-      <div class="Large  e_block">
+      <div class="Large  e_block" id="entry_0">
 
 <!--        
             <div class="e_subblock img_div">
@@ -84,7 +85,7 @@
 <!--
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_0">
 
             
                 
@@ -148,13 +149,13 @@
     
   
     
-      <div class="X-Large  e_block">
+      <div class="X-Large  e_block" id="entry_3">
 
 <!--         -->
 <!--
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_3">
 
             
 
@@ -214,7 +215,7 @@ Her name was Edna.</p>
     
   
     
-      <div class="X-Small BigSpace e_block">
+      <div class="X-Small BigSpace e_block" id="entry_5">
 
 <!--         -->
 <!--
@@ -224,7 +225,7 @@ Her name was Edna.</p>
           
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_5">
 
             
 
@@ -274,7 +275,7 @@ Her name was Edna.</p>
     
   
     
-      <div class="Small Reflect e_block">
+      <div class="Small Reflect e_block" id="entry_4">
 
 <!--        
             <div class="e_subblock img_div">
@@ -288,7 +289,7 @@ Her name was Edna.</p>
           
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_4">
 
             
                 
@@ -330,7 +331,7 @@ Her name was Edna.</p>
     
   
     
-      <div class="Medium BigTime e_block">
+      <div class="Medium BigTime e_block" id="entry_2">
 
 <!--         -->
 <!--
@@ -340,7 +341,7 @@ Her name was Edna.</p>
           
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_2">
 
             
 
@@ -376,7 +377,7 @@ My school, jobs, friendships, meetings, and focus all combine together in this m
     
   
     
-      <div class="Medium AlignEntryCenter e_block">
+      <div class="Medium AlignEntryCenter e_block" id="entry_11">
 
 <!--        
             <div class="e_subblock img_div">
@@ -390,7 +391,7 @@ My school, jobs, friendships, meetings, and focus all combine together in this m
           
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_11">
 
             
                 
@@ -430,7 +431,7 @@ My school, jobs, friendships, meetings, and focus all combine together in this m
     
   
     
-      <div class="Large ImgAfter e_block">
+      <div class="Large ImgAfter e_block" id="entry_10">
 
 <!--        
             <div class="e_subblock img_div">
@@ -444,7 +445,7 @@ My school, jobs, friendships, meetings, and focus all combine together in this m
           
         
 -->
-        <div class="e_subblock entry_div">
+        <div class="e_subblock entry_div" id="entry_sb_10">
 
             
                 
@@ -486,5 +487,26 @@ My school, jobs, friendships, meetings, and focus all combine together in this m
     
   
 </div>
+
+<script>
+// Get the element
+var elem = document.querySelector('#entry_sb_12');
+// Create a copy of it
+var clone = elem.cloneNode(true);
+// Update the ID and add a class
+clone.id = 'entry_sb_12b';
+clone.classList.add('rotate_entry_b');
+// Inject it into the DOM
+elem.after(clone);
+
+var elem = document.querySelector('#entry_sb_12');
+// Create a copy of it
+var clone = elem.cloneNode(true);
+// Update the ID and add a class
+clone.id = 'entry_sb_12c';
+clone.classList.add('rotate_entry_c');
+// Inject it into the DOM
+elem.after(clone);
+</script>
   </body>
 </html>
