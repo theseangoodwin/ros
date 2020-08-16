@@ -12,7 +12,11 @@ h4 { font-family: "freight-big-pro", serif; font-weight: 400; color: #000000; fo
 
 h5 { font-family: "neue-haas-grotesk-display", sans-serif; font-weight: 600; color: #000000; font-size: 0.75rem; text-transform: uppercase; }
 
+.marquee { font-family: "freight-big-pro", serif; font-weight: 400; color: #000000; font-size: 1.25rem; font-style: italic; }
+
 p { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 1rem; line-height: 1.5rem; widows: 0; }
+
+.sans { font-family: "aktiv-grotesk"; font-weight: 400; color: #000000; font-size: 1rem; line-height: 1.5rem; widows: 0; }
 
 a { font-family: "aktiv-grotesk-extended"; font-weight: 700; color: #000000; font-size: 1rem; text-decoration: underline; }
 
@@ -24,7 +28,7 @@ body { background-color: white; margin: 0px; }
 
 nav { display: none; }
 
-.e_block { width: 60%; margin-left: 50px; padding-top: 9.375em; padding-bottom: 9.375em; min-width: 640px; max-width: 1000px; min-height: 600px; }
+.e_block { width: 60%; padding-left: 50px; padding-top: 9.375em; padding-bottom: 9.375em; min-width: 640px; max-width: 1000px; min-height: 600px; }
 
 .e_block img { width: 100%; }
 
@@ -86,7 +90,9 @@ nav { display: none; }
 
 .Large .content_div { column-count: 3; column-gap: 25px; column-fill: auto; }
 
-.X-Large { background-color: orange; }
+.X-Large { background-color: #A5A463; max-width: 143em; min-width: 143em; }
+
+.X-Large .content_div { column-count: 4; column-gap: 25px; column-fill: auto; }
 
 .Reflect { text-align: right; }
 
@@ -162,5 +168,20 @@ nav { display: none; }
 .Scatter .entry_div { display: grid; grid-template-columns: 1fr; }
 
 .Scatter .entry_div .img_div { grid-column: 1; grid-row: 1 / 1; }
+
+#entry_1 { column-count: 1; background-color: #F3F2EA; }
+
+#entry_1 .content_div { column-count: 1; }
+
+#entry_2 { background-color: #373C37; padding-right: 20px; margin-right: 50px; border-right: 20px solid #E5CFD0; }
+
+#entry_2 .e_subblock { mix-blend-mode: difference; border-left: 1px solid #ffffff; }
+
+#entry_2 .e_subblock h2, #entry_2 .e_subblock h5, #entry_2 .e_subblock h4, #entry_2 .e_subblock p { color: #ffffff; }
+
+#entry_2 .e_subblock .time { -webkit-text-fill-color: #000000; -webkit-text-stroke-color: #ffffff; -webkit-text-stroke-width: 1px; }
+
+@keyframes marquee-left { 0% { transform: rotate(-90deg) translateX(100%); }
+  100% { transform: rotate(-90deg) translateX(-100%); } }
 
 /*# sourceMappingURL=styles.css.map */

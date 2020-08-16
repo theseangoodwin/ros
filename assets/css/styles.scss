@@ -40,6 +40,7 @@ $color-eagle: #C0BFA7;
 $view-width: 80vw;
 $medium-entry: 72em;
 $large-entry: 108em;
+$xlarge-entry: 143em;
 $wrapper-padding: 9.375em;
 
 //style mixins
@@ -98,6 +99,14 @@ h5 {
     text-transform: uppercase;
 }
 
+.marquee {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    color: $color-black;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
 @mixin p-sans {
     font-family:"aktiv-grotesk";
     font-weight: 400;
@@ -115,6 +124,10 @@ h5 {
 }
 
 p {
+    @include p-sans();
+}
+
+.sans {
     @include p-sans();
 }
 
@@ -164,7 +177,7 @@ nav {
 
 .e_block {
     @include block_width;
-    margin-left: 50px;
+    padding-left: 50px;
     padding-top: $wrapper-padding;
     padding-bottom: $wrapper-padding;
     min-width: 640px;
@@ -324,7 +337,14 @@ nav {
 }
 
 .X-Large {
-    background-color: orange;
+    background-color: $color-green-smoke;
+    max-width: $xlarge-entry;
+    min-width: $xlarge-entry;
+    .content_div {
+        column-count: 4;
+        column-gap: 25px;
+        column-fill: auto;
+    }
 }
 
 // post custom classes
@@ -518,7 +538,6 @@ nav {
 }
 #entry_sb_12b {
     z-index: 4;
-    // transform: (200px, -200px), rotate(200deg);
     transform: translate(-50px, -200px) rotate(112deg);
 }
 #entry_sb_12c {
@@ -541,6 +560,56 @@ nav {
             grid-column: 1;
             grid-row: 1 / 1;
         }
+    }
+}
+
+
+// post specific CSS
+#entry_1 {
+    column-count: 1;
+    background-color: $color-pampas;
+    .content_div {
+        column-count: 1;
+    }
+}
+
+#entry_2 {
+    background-color: #373C37;
+    padding-right: 20px;
+    margin-right: 50px;
+    .e_subblock {
+        mix-blend-mode: difference;
+        h2, h5, h4, p {
+            color: $color-white;
+        }
+        .time {
+            -webkit-text-fill-color: $color-black;
+            -webkit-text-stroke-color: $color-white;
+            -webkit-text-stroke-width: 1px;
+        }
+        border-left: 1px solid $color-white;
+        // .marquee {
+        //     display: block;
+        //     position: absolute;
+        //     margin-left: -55px;
+        //     background-color: $color-white;
+        //     color: $color-black;
+        //     mix-blend-mode: normal;
+        //     transform: rotate(-90deg) translateX(-50%);
+        //     animation: marquee-left 15s linear infinite;
+        //     span {
+                
+        //     }
+        // }
+    }
+    border-right: 20px solid $color-dust-storm;
+}
+@keyframes marquee-left {
+    0%   { 
+        transform: rotate(-90deg) translateX(100%); 		
+    }
+    100% { 
+        transform: rotate(-90deg) translateX(-100%); 
     }
 }
 
