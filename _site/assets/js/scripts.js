@@ -1,4 +1,6 @@
-import interact from 'interactjs'
+// alert("I am an alert box!");
+
+// import interact from 'interactjs'
 
 const position = { x: 0, y: 0 }
 

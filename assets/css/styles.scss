@@ -178,13 +178,14 @@ nav {
 .e_block {
     @include block_width;
     padding-left: 50px;
+    padding-right: 50px;
     padding-top: $wrapper-padding;
     padding-bottom: $wrapper-padding;
-    min-width: 640px;
-    max-width: 1000px;
+    // min-width: 640px;
+    // max-width: 1000px;
     // height: 70%;
     min-height: 600px;
-    // max-height: 725px;
+    max-height: 100vh;
     img {
         width: 100%;
         // height: auto;
@@ -271,22 +272,20 @@ nav {
 .Small {
     background-color: $color-white;
     .e_subblock {
-        margin-left: 25px;
+        // margin-left: 25px;
     }
     .entry_div {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 21.5em 17em;
         grid-template-rows: auto 45px auto auto;
         grid-column-gap: 25px;
         grid-row-gap: 0px;
         .img_div {
             grid-column: 2;
             grid-row: 1 / 5;
-            justify-self: center;
             padding-left: 50px;
             border-left: 1px solid $color-black;
             img {
-                width: 278px;
                 height: auto;
             }
         }
@@ -352,6 +351,15 @@ nav {
     text-align: right;
     p {
         @include p-serif();
+    }
+    img {
+        mix-blend-mode: multiply;
+    }
+    .e_block {
+        padding-right: 50px;
+    } 
+    .e_subblock {
+        border-left: none;
     }
     .e_metadata {
         flex-direction: row-reverse;
@@ -566,6 +574,8 @@ nav {
 .draggable {
     touch-action: none;
     user-select: none;
+    background-color: $color-chartreuse;
+    position: relative;
 }
 
 // post specific CSS
