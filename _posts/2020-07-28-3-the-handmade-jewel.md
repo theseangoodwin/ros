@@ -5,8 +5,7 @@ entry_number: 3
 location: On the plane
 date: 2020-07-28T01:01:55.411Z
 length_layout: X-Large
-image_css:
-  - draggable
+image_css: null
 file: /assets/uploads/image8.jpg
 ---
 A few days before my departure, I showed my mother the basilica in Marseille. She taught me about relics, which sent me on a seemingly elusive quest for a piece of history. It wasn’t long before history made its way to me.
