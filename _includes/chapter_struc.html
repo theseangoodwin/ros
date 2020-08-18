@@ -45,8 +45,9 @@
                         <p>Your browser doesn't support HTML5 video.</p>
                     </video>
                 {% else %}
-                    {% if post.image_css == true %}
+                    {% if post.image_css %}
                     <div class="img_div {{ post.image_css }}">
+                        <div class="interaction-box"></div>
                         <img src="{{ post.file }}">
                     </div>
                     {% else %}
