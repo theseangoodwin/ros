@@ -21,6 +21,7 @@ collections:
        - { label: 'Entry length', name: 'length_layout', widget: 'select', required: false, options: ['X-Small', 'Small', 'Medium', 'Large', 'X-Large' ]}
        - { label: 'Custom CSS', name: 'custom_css', widget: 'select', multiple: true, required: false, options: ['Reflect', 'BigSpace', 'BigTime', 'AlignEntryCenter', 'ImgAfter', 'Rotate180', 'Scatter']}
        - { label: 'Interaction', name: 'interaction', widget: 'select', multiple: true, required: false, options: ['draggable']}
+       - { label: 'Image CSS', name: 'image_css', widget: 'select', multiple: true, required: false, options: ['draggable']}
        - label: 'Media'
          name: 'file'
          widget: 'file'
