@@ -576,16 +576,25 @@ nav {
 }
 
 .draggable {
-    touch-action: none;
-    user-select: none;
-    background-color: $color-chartreuse;
+    touch-action: none; // required by interactjs
+    user-select: none; // required by interactjs
+    
+    
+    background-color: $color-muted-pink;
     position: relative;
+    padding: 0px;
+    margin-left: -200px;
+    margin-top: 9.375em;
+    max-height: 48em;
     .interaction-box {
         display: block;
         width: 2.8125em;
         height: 2.8125em;
+        margin-top: 0.25em;
+        margin-left: 0.25em;
         background-color: $color-chartreuse;
-        background-image: ;
+        background-image: url(/assets/svg/draggable.svg);
+        background-position: center center;
     }
 }
 
@@ -635,6 +644,15 @@ nav {
     }
     100% { 
         transform: rotate(-90deg) translateX(-100%); 
+    }
+}
+
+#entry_5 {
+    background-color: $color-pampas;
+    padding-left: 0px;
+    margin-left: -466px;
+    .e_subblock {
+        margin: 0px;
     }
 }
 
