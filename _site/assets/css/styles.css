@@ -1,5 +1,7 @@
 * { box-sizing: border-box; }
 
+.interaction-box { display: none; }
+
 h1 { font-family: "freight-big-pro", sans-serif; font-weight: 400; color: #000000; font-size: 7.25rem; line-height: 0.8em; text-transform: uppercase; }
 
 h2 { font-family: "neue-haas-grotesk-display"; font-weight: 600; color: #000000; font-size: 3.5rem; }

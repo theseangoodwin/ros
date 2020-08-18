@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.interaction-box {
+    display: none;
+}
+
 // scss color var
 $color-black: #000000; //black
 $color-white: #ffffff; //white
@@ -576,6 +580,13 @@ nav {
     user-select: none;
     background-color: $color-chartreuse;
     position: relative;
+    .interaction-box {
+        display: block;
+        width: 2.8125em;
+        height: 2.8125em;
+        background-color: $color-chartreuse;
+        background-image: ;
+    }
 }
 
 // post specific CSS
