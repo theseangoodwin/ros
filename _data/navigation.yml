@@ -2,6 +2,14 @@ items:
   - name: Home
     link: /
   - name: Chapitre Un
-    link: /chapter_one.html
+    link: /chapitre_un.html
   - name: Chapitre Deux
-    link: /chapter_two.html
+    link: /chapitre_deux.html
+  - name: Chapitre Trois
+    link: /chapitre_trois.html
+  - name: Chapitre Quatre
+    link: /chapitre_trois.html
+  - name: Chapitre Cinq
+    link: /chapitre_trois.html
+  - name: Chapitre Six
+    link: /chapitre_trois.html
