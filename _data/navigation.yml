@@ -1,11 +1,7 @@
 items:
   - name: Home
     link: /
-  - name: About
-    link: /about.html
-  - name: Blog
-    link: /blog.html
-  - name: Chapter One
+  - name: Chapitre Un
     link: /chapter_one.html
-  - name: Chapter Two
+  - name: Chapitre Deux
     link: /chapter_two.html
