@@ -6,6 +6,6 @@ location: My house
 date: 2020-12-06T22:21:04.981Z
 length_layout: Small
 custom_css: null
-file: /assets/uploads/image8.jpg
+file: /assets/uploads/10.-a.-proxy-title-delta_-water-and-numbers-jpg.jpg
 ---
 Body <a>copy</a>.
