@@ -7,6 +7,6 @@ date: 2020-12-06T22:21:04.981Z
 length_layout: Medium
 custom_css:
   - ImgAfter
-file: /assets/uploads/sagrada_2-3_ros.mp4
+file: ""
 ---
 Body <a>copy</a>.
