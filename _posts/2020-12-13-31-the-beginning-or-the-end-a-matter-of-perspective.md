@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '"31. The Beginning or the End:  A Matter of Perspective"'
+title: "31. The Beginning or the End:  A Matter of Perspective"
 entry_number: 31
 location: Grenoble
 date: 2020-12-13T16:37:01.815Z
