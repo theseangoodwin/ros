@@ -1,6 +1,12 @@
-<nav>
+<nav id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul>
   {% for item in site.data.navigation.items %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %} onclick="closeNav()">{{ item.name }}{{ item.chapter }}</a>
   {% endfor %}
+  </ul>
 </nav>
-<!-- -->
+<div id="main">
+  <button class="openbtn" onclick="openNav()">Rite of Spring</button>
+</div>
+

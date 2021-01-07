@@ -1,0 +1,116 @@
+// type
+h1 {
+    font-family: "freight-big-pro", sans-serif;
+    font-weight: 400;
+    color: $color-black;
+    font-size: 7.25rem;
+    line-height: 0.8em;
+    text-transform: uppercase;
+}
+
+h2 .sans {
+    font-family:"neue-haas-grotesk-display";
+    font-weight: 600;
+    color: $color-black;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: "aw-conqueror-didot";
+    font-style: normal;
+    font-weight: 400;
+    color: $color-black;
+    font-size: 3.5rem;
+    line-height: 89%;
+    margin: 0;
+}
+
+h3 {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    color: $color-black;
+    font-size: 2.25rem;
+}
+
+h4 {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    color: $color-black;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+h5 {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    color: $color-black;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.marquee {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    color: $color-black;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+@mixin p-sans {
+    font-family:"aktiv-grotesk";
+    font-weight: 400;
+    color: $color-black;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    widows: 0;
+}
+
+@mixin p-serif {
+    font-family: "freight-big-pro", serif;
+    font-weight: 400;
+    color: $color-black;
+    font-size: 1.125rem;
+}
+
+p {
+    @include p-sans();
+}
+
+.sans {
+    @include p-sans();
+}
+
+a {
+    font-family:"aktiv-grotesk-extended";
+    font-weight: 700;
+    color: $color-black;
+    font-size: 1rem;
+    text-decoration: underline;
+
+    // &:hover {
+    //     text-decoration: none;
+    //     background-color: yellow;
+    //     transition: 0.5s;
+    //     content: url({{ post.file }})
+    // }
+
+}
+
+blockquote {
+    font-family:"aw-conqueror-didot";
+    font-weight: 400;
+    color: $color-black;
+    font-size: 1.75rem;
+}
+
+.blackletter {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 1.2rem; 
+}
+
+.openbtn  {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    color: $color-black;
+    font-size: 1.625rem;
+}
