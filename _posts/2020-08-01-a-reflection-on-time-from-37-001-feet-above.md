@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A </br>Reflection from 37,001 Feet Above
+title: 4. A </br>Reflection from 37,001 Feet Above
 entry_number: 4
 location: Unlisted
 date: 2015-12-02T04:32:00.000Z
@@ -9,7 +9,7 @@ custom_css:
   - Reflect
 interaction:
   - draggable
-file: /assets/uploads/flowertower.jpg
+file: /assets/uploads/2_4.jpg
 ---
 What is the significance of time if left undefined by color or by clockwork? If the shades are pulled down and the sun is gone, how do we measure the speed of our travel? 
 
