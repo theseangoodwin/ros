@@ -25,6 +25,7 @@ collections:
        - label: 'Media'
          name: 'file'
          widget: 'file'
+         multiple: true
          required: false
          media_library: 
            config:
