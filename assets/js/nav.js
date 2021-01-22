@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 /* Set the left margin of the page content to -370 */
 function closeNav() {
-  document.getElementById("mySidebar").style.marginLeft = "-370px";
+  document.getElementById("mySidebar").style.marginLeft = "-448px";
   console.log('Closed, Console!');
 }
 
