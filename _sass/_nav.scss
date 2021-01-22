@@ -9,11 +9,11 @@ nav ul a {
 /* The sidebar menu */
 .sidebar {
     height: 100%; /* 100% Full-height */
-    width: 370px; /* 0 width - change this with JavaScript */
+    width: 424px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
-    margin-left: -370px;
+    margin-left: -424px;
     background-color: $color-black; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
@@ -22,12 +22,40 @@ nav ul a {
   
   /* The sidebar links */
   .sidebar a {
-    padding: 8px 8px 8px 32px;
+    padding: 24px 32px 24px 56px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    // font-size: 25px;
     display: block;
     transition: 0.3s;
+    h3, h4 {
+        font-family: "freight-big-pro", serif;
+        font-weight: 400;
+        margin: 0;
+    }
+    h4 {
+        color: $color-slate;
+        font-style: normal;
+        font-size: 1.125rem;
+        margin-bottom: 8px;
+    }
+    h3 {
+        color: $color-white;
+        font-style: normal;
+        font-size: 1.125rem;
+    }
+    h5 {
+        font-family: "neue-haas-grotesk-display", sans-serif;
+        font-weight: 600;
+
+        color: #3E3E3E;
+        text-align: right;
+        line-height: 0;
+        float: right;
+        margin-top: 10px;
+
+        font-size: 0.75rem;
+        text-transform: uppercase;
+    }
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -42,6 +70,12 @@ nav ul a {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+  }
+
+  .sidebar ul {
+      padding-left: 0px;
+      border-left: solid #4E4E4E 1px;
+      margin: 0;
   }
   
   /* The button used to open the sidebar */
@@ -78,4 +112,8 @@ nav ul a {
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+  }
+
+  #SidebarLink {
+      border-top: solid #4E4E4E 1px;
   }

@@ -1,17 +1,29 @@
 items:
-  - name: Home
-    link: /
   - name: Chapitre Un
     link: /chapitre_un.html
+    chapter: EXPOSITION&#58; MONUMENT
+    range: 0
   - name: Chapitre Deux
     link: /chapitre_deux.html
+    chapter: MEND THE FIRST BREAK
+    range: 1-18
   - name: Chapitre Trois
     link: /chapitre_trois.html
+    chapter: KILL THE FIRST SNAKE
+    range: 19-42
   - name: Chapitre Quatre
     link: /chapitre_quatre.html
+    chapter: CONQUER EVERYTHING YOU UNDERTAKE
+    range: 43-55
   - name: Chapitre Cinq
     link: /chapitre_cinq.html
+    chapter: COPTIC ORTHODOX & THE BLIND SEA
+    range: 56-78
   - name: Chapitre Six
     link: /chapitre_six.html
+    chapter: THE BULL PERCHED ON STILTS
+    range: 79-98
   - name: Chapitre Sept
     link: /chapitre_sept.html
+    chapter: SEPULCHRE & RECOLLECTION
+    range: 99
