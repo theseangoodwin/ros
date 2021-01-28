@@ -61,7 +61,6 @@ nav ul a {
   /* When you mouse over the navigation links, change their color */
   .sidebar #SidebarLink a:hover {
     transition: 0.3s ease-out;
-    // box-shadow:inset 1px 1px 0px 0px #ffffff;
     cursor: url(/assets/svg/expand.svg) 15 15, auto;
     h4, h5 {
         color: $color-white;
@@ -74,7 +73,11 @@ nav ul a {
         transition: 0.3s ease;
     }
   }
-  
+
+  #mySidebarList:hover {
+    cursor: url(/assets/svg/expand.svg) 15 15, auto;
+  }
+
   /* Position and style the close button (top right corner) */
   .sidebar .closebtn {
     position: relative;
@@ -137,8 +140,8 @@ nav ul a {
   }
 
   #SidebarLink:hover {
-    border-top: solid $color-slate 1px;
-    border-bottom: solid $color-slate 1px;
-    transition: 0.3s ease-out;
+      border-top: solid $color-slate 1px;
+      border-bottom: solid $color-slate 1px;
+      transition: 0.3s ease-out;
     
 }
