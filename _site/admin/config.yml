@@ -79,4 +79,4 @@ collections:
            config:
              cloud_name: dpj1esvhi
              api_key: 999877263142127
-             allow_multiple: true
+             multiple: true
