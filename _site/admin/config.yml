@@ -75,6 +75,8 @@ collections:
          multiple: true
          required: false
          media_library:
-           name: splash_images
+           name: cloudinary
            config:
+             cloud_name: dpj1esvhi
+             api_key: 999877263142127
              allow_multiple: true
