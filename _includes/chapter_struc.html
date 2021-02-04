@@ -55,15 +55,31 @@
                     </video>
                 {% else %}
                     {% if post.image_css %}
-                    <div class="img_div {{ post.image_css }}">
-                        <div class="interaction-box"></div>
-                        <img src="{{ post.file }}">
-                    </div>
+                        <div class="img_div {{ post.image_css }}">
+                            <div class="interaction-box"></div>
+                            <img src="{{ post.file }}">
+                        </div>
+                        <div class="img_div {{ post.image_css }}">
+                            <div class="interaction-box"></div>
+                            <img src="{{ post.file }}">
+                        </div>
                     {% else %}
-                    <div class="img_div">
-                        <img src="{{ post.file }}">
-                    </div>
+                        <div class="img_div">
+                            <img src="{{ post.file }}">
+                        </div>
                     {% endif %}
+                {% endif %}
+                {% if post.file_2 %}
+                    <img src="{{ post.file_2 }}">
+                {% endif %}
+                {% if post.file_3 %}
+                    <img src="{{ post.file_3 }}">
+                {% endif %}
+                {% if post.file_4 %}
+                    <img src="{{ post.file_4 }}">
+                {% endif %}
+                {% if post.file_5 %}
+                    <img src="{{ post.file_5 }}">
                 {% endif %}
             {% endif %}
 

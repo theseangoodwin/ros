@@ -16,9 +16,18 @@ layout: default
 
 {% if page.file %}
     - <img src="{{ page.file }}" alt="alt test">
-{% elsif page.file_2 %}
-    - <img src="{{ page.file }}" alt="alt test">
-    - <img src="{{ page.file_2 }}" alt="alt test">
+    {% if page.file_2 %}
+      - <img src="{{ page.file_2 }}" alt="alt test">
+        {% if page.file_3 %}
+          - <img src="{{ page.file_3 }}" alt="alt test">
+            {% if page.file_4 %}
+              - <img src="{{ page.file_4 }}" alt="alt test">
+                {% if page.file_5 %}
+                  - <img src="{{ page.file_5 }}" alt="alt test">
+                {% endif %}
+            {% endif %}
+        {% endif %}
+    {% endif %}
 {% endif %}
 
 
