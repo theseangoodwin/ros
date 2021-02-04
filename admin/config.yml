@@ -68,4 +68,12 @@ collections:
      editor:
        preview: false
      fields:
-       - { label: 'Title'}
+       - { label: 'Title', name: 'title'}
+       - label: 'Media'
+         name: 'file'
+         widget: 'file'
+         multiple: false
+         required: false
+         media_library:
+           config:
+             multiple: true
