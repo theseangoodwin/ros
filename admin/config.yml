@@ -22,16 +22,12 @@ collections:
        - { label: 'Custom CSS', name: 'custom_css', widget: 'select', multiple: true, required: false, options: ['Reflect', 'BigSpace', 'BigTime', 'AlignEntryCenter', 'ImgAfter', 'Rotate180', 'Scatter']}
        - { label: 'Interaction', name: 'interaction', widget: 'select', multiple: true, required: false, options: ['draggable']}
        - { label: 'Image CSS', name: 'image_css', widget: 'select', multiple: true, required: false, options: ['draggable']}
-       - label: 'Media'
-         name: 'file'
+       - label: 'Image-1'
+         name: 'file_1'
          widget: 'file'
-         allow_multiple: true
          required: false
          media_library:
-          name: cloudinary
           config:
-            cloud_name: dpj1esvhi
-            api_key: 999877263142127
             multiple: true
        - { label: 'Body', name: 'body', widget: 'markdown' }
 
