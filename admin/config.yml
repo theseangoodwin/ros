@@ -25,7 +25,7 @@ collections:
        - label: 'Media'
          name: 'file'
          widget: 'file'
-         multiple: true
+         allow_multiple: true
          required: false
          media_library:
           name: cloudinary
@@ -72,10 +72,11 @@ collections:
        preview: false
      fields:
        - { label: 'Title', name: 'title'}
-       - label: 'Media'
+       - { label: 'chap_num', name: 'chap_num'}
+       - label: 'Image'
          name: 'file'
          widget: 'file'
-         multiple: true
+         allow_multiple: true
          required: false
          media_library:
            name: cloudinary
@@ -83,3 +84,11 @@ collections:
              cloud_name: dpj1esvhi
              api_key: 999877263142127
              multiple: true
+       - label: 'SVG'
+         name: 'SVG'
+         widget: 'file'
+         allow_multiple: true
+         required: false
+         media_library:
+           name: SVG
+           config:  
