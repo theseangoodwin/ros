@@ -72,7 +72,7 @@ collections:
        - label: 'Media'
          name: 'file'
          widget: 'file'
-         multiple: false
+         multiple: true
          required: false
          media_library:
            config:
