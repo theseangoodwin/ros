@@ -30,15 +30,6 @@ collections:
          media_library: 
            config:
              multiple: true 
-    #    - {
-    #        label: 'Author',
-    #        name: 'author',
-    #        widget: 'relation',
-    #        collection: 'authors',
-    #        displayFields: ['display_name'],
-    #        searchFields: ['display_name'],
-    #        valueField: 'name',
-    #     }
        - { label: 'Body', name: 'body', widget: 'markdown' }
 
    - name: 'pages'
@@ -69,4 +60,20 @@ collections:
              fields:
                - {label: 'Name', name: 'name', widget: 'string'}
                - {label: 'Link', name: 'link', widget: 'string'}
+
+    - name: 'Chapter_splash'
+      label: 'Chapter_splash'
+      editor:
+        preview: false
+      files:
+        - label: 'Chapter_splash'
+          name: 'Chapter_splash'
+          file: '_data/Chapter_splash.yml'
+          fields:
+            - label: 'Chapter_splash'
+              name: 'items'
+              widget: 'list'
+              fields:
+                - {label: 'Name', name: 'name', widget: 'string'}
+                - {label: 'Link', name: 'link', widget: 'string'}
 #

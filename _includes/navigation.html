@@ -35,23 +35,3 @@
     </div>
   {% endif %}
 {% endfor %}
-
-{# {% assign articles = site.posts %}
-{% for article in articles %}
-  {% if article.title == page_title %}
-    {% assign currIndex = forloop.index0 %}
-    {% assign prevIndex = currIndex | minus: 1 %}
-    {% assign nextIndex = currIndex | plus: 1 %}
-    {% assign articleIndexLength = forloop.length | minus: 1 %}
-    <div class="page-navigation">
-      {% if currIndex == 0 %}
-        <a class="next0" href="{{ site.url }}{{ site.baseurl }}{{ articles[nextIndex].url }}">{{ articles[nextIndex].title }} &raquo;</a>
-      {% elsif currIndex < articleIndexLength and currIndex != 0 %}
-        <a class="prev" href="{{ site.url }}{{ site.baseurl }}{{ articles[prevIndex].url }}">&laquo; {{ articles[prevIndex].title }}</a>
-        <a class="next" href="{{ site.url }}{{ site.baseurl }}{{ articles[nextIndex].url }}">{{ articles[nextIndex].title }} &raquo;</a>
-      {% elsif currIndex == articleIndexLength %}
-        <a class="prev" href="{{ site.url }}{{ site.baseurl }}{{ articles[prevIndex].url }}">&laquo; {{ articles[prevIndex].title }}</a>
-      {% endif %}
-    </div>
-  {% endif %}
-{% endfor %} #}
