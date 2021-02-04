@@ -63,6 +63,8 @@ collections:
 
    - name: 'Chapter_splash'
      label: 'Chapter_splash'
+     folder: '_chapter_splash/'
+     create: true
      editor:
        preview: false
      files:
