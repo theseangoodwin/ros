@@ -62,18 +62,18 @@ collections:
                - {label: 'Link', name: 'link', widget: 'string'}
 
    - name: 'Chapter_splash'
-      label: 'Chapter_splash'
-      editor:
-        preview: false
-      files:
-        - label: 'Chapter_splash'
-          name: 'Chapter_splash'
-          file: '_data/Chapter_splash.yml'
-          fields:
-            - label: 'Chapter_splash'
-              name: 'items'
-              widget: 'list'
-              fields:
-                - {label: 'Name', name: 'name', widget: 'string'}
-                - {label: 'Link', name: 'link', widget: 'string'}
+     label: 'Chapter_splash'
+     editor:
+       preview: false
+     files:
+       - label: 'Chapter_splash'
+         name: 'Chapter_splash'
+         file: '_data/Chapter_splash.yml'
+         fields:
+           - label: 'Chapter_splash'
+             name: 'items'
+             widget: 'list'
+             fields:
+               - {label: 'Name', name: 'name', widget: 'string'}
+               - {label: 'Link', name: 'link', widget: 'string'}
 #
