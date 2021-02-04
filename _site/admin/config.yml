@@ -77,4 +77,4 @@ collections:
          media_library:
            name: splash_images
            config:
-             multiple: true
+             allow_multiple: true
