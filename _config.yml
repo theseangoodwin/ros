@@ -1,7 +1,7 @@
 collections:
     authors:
       output: true
-    Chapter_slash:
+    Chapter_splash:
       output: true
 
 defaults:
