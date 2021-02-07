@@ -1,6 +1,8 @@
 collections:
     authors:
       output: true
+    Chapter_slash:
+      output: true
 
 defaults:
     - scope:
