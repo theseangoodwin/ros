@@ -57,6 +57,72 @@ collections:
            - { label: 'chapter', name: 'chapter title'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
+       - label: 'Chapitre Deux'
+         name: 'chapitre_deux'
+         file: 'chapitre_deux.html'
+         fields:
+           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+           - { label: 'Body', name: 'body', widget: 'markdown' }
+           - { label: 'chap_num', name: 'chap_num'}
+           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
+           - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
+       - label: 'Chapitre Trois'
+         name: 'chapitre_trois'
+         file: 'chapitre_trois.html'
+         fields:
+           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+           - { label: 'Body', name: 'body', widget: 'markdown' }
+           - { label: 'chap_num', name: 'chap_num'}
+           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
+           - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
+       - label: 'Chapitre Quatre'
+         name: 'chapitre_quatre'
+         file: 'chapitre_quatre.html'
+         fields:
+           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+           - { label: 'Body', name: 'body', widget: 'markdown' }
+           - { label: 'chap_num', name: 'chap_num'}
+           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
+           - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
+       - label: 'Chapitre Cinq'
+         name: 'chapitre_cinq'
+         file: 'chapitre_cinq.html'
+         fields:
+           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+           - { label: 'Body', name: 'body', widget: 'markdown' }
+           - { label: 'chap_num', name: 'chap_num'}
+           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
+           - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
+       - label: 'Chapitre six'
+         name: 'chapitre_six'
+         file: 'chapitre_six.html'
+         fields:
+           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+           - { label: 'Body', name: 'body', widget: 'markdown' }
+           - { label: 'chap_num', name: 'chap_num'}
+           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
+           - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
+       - label: 'Chapitre Sept'
+         name: 'chapitre_sept'
+         file: 'chapitre_sept.html'
+         fields:
+           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+           - { label: 'Body', name: 'body', widget: 'markdown' }
+           - { label: 'chap_num', name: 'chap_num'}
+           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
+           - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
 
     
    - name: 'config'
