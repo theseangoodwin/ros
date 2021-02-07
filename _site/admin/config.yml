@@ -43,6 +43,7 @@ collections:
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
            - { label: 'Body', name: 'body', widget: 'markdown' }
            - { label: 'chap_num', name: 'chap_num'}
+           - { label: 'chapter', name: 'chapter title'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Un'
