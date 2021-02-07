@@ -115,7 +115,7 @@ collections:
 
     
    - name: 'config'
-     label: 'Config'
+     label: 'Navigation config'
      editor:
        preview: false
      files:
@@ -129,32 +129,3 @@ collections:
              fields:
                - {label: 'Name', name: 'name', widget: 'string'}
                - {label: 'Link', name: 'link', widget: 'string'}
-
-   - name: 'Chapter_splash'
-     label: 'Chapter_splash'
-     folder: '_chapter_splash/'
-     create: true
-     editor:
-       preview: false
-     fields:
-       - { label: 'Title', name: 'title'}
-       - { label: 'chap_num', name: 'chap_num'}
-       - label: 'Image'
-         name: 'image'
-         widget: 'file'
-         allow_multiple: true
-         required: false
-         media_library:
-           name: cloudinary
-           config:
-             cloud_name: dpj1esvhi
-             api_key: 999877263142127
-             multiple: true
-       - label: 'SVG'
-         name: 'SVG'
-         widget: 'file'
-         allow_multiple: true
-         required: false
-         media_library:
-           name: SVG
-           config:  
