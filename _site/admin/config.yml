@@ -101,7 +101,7 @@ collections:
            - { label: 'chapter', name: 'chapter title'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
-       - label: 'Chapitre six'
+       - label: 'Chapitre Six'
          name: 'chapitre_six'
          file: 'chapitre_six.html'
          fields:
