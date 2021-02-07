@@ -29,7 +29,7 @@ collections:
        - { label: 'Image-5', name: 'file_5', widget: 'file', required: false }
        - { label: 'Body', name: 'body', widget: 'markdown' }
 
-   - name: 'pages'
+   - name: 'Chapter pages'
      label: 'Pages'
      editor:
        preview: false
@@ -42,7 +42,6 @@ collections:
            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
            - { label: 'Body', name: 'body', widget: 'markdown' }
-
            - { label: 'chap_num', name: 'chap_num'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
