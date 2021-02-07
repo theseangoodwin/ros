@@ -1,0 +1,261 @@
+I"É
+<link rel="stylesheet" href="assets/css/styles.scss" />
+
+<script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+<script type="text/javascript" src="/assets/js/scripts.js"></script>
+
+<div class="chapter_nextprev_menu">
+    <div class="next_chapter"> 
+        
+    </div>
+    <div class="prev_chapter">      
+    </div>
+</div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="splash_bg"&gt;
+    &lt;div class="splash_content"&gt;
+        &lt;h3&gt;&lt;/h3&gt;
+        &lt;div class="splash_svg"&gt;
+            &lt;img src="" alt=""&gt;
+        &lt;/div&gt;
+        &lt;h4&gt;CHAPTER  OF 7&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;img src="" alt="" class="splash_image"&gt; 
+&lt;/div&gt;
+</code></pre></div></div>
+
+<div class="outer-wrapper">
+  <div class="wrapper">
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</div>
+
+<script>
+// Get the element
+var elem = document.querySelector('#entry_sb_12');
+// Create a copy of it
+var clone = elem.cloneNode(true);
+// Update the ID and add a class
+clone.id = 'entry_sb_12b';
+clone.classList.add('rotate_entry_b');
+// Inject it into the DOM
+elem.after(clone);
+
+var elem = document.querySelector('#entry_sb_12');
+// Create a copy of it
+var clone = elem.cloneNode(true);
+// Update the ID and add a class
+clone.id = 'entry_sb_12c';
+clone.classList.add('rotate_entry_c');
+// Inject it into the DOM
+elem.after(clone);
+</script>
+</div>
+:ET
