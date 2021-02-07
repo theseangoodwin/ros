@@ -40,12 +40,14 @@
 
 .splash_svg img {
   margin-top: 25px;
+  width: 100%;
 }
 
 .splash_image {
   position: absolute;
   z-index: -1;
   top: 0;
+  height: 130%;
 }
 
 #splash-1 {
