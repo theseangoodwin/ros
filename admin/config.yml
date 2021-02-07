@@ -43,7 +43,7 @@ collections:
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
            - { label: 'Body', name: 'body', widget: 'markdown' }
            - { label: 'chap_num', name: 'chap_num'}
-           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'subtitle', name: 'subtitle'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Deux'
@@ -54,7 +54,7 @@ collections:
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
            - { label: 'Body', name: 'body', widget: 'markdown' }
            - { label: 'chap_num', name: 'chap_num'}
-           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'subtitle', name: 'subtitle'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Trois'
@@ -65,7 +65,7 @@ collections:
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
            - { label: 'Body', name: 'body', widget: 'markdown' }
            - { label: 'chap_num', name: 'chap_num'}
-           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'subtitle', name: 'subtitle'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Quatre'
@@ -76,7 +76,7 @@ collections:
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
            - { label: 'Body', name: 'body', widget: 'markdown' }
            - { label: 'chap_num', name: 'chap_num'}
-           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'subtitle', name: 'subtitle'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Cinq'
@@ -87,7 +87,7 @@ collections:
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
            - { label: 'Body', name: 'body', widget: 'markdown' }
            - { label: 'chap_num', name: 'chap_num'}
-           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'subtitle', name: 'subtitle'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Six'
@@ -98,7 +98,7 @@ collections:
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
            - { label: 'Body', name: 'body', widget: 'markdown' }
            - { label: 'chap_num', name: 'chap_num'}
-           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'subtitle', name: 'subtitle'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Sept'
@@ -109,7 +109,7 @@ collections:
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
            - { label: 'Body', name: 'body', widget: 'markdown' }
            - { label: 'chap_num', name: 'chap_num'}
-           - { label: 'chapter', name: 'chapter title'}
+           - { label: 'subtitle', name: 'subtitle'}
            - { label: 'Image', name: 'image', widget: 'file', allow_multiple: true, required: false }
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
 
