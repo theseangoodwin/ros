@@ -29,8 +29,8 @@ collections:
        - { label: 'Image-5', name: 'file_5', widget: 'file', required: false }
        - { label: 'Body', name: 'body', widget: 'markdown' }
 
-   - name: 'Chapter pages'
-     label: 'Pages'
+   - name: 'Chapters'
+     label: 'Chapters'
      editor:
        preview: false
      create: true
