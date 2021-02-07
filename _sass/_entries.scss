@@ -2,6 +2,12 @@
 @import "_typography";
 
 // post specific CSS
+#entry_0 {
+    img {
+        width: 20%;
+    }
+}
+
 #entry_1 {
     column-count: 1;
     background-color: $color-pampas;

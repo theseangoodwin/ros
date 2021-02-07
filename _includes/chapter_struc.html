@@ -26,24 +26,25 @@
 <script type="text/javascript" src="/assets/js/scripts.js"></script>
 
 <div class="chapter_nextprev_menu">
-    <div class="next_chapter"> 
-        
+    <div class="next_chapter">  
     </div>
     <div class="prev_chapter">      
     </div>
 </div>
 
-{% include chapter_splash.html %}
+ 
 
 <div class="outer-wrapper">
   <div class="wrapper">
+
+  {% include chapter_splash.html %} 
+  
   {% assign sorted_posts = site.posts | sort:"entry_number" %}
   {% for post in sorted_posts %}
     {% if post.entry_number >= chap_min and post.entry_number <= chap_max %}
       <div class="{{ post.length_layout }} {{ post.custom_css }} {{ post.interaction }} e_block" id="entry_{{ post.entry_number }}">
         <div class="interaction-box"></div>
         <div class="e_subblock entry_div" id="entry_sb_{{ post.entry_number }}">
-
             {% if post.file %}
                 {% if post.file contains '.webm' %}
                     <video source src="{{ post.file }}" type="video/webm" class="chap_video" controls autoplay loop muted>
@@ -82,9 +83,7 @@
                     <img src="{{ post.file_5 }}">
                 {% endif %}
             {% endif %}
-
-            <h2 class="e_title">{{ post.entry_number }}.&nbsp;{{ post.title }}</h2>
-            
+            <h2 class="e_title">{{ post.entry_number }}.&nbsp;{{ post.title }}</h2> 
             <div class="e_metadata">
                 <h5 class="date">
                     {% if post.url contains "untitled" %}
@@ -106,10 +105,8 @@
                     {% endif %}
                 </h5>
                 <h4 class="location">{{ post.location }}</h4>
-            </div>
-                
+            </div>   
             <div class="content_div">{{ post.content }}</div>
-        
         </div>
       </div>
     {% endif %}

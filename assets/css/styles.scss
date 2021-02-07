@@ -21,15 +21,11 @@
     border-left: 1px solid $color-black;  
 }
 
-
-
 // page
 body {
     background-color: white;
     margin: 0px;
   }
-
-
 
 // hor scroll
 // https://redstapler.co/pure-css-horizontal-scrolling-website-tutorial/#:~:text=First%20we%20will%20create%20a,is%20in%20the%20right%20position.
@@ -60,15 +56,6 @@ body {
     max-height: 725px;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: row;
-    width: $view-width*4;
-    height: 100vw;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-}
-
 .outer-wrapper {
     width: 100vh;
     height: 100vw;
@@ -77,6 +64,14 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     position: absolute;
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        width: $view-width*4;
+        height: 100vw;
+        transform: rotate(90deg) translateY(-100vh);
+        transform-origin: top left;
+    }
 }
 
 @mixin interaction-box-boilerplate {
