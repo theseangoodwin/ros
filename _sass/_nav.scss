@@ -19,129 +19,136 @@ nav ul a {
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
   }
   
-  /* The sidebar links */
-  .sidebar a {
-    padding: 24px 32px 24px 56px;
-    text-decoration: none;
-    display: block;
-    transition: 0.3s;
-    #SidebarLink {
-        box-shadow:inset 0px 1px #4e4e4e;
-    }
-    h3, h4 {
-        font-family: "freight-big-pro", serif;
-        font-weight: 400;
-        margin: 0;
-        transition: 0.3s;
-    }
-    h4 {
-        color: $color-slate;
-        font-style: normal;
-        font-size: 1.125rem;
-        margin-bottom: 8px;
-    }
-    h3 {
-        color: $color-slate;
-        font-style: normal;
-        font-size: 1.125rem;
-    }
-    h5 {
-        font-family: "neue-haas-grotesk-display", sans-serif;
-        font-weight: 600;
-        color: #3E3E3E;
-        text-align: right;
-        line-height: 0;
-        float: right;
-        margin-top: 10px;
-        font-size: 0.75rem;
-        text-transform: uppercase;
-    }
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidebar #SidebarLink a:hover {
-    transition: 0.3s ease-out;
-    cursor: url(/assets/svg/expand.svg) 15 15, auto;
-    h4, h5 {
-        color: $color-white;
-        margin-left: 5px;
-        transition: 0.3s ease-out;
-    }
-    h3 {
-        color: $color-white;
-        margin-left: 10px;
-        transition: 0.3s ease;
-    }
-  }
-
-  #mySidebarList:hover {
-    cursor: url(/assets/svg/expand.svg) 15 15, auto;
-  }
-
-  /* Position and style the close button (top right corner) */
-  .sidebar .closebtn {
-    position: relative;
-    padding: 0;
-    margin: 24px 0px 48px 56px;
-    color: $color-white;
-  }
-
-  .sidebar .closebtn::before {
-    content: url(/assets/svg/close.svg);
-    fill: $color-white;
-    margin-right: 10px;
-  }
-
-  .sidebar ul {
-      padding-left: 0px;
-      margin: 0;
-  }
-  
-  /* The button used to open the sidebar */
-  .openbtn {
-    cursor: pointer;
-    padding: 0px;
-    border: none;
-    background-color: $color-white;
-    color: $color-black;
-  }
-
-  .openbtn:before {
-    content: url(/assets/svg/icon-menu.svg);
-    fill: $color-black;
-    width: 20px;
-    float: left;
-    margin-right: 5px;
-    margin-top: -4px;
-  }
-  
-  .openbtn:hover {
-    // background-color: #444;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s; /* If you want a transition effect */
-    .openbtn {
-      margin: 24px 0px 24px 56px;
-  }
-  }
-
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
-
+/* The sidebar links */
+.sidebar a {
+  padding: 24px 32px 24px 56px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
   #SidebarLink {
-      border-top: solid #4E4E4E 1px;
-      border-bottom: solid #000000 1px;
+      box-shadow:inset 0px 1px #4e4e4e;
   }
+  h3, h4 {
+      font-family: "freight-big-pro", serif;
+      font-weight: 400;
+      margin: 0;
+      transition: 0.3s;
+  }
+  h4 {
+      color: $color-slate;
+      font-style: normal;
+      font-size: 1.125rem;
+      margin-bottom: 8px;
+  }
+  h3 {
+      color: $color-slate;
+      font-style: normal;
+      font-size: 1.125rem;
+  }
+  h5 {
+      font-family: "neue-haas-grotesk-display", sans-serif;
+      font-weight: 600;
+      color: #3E3E3E;
+      text-align: right;
+      line-height: 0;
+      float: right;
+      margin-top: 10px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+  }
+}
 
-  #SidebarLink:hover {
-      border-top: solid $color-slate 1px;
-      border-bottom: solid $color-slate 1px;
+/* When you mouse over the navigation links, change their color */
+.sidebar #SidebarLink a:hover {
+  transition: 0.3s ease-out;
+  cursor: url(/assets/svg/expand.svg) 15 15, auto;
+  h4, h5 {
+      color: $color-white;
+      margin-left: 5px;
       transition: 0.3s ease-out;
-    
+  }
+  h3 {
+      color: $color-white;
+      margin-left: 10px;
+      transition: 0.3s ease;
+  }
+}
+
+#mySidebarList:hover {
+  cursor: url(/assets/svg/expand.svg) 15 15, auto;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: relative;
+  padding: 0;
+  margin: 24px 0px 48px 56px;
+  color: $color-white;
+}
+
+.sidebar .closebtn::before {
+  content: url(/assets/svg/close.svg);
+  fill: $color-white;
+  margin-right: 10px;
+}
+
+.sidebar ul {
+    padding-left: 0px;
+    margin: 0;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  cursor: pointer;
+  padding: 0px;
+  border: none;
+  background-color: $color-white;
+  color: $color-black;
+}
+
+.openbtn:before {
+  content: url(/assets/svg/icon-menu.svg);
+  fill: $color-black;
+  width: 20px;
+  float: left;
+  margin-right: 5px;
+  margin-top: -4px;
+}
+
+.openbtn:hover {
+  // background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#sidebar_main {
+  position: fixed;
+  top: 0px;
+  transition: margin-left .5s; /* If you want a transition effect */
+  .openbtn {
+    margin: 24px 0px 24px 56px;
+}
+}
+
+  
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+#SidebarLink {
+    border-top: solid #4E4E4E 1px;
+    border-bottom: solid #000000 1px;
+}
+
+#SidebarLink:hover {
+    border-top: solid $color-slate 1px;
+    border-bottom: solid $color-slate 1px;
+    transition: 0.3s ease-out;   
+}
+
+// prev/next page navigation
+.page-navigation {
+  position: fixed;
+  display: none;
 }
