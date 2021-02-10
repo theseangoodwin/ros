@@ -103,8 +103,9 @@
       </div>
     {% endif %}
   {% endfor %}
-
-  <!-- {% include chapter_navigator.html %}  -->
+  {% if page.next.url %}
+    {% include chapter_next.html %} 
+  {% endif %}
 
 </div>
 

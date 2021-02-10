@@ -5,6 +5,7 @@
 .splash_bg {
   height: 100vh;
   width: 100vw;
+  background-color: $color-pampas;
   // padding: 64px;
 }
 
@@ -16,26 +17,47 @@
   background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, rgb(255, 255, 255) 100%);
 }
 
+.splash_overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash_border {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  border-style: solid;
+  border-color: white;
+  border-width: 64px;
+}
+
 .splash_content {
   position: relative;
   z-index: 0;
   height: 100%;
   width: 100vw;
-  background-color: $color-pampas;
   // background-color: red;
-  padding: 5vh;
+  padding: 10vh;
   padding-left: 25%;
   padding-right: 0%;
-  border-style: solid;
-  border-color: white;
-  border-width: 64px;
+  
   h3, h5 {
     margin: 0;
   }
   .splash_metadata {
     position: absolute;
-    bottom: 5vh;
+    bottom: 10vh;
   }
+}
+
+#splash_next_content {
+  overflow: hidden;
 }
 
 .splash_text {
@@ -57,6 +79,18 @@
   top: 0;
 }
 
+.splash_button {
+  position: absolute;
+  z-index: 101;
+  background-color: $color-chartreuse;
+  text-decoration: none;
+  padding: 1em 8em;
+  h3 {
+    margin: 0;
+  }
+}
+
+// SPECIFIC ENTRIES
 #splash-1 {
   left: 45vw;
   height: 105%;

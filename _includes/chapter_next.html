@@ -1,0 +1,22 @@
+
+<div class="splash_bg">
+    <div class="splash_overlay">
+        <a class="splash_button" href="{{page.next.url}}"><h3>Next Chapter</h3></a>
+    </div>
+    <div class="splash_border"></div>
+    <div class="splash_content" id="splash_next_content">
+        <div class="splash_text">
+            <h3>{{ page.next.title }}</h3>
+            <div class="splash_svg">
+                <img src="{{ page.next.SVG }}" alt="" id="splash-svg-{{ page.next.chap_num }}">
+            </div>
+            <div class="splash_metadata">
+                <h5>CHAPTER {{ page.next.chap_num }} OF 7</h5>
+                <h5>{{ page.next.entries }} ENTRIES</h5>
+            </div>
+        </div>
+        <img src="{{ page.next.image }}" alt="" class="splash_image" id="splash-{{ page.next.chap_num }}"> 
+    </div>
+    <div class="splash_gradient"></div>
+</div>
+
