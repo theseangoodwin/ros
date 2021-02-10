@@ -1,6 +1,4 @@
 collections:
-    Chapter_splash:
-      output: true
     chapters:
       output: true
 
