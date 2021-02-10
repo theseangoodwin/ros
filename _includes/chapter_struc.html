@@ -25,25 +25,7 @@
 <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
 <script type="text/javascript" src="/assets/js/scripts.js"></script>
 
-<div class="chapter_nextprev_menu">
-    <div class="next_chapter">  
-    </div>
-    <div class="prev_chapter">      
-    </div>
-</div>
-
- 
-
 <div class="outer-wrapper">
-
-    <div class="PageNavigation">
-        {% if page.previous.url %}
-            <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-        {% endif %}
-        {% if page.next.url %}
-            <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-        {% endif %}
-    </div>
 
   <div class="wrapper">
 
@@ -122,7 +104,7 @@
     {% endif %}
   {% endfor %}
 
-  {% include chapter_splash.html %} 
+  <!-- {% include chapter_navigator.html %}  -->
 
 </div>
 

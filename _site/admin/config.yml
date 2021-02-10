@@ -37,7 +37,7 @@ collections:
      files:
        - label: 'Chapitre Un'
          name: 'chapitre_un'
-         file: 'chapitre_un.html'
+         file: 'chapters/chapitre_un.html'
          fields:
            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
@@ -48,7 +48,7 @@ collections:
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Deux'
          name: 'chapitre_deux'
-         file: 'chapitre_deux.html'
+         file: 'chapters/chapitre_deux.html'
          fields:
            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
@@ -59,7 +59,7 @@ collections:
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Trois'
          name: 'chapitre_trois'
-         file: 'chapitre_trois.html'
+         file: 'chapters/chapitre_trois.html'
          fields:
            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
@@ -70,7 +70,7 @@ collections:
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Quatre'
          name: 'chapitre_quatre'
-         file: 'chapitre_quatre.html'
+         file: 'chapters/chapitre_quatre.html'
          fields:
            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
@@ -81,7 +81,7 @@ collections:
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Cinq'
          name: 'chapitre_cinq'
-         file: 'chapitre_cinq.html'
+         file: 'chapters/chapitre_cinq.html'
          fields:
            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
@@ -92,7 +92,7 @@ collections:
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Six'
          name: 'chapitre_six'
-         file: 'chapitre_six.html'
+         file: 'chapters/chapitre_six.html'
          fields:
            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
@@ -103,7 +103,7 @@ collections:
            - { label: 'SVG', name: 'SVG', widget: 'file', allow_multiple: true, required: false }
        - label: 'Chapitre Sept'
          name: 'chapitre_sept'
-         file: 'chapitre_sept.html'
+         file: 'chapters/chapitre_sept.html'
          fields:
            - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
            - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }

@@ -1,6 +1,7 @@
 collections:
     chapters:
       output: true
+      sort_by: chap_num
 
 defaults:
     - scope:

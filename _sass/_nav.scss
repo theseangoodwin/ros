@@ -153,3 +153,11 @@ nav ul a {
   position: fixed;
   display: none;
 }
+
+.PageNavigation {
+  display: block;
+  position: fixed;
+  z-index: 4;
+  left: 10vw;
+  top: 10vw;
+}

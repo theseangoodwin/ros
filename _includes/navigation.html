@@ -12,26 +12,9 @@
     {% endfor %}
     </ul>
 </nav>
+
 <div id="sidebar_main">
   <button class="openbtn" onclick="openNav()">Rite of Spring</button>
 </div>
 
-{% assign chapters = site.data.navigation %}
-{% for chapter in chapters %}
-  {% if chapter.title == item.name %}
-    {% assign currIndex = forloop.index0 %}
-    {% assign prevIndex = currIndex | minus: 1 %}
-    {% assign nextIndex = currIndex | plus: 1 %}
-    {% assign chapterIndexLength = forloop.length | minus: 1 %}
-    <div class="page-navigation">
-      {% if currIndex == 0 %}
-        <a class="next0" href="{{ site.url }}{{ page.url }}{{ chapters[nextIndex].url }}">{{ chapters[nextIndex].title }}Current page</a>
-      {% elsif currIndex < chapterIndexLength and currIndex != 0 %}
-        <a class="prev" href="{{ site.url }}{{ page.url }}{{ chapters[prevIndex].url }}">Previous page{{ chapters[prevIndex].title }}</a>
-        <a class="next" href="{{ site.url }}{{ page.url }}{{ chapters[nextIndex].url }}">{{ chapters[nextIndex].title }}Next page</a>
-      {% elsif currIndex == chapterIndexLength %}
-        <a class="prev" href="{{ site.url }}{{ site.baseurl }}{{ chapters[prevIndex].url }}">&laquo; {{ chapters[prevIndex].title }}</a>
-      {% endif %}
-    </div>
-  {% endif %}
-{% endfor %}
+{% include chapter_navigator.html %} 
