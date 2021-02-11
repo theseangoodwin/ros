@@ -11,7 +11,7 @@ nav ul a {
     height: 100%; /* 100% Full-height */
     width: 448px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 3; /* Stay on top */
+    z-index: 6; /* Stay on top */
     top: 0;
     margin-left: -448px;
     background-color: $color-black; /* Black*/
@@ -122,7 +122,7 @@ nav ul a {
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #sidebar_main {
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   top: 0px;
   transition: margin-left .5s; /* If you want a transition effect */
   .openbtn {
