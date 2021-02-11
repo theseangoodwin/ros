@@ -149,15 +149,40 @@ nav ul a {
 }
 
 // prev/next page navigation
-.page-navigation {
-  position: fixed;
-  display: none;
+.chapter_jump_button {
+  text-decoration: none;
+  left: 4vw;
+  h3 {
+    color: $color-black;
+    margin: 0;
+    font-size: 1.25em;
+  }
 }
 
-.PageNavigation {
+#jump_next {
+  position: absolute;
+  bottom: 10vh;
+  h3:before {
+    content: url(/assets/svg/chevron-down.svg);
+    margin-right: 14px;
+  }
+}
+
+#jump_prev {
+  position: absolute;
+  top: 10vh;
+  h3:before {
+    content: url(/assets/svg/chevron-up.svg);
+    margin-right: 14px;
+  }
+}
+
+.chapter_jump_nav {
   display: block;
   position: fixed;
+  height: 100vh;
+  width: 300px;
   z-index: 4;
-  left: 10vw;
-  top: 10vw;
+  left: 0;
+  top: 0;
 }
