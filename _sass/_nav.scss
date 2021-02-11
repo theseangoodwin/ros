@@ -152,6 +152,7 @@ nav ul a {
 .chapter_jump_button {
   text-decoration: none;
   left: 4vw;
+  width: 30vw;
   h3 {
     color: $color-black;
     margin: 0;
@@ -178,10 +179,8 @@ nav ul a {
 }
 
 .chapter_jump_nav {
-  display: block;
   position: fixed;
   height: 100vh;
-  width: 300px;
   z-index: 4;
   left: 0;
   top: 0;
