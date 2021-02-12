@@ -1,20 +1,44 @@
-// alert("I am an alert box!");
+// target elements with the "draggable" class
+interact('.draggable')
+  .draggable({
+    // enable inertial throwing
+    inertia: true,
+    // keep the element within the area of it's parent
+    // modifiers: [
+    //   interact.modifiers.restrictRect({
+    //     restriction: 'parent',
+    //     endOnly: true
+    //   })
+    // ],
+    // enable autoScroll
+    autoScroll: true,
 
-// import interact from 'interactjs'
+    listeners: {
+      // call this function on every dragmove event
+      move: dragMoveListener,
 
-const position = { x: 0, y: 0 }
+      // call this function on every dragend event
+      end (event) {
+        var textEl = event.target.querySelector('p')
+      }
+    }
+  })
 
-interact('.draggable').draggable({
-  listeners: {
-    start (event) {
-      console.log(event.type, event.target)
-    },
-    move (event) {
-      position.x += event.dx
-      position.y += event.dy
+function dragMoveListener (event) {
+  var target = event.target
+  // keep the dragged position in the data-x/data-y attributes
+  var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx
+  var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy
 
-      event.target.style.transform =
-        `translate(${position.x}px, ${position.y}px)`
-    },
-  }
-})
+  // translate the element
+  target.style.webkitTransform =
+    target.style.transform =
+      'translate(' + x + 'px, ' + y + 'px)'
+
+  // update the posiion attributes
+  target.setAttribute('data-x', x)
+  target.setAttribute('data-y', y)
+}
+
+// this function is used later in the resizing and gesture demos
+window.dragMoveListener = dragMoveListener

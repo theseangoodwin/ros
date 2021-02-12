@@ -453,7 +453,7 @@ a {
     }
 }
 
-.draggable {
+.draggable, .draggable2, .draggable3 {
     touch-action: none; // required by interactjs
     user-select: none; // required by interactjs 
     .interaction-box {
