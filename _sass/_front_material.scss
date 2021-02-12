@@ -51,3 +51,19 @@ a {
     margin-bottom: 2.875rem;
   }
 }
+
+#fm_quote_1 {
+  position: absolute;
+  z-index: 4;
+  width: 25%;
+  min-height: 34rem;
+  max-height: 38rem;
+  margin-left: 60vw;
+  margin-top: 40vh;
+  background-color: $color-dust-storm;
+  color: white;
+  border-radius: 0.75em;
+  padding: 4%;
+  touch-action: none;
+  user-select: none;
+}
