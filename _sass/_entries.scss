@@ -7,8 +7,19 @@
     p, h1, h2, h4, h5, a, blockquote {
         color: $color-dust-storm;
     }
-    img {
-        width: 20%;
+    #entry_0_img {
+        position: absolute;
+        margin-left: 25vw;
+        margin-top: 15vh;
+        width: 52rem;
+        img {
+            background-color: $color-dust-storm;
+            background-blend-mode: multiply;    
+        }
+    }
+    .interaction-box {
+        background-image: url(/assets/svg/asterisk.svg);
+        background-repeat: no-repeat;
     }
 }
 
