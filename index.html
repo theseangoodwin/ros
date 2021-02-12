@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: colophon
 title: Home
 ---
 
 <head><script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script></head>
 <body>
-    <h1>{{ "Hello Pat!" | downcase }}</h1>
+    {% include front_material.html %} 
     <script>
         if (window.netlifyIdentity) {
             window.netlifyIdentity.on("init", user => {

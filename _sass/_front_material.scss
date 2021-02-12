@@ -2,3 +2,52 @@
 @import "_typography";
 
 // front material
+body {
+  overflow: hidden;
+}
+
+.fm_bg {
+  height: 100vh;
+  width: 100vw;
+  background-color: $color-eagle;
+  background-image: url('/assets/uploads/0.png');
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: 60%;
+  background-position: -10vw 0;
+}
+
+#fm_img {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  height: 120%;
+  mix-blend-mode: multiply;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fm_colophon {
+  padding-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  p {
+    font-size: 1.5rem;
+  }
+  p, h1, h3 {
+    color: $color-chartreuse;
+    z-index: inherit;
+  }
+  #fm_rite {
+    margin: 0;
+  }
+  #fm_spring {
+    margin-top: 0;
+    margin-bottom: 2.875rem;
+  }
+}
