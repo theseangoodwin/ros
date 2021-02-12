@@ -31,6 +31,12 @@ compress_images:
 
 imageoptim:
   svgo: false
+  pngout: false
+  pngcrush: false
+  optipng: false
+
+
+
 
 exclude:
   - _compress_images_cache.yml
