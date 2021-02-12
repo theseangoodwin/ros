@@ -3,6 +3,10 @@
 
 // post specific CSS
 #entry_0 {
+    background-color: #041E15;
+    p, h1, h2, h4, h5, a, blockquote {
+        color: $color-dust-storm;
+    }
     img {
         width: 20%;
     }

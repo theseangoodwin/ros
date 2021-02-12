@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/theseangoodwin/ros---jekyll-tutorial#readme",
   "dependencies": {
-    "interactjs": "^1.9.21"
+    "interactjs": "^1.9.21",
+    "svgo": "^1.3.2"
   }
 }
