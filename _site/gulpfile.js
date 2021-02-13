@@ -5,7 +5,7 @@ const pngquant = require('imagemin-pngquant');
 exports.default = () => (
     gulp.src('assets/uploads/*')
         .pipe(imagemin(
-            [pngquant({quality: [0.5, 0.5]})]
+            [pngquant({quality: [0.2, 0.5]})]
         ))
         .pipe(gulp.dest('assets/uploads/'))
 );
