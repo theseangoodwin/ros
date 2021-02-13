@@ -26,8 +26,25 @@
 #entry_1 {
     column-count: 1;
     background-color: $color-pampas;
+    background-image: url('/assets/svg/entry_1_scribble.svg');
+    background-repeat: no-repeat;
+    background-size: 362px;
+    background-position: 64% 4%;
     .content_div {
         column-count: 1;
+    }
+    img {
+        height: 64px;
+        width: 64px;
+        display: none; // Set because of a mystery 2nd image
+    }
+    #entry_1_img img {
+        display: block;
+        mix-blend-mode: multiply;
+        margin-left: 50%;
+    }
+    blockquote {
+        margin-left: 0;
     }
 }
 
