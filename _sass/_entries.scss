@@ -52,6 +52,26 @@
     background-color: #373C37;
     padding-right: 20px;
     margin-right: 50px;
+    #entry_2_img {
+        background-image: url(/assets/uploads/2_2_quote.jpg);
+        background-color: $color-dust-storm;
+        background-blend-mode: multiply;
+        background-size: 400px;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin-left: 7vw;
+        margin-top: 7vh;
+    }
+    #entry_sb_2 {
+        img {
+            opacity: 0;
+            width: 400px;
+        }
+    }
+    .interaction-box {
+        background-image: url(/assets/svg/asterisk.svg);
+        background-repeat: no-repeat;
+    }
     .e_subblock {
         mix-blend-mode: difference;
         h2, h5, h4, p {
@@ -63,30 +83,38 @@
             -webkit-text-stroke-width: 1px;
         }
         border-left: 1px solid $color-white;
-        // .marquee {
-        //     display: block;
-        //     position: absolute;
-        //     margin-left: -55px;
-        //     background-color: $color-white;
-        //     color: $color-black;
-        //     mix-blend-mode: normal;
-        //     transform: rotate(-90deg) translateX(-50%);
-        //     animation: marquee-left 15s linear infinite;
-        //     span {
+        .marquee {
+            display: none;
+            position: absolute;
+            margin: 0;
+            top: 0;
+            margin-left: 425px;
+            background-color: red;
+            width: 50px;
+            height: 100vh;
+            transform: rotate(-90deg);
+            span {
                 
-        //     }
-        // }
+                margin: 0;
+                display: inline-block;
+                white-space: nowrap;
+                animation: floatText 25s infinite linear;
+                padding-left: 100%; /*Initial offset*/
+                animation-play-state: paused; // change this to render animation
+            }
+        }
+        .marquee:hover  {
+            animation-play-state: paused;
+        }
+        @keyframes floatText {
+            to {
+                transform: translateX(-100%);
+            }
+        }
     }
     border-right: 20px solid $color-dust-storm;
 }
-@keyframes marquee-left {
-    0%   { 
-        transform: rotate(-90deg) translateX(100%); 		
-    }
-    100% { 
-        transform: rotate(-90deg) translateX(-100%); 
-    }
-}
+
 
 #entry_3 {
     .img_div {
