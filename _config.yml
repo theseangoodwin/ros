@@ -23,12 +23,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-plugins:
-  - jekyll-compress-images
-
-compress_images:
-  images_path: "assets/uploads/*.{gif,png,jpg,jpeg,svg}"
-
 exclude:
   - _compress_images_cache.yml
 

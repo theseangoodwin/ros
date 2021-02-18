@@ -2,6 +2,7 @@
 @import "_typography";
 @import "_styles";
 
+// entry mixins
 @mixin gravestone {
     background-color: #041E15;
     p, h1, h2, h4, h5, a, blockquote {
@@ -22,7 +23,7 @@
     }
 }
 
-// post specific CSS
+// entry specific CSS
 #entry_0 {
     @include gravestone();
 }
