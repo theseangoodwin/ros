@@ -1,6 +1,17 @@
 @import "_variables";
 @import "_typography";
 
+@mixin interaction-box-boilerplate {
+    display: block;
+    width: 2.8125em;
+    height: 2.8125em;
+    margin-top: 0.25em;
+    margin-left: 0.25em;
+    background-color: $color-chartreuse;
+    background-image: url(/assets/svg/draggable.svg);
+    background-position: center center;
+}
+
 // post specific CSS
 #entry_0 {
     background-color: #041E15;
@@ -16,10 +27,6 @@
             background-color: $color-dust-storm;
             background-blend-mode: multiply;    
         }
-    }
-    .interaction-box {
-        background-image: url(/assets/svg/asterisk.svg);
-        background-repeat: no-repeat;
     }
 }
 
@@ -122,6 +129,14 @@
         height: 800px;
         position: absolute;
         margin-left: 800px;
+    }
+    .content_div blockquote {
+        margin: 0;
+    }
+    .interaction-box {
+        @include interaction-box-boilerplate();
+        background-image: url(/assets/svg/asterisk.svg);
+        background-repeat: no-repeat;
     }
 }
 
