@@ -9,7 +9,7 @@ custom_css:
   - Reflect
 interaction:
   - draggable
-file: /assets/uploads/2_4.jpg
+file: /assets/uploads/2_4.svg
 ---
 What is the significance of time if left undefined by color or by clockwork? If the shades are pulled down and the sun is gone, how do we measure the speed of our travel? 
 
