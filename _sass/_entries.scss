@@ -1,16 +1,6 @@
 @import "_variables";
 @import "_typography";
-
-@mixin interaction-box-boilerplate {
-    display: block;
-    width: 2.8125em;
-    height: 2.8125em;
-    margin-top: 0.25em;
-    margin-left: 0.25em;
-    background-color: $color-chartreuse;
-    background-image: url(/assets/svg/draggable.svg);
-    background-position: center center;
-}
+@import "_styles";
 
 // post specific CSS
 #entry_0 {
@@ -133,8 +123,8 @@
     .content_div blockquote {
         margin: 0;
     }
-    .interaction-box {
-        @include interaction-box-boilerplate();
+    .interaction-box-inline {
+        @include interaction-box-boilerplate-inline();
         background-image: url(/assets/svg/asterisk.svg);
         background-repeat: no-repeat;
     }
