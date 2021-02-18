@@ -2,8 +2,7 @@
 @import "_typography";
 @import "_styles";
 
-// post specific CSS
-#entry_0 {
+@mixin gravestone {
     background-color: #041E15;
     p, h1, h2, h4, h5, a, blockquote {
         color: $color-dust-storm;
@@ -18,6 +17,14 @@
             background-blend-mode: multiply;    
         }
     }
+    .e_subblock {
+        border-left: 1px solid $color-dust-storm;
+    }
+}
+
+// post specific CSS
+#entry_0 {
+    @include gravestone();
 }
 
 #entry_1 {
@@ -153,5 +160,21 @@
     margin-left: -466px;
     .e_subblock {
         margin: 0px;
+    }
+}
+
+#entry_10 {
+    img {
+        width: 200px; //temporary
+    }
+}
+
+#entry_11 {
+    @include gravestone();
+    min-width: 62em;
+    #entry_11_img img {
+        width: 100%;
+        padding-right: 8em;
+        padding-left: 8em;
     }
 }
