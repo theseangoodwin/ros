@@ -61,7 +61,6 @@
     }
     #entry_sb_2 {
         img {
-            opacity: 0;
             width: 400px;
         }
     }
@@ -123,10 +122,17 @@
     .content_div blockquote {
         margin: 0;
     }
+    .interaction-box {
+        background-image: url(/assets/svg/asterisk.svg);
+        background-repeat: no-repeat;
+    }
     .interaction-box-inline {
         @include interaction-box-boilerplate-inline();
         background-image: url(/assets/svg/asterisk.svg);
         background-repeat: no-repeat;
+    }
+    #entry_sb_3_img2 {
+
     }
 }
 
@@ -137,6 +143,8 @@
     margin-left: -200px;
     margin-top: 9.375em;
     max-height: 48em;
+    min-width: 42em;
+    max-width: 50em;
 }
 
 #entry_5 {

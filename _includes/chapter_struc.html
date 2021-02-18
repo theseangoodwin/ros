@@ -34,7 +34,7 @@
   {% for post in sorted_posts %}
     {% if post.entry_number >= chap_min and post.entry_number <= chap_max %}
       <div class="{{ post.length_layout }} {{ post.custom_css }} {{ post.interaction }} e_block" id="entry_{{ post.entry_number }}">
-        <!-- <div class="interaction-box"></div> -->
+        <div class="interaction-box"></div>
         <div class="e_subblock entry_div" id="entry_sb_{{ post.entry_number }}">
             {% if post.file %}
                 {% if post.file contains '.webm' %}
@@ -58,10 +58,10 @@
                     {% endif %}
                 {% endif %}
                 {% if post.file_2 %}
-                    <img src="{{ post.file_2 }}">
+                    <img src="{{ post.file_2 }}" {{ post.custom_css }} id="entry_sb_{{ post.entry_number }}_img2">
                 {% endif %}
                 {% if post.file_3 %}
-                    <img src="{{ post.file_3 }}">
+                    <img src="{{ post.file_3 }}" id="entry_sb_{{ post.entry_number }}_img3">
                 {% endif %}
                 {% if post.file_4 %}
                     <img src="{{ post.file_4 }}">
