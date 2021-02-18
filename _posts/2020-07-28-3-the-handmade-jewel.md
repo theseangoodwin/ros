@@ -24,7 +24,11 @@ The plane is dark for the final hour of the flight. The plane’s passengers are
 My mind is drawn back to the final hours of my Grandmother’s life. I see her in her hospital bed surrounded by her disunified family. She’s covered in a pale blue loose-knit blanket made by her children, the kind that doesn’t protect you from the cold. I look at my young self sitting hunched over on a bench in the corner of the hospital room. I watch myself look at anything but the bed in the middle of the space and am grateful that I can’t see past the small crowd of people that surround her.
 
 \
-I didn’t see it happen. It doesn’t matter where I am, even if I had the opportunity to see, I wouldn’t have been able to watch her die. My eyes close tightly. M y tears swim The day she died was close to the day I turned thirteen. I didn’t know how to handle the selfish side of me that just wanted a normal birthday. I was too young, too egocentric. I had never dealt with anything like this before, and the <blockquote>ideas I previously held of <span class="blackletter">life</span> and death never focused much on <span class="blackletter">death.</span><a class="interaction-box"></a></blockquote>
+I didn’t see it happen. It doesn’t matter where I am, even if I had the opportunity to see, I wouldn’t have been able to watch her die. My eyes close tightly. M y tears swim The day she died was close to the day I turned thirteen. I didn’t know how to handle the selfish side of me that just wanted a normal birthday. I was too young, too egocentric. I had never dealt with anything like this before, and the 
+
+<blockquote>
+ideas I previously held of <span class="blackletter">life</span> and death never focused much on <span class="blackletter">death.</span><a class="interaction-box"></a>
+</blockquote>
 
 \
 My innocence and my unfailing optimism left on that day and followed her. I cling to this unfortunate fact as if it is some sort of celestial proof that she and I had a relationship that was unlike those I had with rest of my family — as if it were an alibi justifying my absence from her side. It provided some meager consolation to the boy who wasn’t strong enough to hold back the tears from his eyes. I wish that I said goodbye. I wish I was strong enough to look at her and tell her that I loved her. I was the only one not there. Self-pity, loss, and change: the three threats that convinced my adolescent mind to hide high up in the clouds.
