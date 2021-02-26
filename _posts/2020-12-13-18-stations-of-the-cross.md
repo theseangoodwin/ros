@@ -5,10 +5,11 @@ entry_number: 18
 location: Notre Dame De Marseille
 date: 2020-12-13T16:11:47.520Z
 length_layout: X-Large
-file: /assets/uploads/2_18_quote1.png
-file_2: /assets/uploads/2_18_quote2.jpg
-file_3: /assets/uploads/2_18_quote3.png
-file_4: /assets/uploads/2_18_quote4.jpg
+file: /assets/uploads/2_18_detail.png
+file_2: /assets/uploads/2_18_quote1.jpg
+file_3: /assets/uploads/2_18_quote2.jpg
+file_4: /assets/uploads/2_18_quote3.jpg
+file_5: /assets/uploads/2_18_quote4.jpg
 ---
 I begin at the bottom. I look at the things around me, the people I am with. I love them. These circumstances are all that I know and they are not the best. I want something better. I move myself. I am only human. Moving mountains is a daunting task, but I will try. I must because I realize that I will live, I will get attached, I will misstep, I will change, and then I will die. There needs to be something that I look back on and am proud of having built, even if this is some artificial and flawed mountain made by my hands. In the likeness of the mountains our God put on earth, I am pleased to imagine another generation learning from mine in order to build their own in it’s  place. The reality is that nothing has been guaranteed to me or to any of us. This body will fail, my heart will stop, and while I can desire eternal peace all I want, desire alone is not enough to obtain it. It must be a combination of all three critical parts of me. Body, heart, and mind are pivotal in putting the immaterial within my reach. I have only one chance to make it to my goal, so there is no time to waste. 
 

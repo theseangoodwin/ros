@@ -11,7 +11,7 @@ image_css:
   - draggable
 file: /assets/uploads/2_3.jpg
 file_2: /assets/uploads/2_3_quote.jpg
-file_3: /assets/uploads/2_3_detail.svg
+file_3: /assets/uploads/2_3_imageafter.jpg
 ---
 A few days before my departure, I showed my mother the basilica in Marseille. She taught me about relics, which sent me on a seemingly elusive quest for a piece of history. It wasn’t long before history made its way to me.
 
