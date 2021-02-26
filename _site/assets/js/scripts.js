@@ -42,3 +42,22 @@ function dragMoveListener (event) {
 
 // this function is used later in the resizing and gesture demos
 window.dragMoveListener = dragMoveListener
+
+// function to add and remove class for green asterisk blockquotes
+// <script type="text/javascript">
+
+window.addEventListener('DOMContentLoaded', (event) => {
+  var element = document.getElementById("entry_sb_3_img2"); 
+  element.classList.toggle("img_hidden");
+});
+
+function addClass() { 
+  var element = document.getElementById("entry_sb_3_img2"); 
+  element.classList.toggle("draggable");
+  element.classList.toggle("img_hidden");
+}
+
+
+
+
+// </script>

@@ -30,7 +30,7 @@ I didn’t see it happen. It doesn’t matter where I am, even if I had the oppo
 
 <blockquote>
 ideas I previously held of <span class="blackletter">life</span> and death never focused much on <span class="blackletter">death.</span>
-<div class="interaction-box-inline"><a></a></div></blockquote>
+<button onclick = "addClass()" class="interaction-box-inline"><a></a></button></blockquote>
 
 
 \
