@@ -5,6 +5,8 @@ entry_number: 3
 location: On the plane
 date: 2020-07-28T01:01:55.411Z
 length_layout: X-Large
+custom_css:
+  - ImgAfter
 image_css:
   - draggable
 file: /assets/uploads/2_3.jpg
