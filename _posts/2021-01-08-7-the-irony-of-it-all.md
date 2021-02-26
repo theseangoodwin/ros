@@ -5,8 +5,8 @@ entry_number: 7
 location: Luminy
 date: 2015-01-13T17:50:00.000Z
 length_layout: Medium
-file: /assets/uploads/2_7_quote-1.jpg
-file_2: /assets/uploads/2_7_quote_2.jpg
+file: /assets/uploads/2_7_inline1.jpg
+file_2: ""
 ---
 Martine speaks English. This is good. <a>She also owns a food truck.</a> This is very good. After we are introduced, the park official explains my situation. She hops out of the back of her truck, yells in beautiful French at the man behind the grill (her husband), and agrees to help. I thank my new friend the park official, and continue down the hill with Martine.
 
