@@ -12,6 +12,18 @@
     padding-left: 25px;
     border-left: 1px solid $color-black;  
 }
+@mixin ImgAfter_Grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 25px;
+    grid-row-gap: 0px;
+}
+@mixin ImgAfter_Grid2 {
+    display: grid;
+    grid-template-columns: 34em 34em 34em 34em 1fr;
+    grid-template-rows: auto auto 600px auto;
+}
 
 // page
 body {
@@ -49,7 +61,6 @@ body {
 }
 
 .outer-wrapper {
-    width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
     transform-origin: top left;
@@ -59,8 +70,6 @@ body {
     .wrapper {
         display: flex;
         flex-direction: row;
-        // width: $view-width*4;
-        height: 100vw;
         transform: rotate(90deg) translateY(-100vh);
         transform-origin: top left;
     }
@@ -385,11 +394,7 @@ a {
 
 .ImgAfter {
     .entry_div {
-        display: grid;
-        grid-template-columns: $medium-entry 1fr;
-        grid-template-rows: auto auto auto auto;
-        grid-gap: 25px;
-        grid-row-gap: 0px;
+        // @include ImgAfter_Grid1;
         .img_div, .chap_video {
             grid-column: 2;
             grid-row: 1 / 5;

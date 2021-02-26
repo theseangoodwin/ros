@@ -23,6 +23,10 @@
     }
 }
 
+@mixin imgafter {
+
+}
+
 // entry specific CSS
 #entry_0 {
     @include gravestone();
@@ -121,14 +125,26 @@
 
 
 #entry_3 {
-    .img_div {
-        width: 640px;
-        height: 800px;
-        position: absolute;
-        margin-left: 800px;
+    min-width: 243em;
+    max-width: 243em;
+    padding-right: 0px;
+    .entry_div {
+        @include ImgAfter_Grid2;
     }
-    .content_div blockquote {
-        margin: 0;
+    .img_div {
+        grid-column: 5 / 5;
+        margin-left: 50px;
+    }
+    .content_div {
+        grid-column: 1 / 5;
+        column-count: 4;
+        blockquote {
+            margin: 0;
+        }
+        p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
     }
     .interaction-box {
         background-image: url(/assets/svg/asterisk.svg);
@@ -139,13 +155,19 @@
         background-image: url(/assets/svg/asterisk.svg);
         background-repeat: no-repeat;
     }
+    #entry_sb_3_img1 {
+        display: block;
+    }
     #entry_sb_3_img2 {
         position: absolute;
         width: 60%;
+        margin-left: 80em;
     }
     #entry_sb_3_img3 {
         position: absolute;
         width: 8em;
+        margin-left: 62em;
+        top: 44em;
     }
 }
 

@@ -7,7 +7,8 @@ date: 2020-07-28T01:01:55.411Z
 length_layout: X-Large
 custom_css:
   - ImgAfter
-image_css: null
+image_css:
+  - draggable
 file: /assets/uploads/2_3.jpg
 file_2: /assets/uploads/2_3_quote.jpg
 file_3: /assets/uploads/2_3_detail.svg
