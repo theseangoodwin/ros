@@ -1,0 +1,22 @@
+<div class="e_metadata">
+    <h5 class="date">
+        {% if post.url contains "untitled" %}
+        --
+        {% elsif post.url %}
+        {{ post.date | date: "%b. %d &nbsp;" }}
+        {% endif %}
+    </h5>
+    <h5 class="time">
+        {% if post.url contains "untitled" %}
+        {% elsif post.url %}
+        {{ post.date | date: "%H" }}
+        {% endif %}
+        <span class="time_colon">:</span>
+        {% if post.url contains "untitled" %}
+        --
+        {% elsif post.url %}
+        {{ post.date | date: "%M" }}
+        {% endif %}
+    </h5>
+    <h4 class="location">{{ post.location }}</h4>
+</div>   
