@@ -1,0 +1,34 @@
+{% if post.file %}
+{% if post.file contains '.webm' %}
+<video source src="{{ post.file }}" type="video/webm" class="chap_video" controls autoplay loop muted>
+<p>Your browser doesn't support HTML5 video.</p>
+</video>
+{% elsif post.file contains '.mp4' %}
+<video source src="{{ post.file }}" type="video/mp4" class="chap_video" controls autoplay loop muted>
+<p>Your browser doesn't support HTML5 video.</p>
+</video>
+{% else %}
+{% if post.image_css %}
+<div class="img_div {{ post.image_css }}" id="entry_{{ post.entry_number }}_img">
+<div class="interaction-box"></div>
+<img src="{{ post.file }}">
+</div>
+{% else %}
+<div class="img_div" id="entry_{{ post.entry_number }}_img">
+<img src="{{ post.file }}" id="entry_sb_{{ post.entry_number }}_img1">
+</div>
+{% endif %}
+{% endif %}
+{% if post.file_2 %}
+<img src="{{ post.file_2 }}" {{ post.custom_css }} id="entry_sb_{{ post.entry_number }}_img2">
+{% endif %}
+{% if post.file_3 %}
+<img src="{{ post.file_3 }}" id="entry_sb_{{ post.entry_number }}_img3">
+{% endif %}
+{% if post.file_4 %}
+<img src="{{ post.file_4 }}">
+{% endif %}
+{% if post.file_5 %}
+<img src="{{ post.file_5 }}">
+{% endif %}
+{% endif %}
