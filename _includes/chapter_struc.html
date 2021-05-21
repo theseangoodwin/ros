@@ -3,7 +3,6 @@
 
 <div class="outer-wrapper">
     <div class="wrapper">
-        {% include chapter_splash.html %} 
         {% assign sorted_posts = site.posts | sort:"entry_number" %}
         {% for post in sorted_posts %}
           {% if post.entry_number >= chap_min and post.entry_number <= chap_max %}
@@ -18,9 +17,6 @@
             </div>
           {% endif %}
         {% endfor %}
-        {% if page.next.url %}
-            {% include chapter_next.html %} 
-        {% endif %}
     </div>
 </div>
 

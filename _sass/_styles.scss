@@ -62,16 +62,16 @@ body {
 
 .outer-wrapper {
     height: 100vw;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
+    // transform: rotate(-90deg) translateX(-100vh);
+    // transform-origin: top left;
     overflow-y: scroll;
-    overflow-x: hidden;
-    position: absolute;
+    //overflow-x: hidden;
+    // position: absolute;
     .wrapper {
         display: flex;
-        flex-direction: row;
-        transform: rotate(90deg) translateY(-100vh);
-        transform-origin: top left;
+        flex-direction: column;
+        // transform: rotate(90deg) translateY(-100vh);
+        // transform-origin: top left;
     }
 }
 
