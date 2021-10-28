@@ -5,6 +5,7 @@ entry_number: 12
 location: Campus Luminy
 date: 2020-08-15T19:31:21.874Z
 length_layout: Small
+component_type: s_2
 custom_css:
   - Scatter
 ---
