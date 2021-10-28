@@ -5,6 +5,7 @@ entry_number: 4
 location: Unlisted
 date: 2015-12-02T04:32:00.000Z
 length_layout: Small
+component_type: xs_2-1
 custom_css:
   - Reflect
 interaction:
