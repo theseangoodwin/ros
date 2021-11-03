@@ -5,6 +5,7 @@ entry_number: 70
 location: Provence-Alpes-Côte d'Azur
 date: 2020-12-13T17:29:50.331Z
 length_layout: Small
+component_type: lyrics
 ---
 “Two roads diverged in a yellow wood,
 And sorry I could not travel both
