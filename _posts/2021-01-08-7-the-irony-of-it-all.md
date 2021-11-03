@@ -5,6 +5,7 @@ entry_number: 7
 location: Luminy
 date: 2015-01-13T17:50:00.000Z
 length_layout: Medium
+component_type: l_1
 file: /assets/uploads/2_7_inline1.jpg
 file_2: ""
 ---
