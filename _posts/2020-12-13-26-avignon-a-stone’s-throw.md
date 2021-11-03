@@ -5,6 +5,7 @@ entry_number: 26
 location: Avignon
 date: 2020-12-13T16:30:44.366Z
 length_layout: Medium
+component_type: m_2
 ---
 I bought my train ticket and made plans to get to Avignon yesterday evening. It was a spur-of-the moment decision, the likes of which I don’t normally make. I stress myself out. 
 
