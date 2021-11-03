@@ -5,6 +5,7 @@ entry_number: 56
 location: Nord-Pas-de-Calais
 date: 2020-12-13T16:56:45.624Z
 length_layout: Small
+component_type: s_3
 ---
 What is this pit in my stomach? This mixing air and space? It’s incapacitating anxiety building on top of something. It swells to infect my lungs and I gasp for air. My chest is tight and reluctant to lift. When I lie in bed at night, breathing is hard and my head is twisting into some complicated shape I can’t define. My body has corners that come together to make impossible intersections. Their existence cannot be outside of my imagination, but I am conviced otherwise.
 
