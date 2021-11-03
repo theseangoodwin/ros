@@ -5,6 +5,7 @@ entry_number: 32
 location: Grenoble
 date: 2020-12-13T16:38:24.794Z
 length_layout: X-Small
+component_type: xs_3
 ---
 “If I have seen further than others, it is by standing upon the shoulders of giants.” 
 
