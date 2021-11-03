@@ -5,6 +5,7 @@ entry_number: 91
 location: Sahara Desert
 date: 2020-12-13T17:45:06.866Z
 length_layout: Small
+component_type: quote_1
 ---
 Faith– \ˈfath\
 : Strong belief or trust in someone 
