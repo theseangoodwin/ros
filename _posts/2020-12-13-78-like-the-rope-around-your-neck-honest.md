@@ -5,6 +5,7 @@ entry_number: 78
 location: Rome, Italy
 date: 2020-12-13T17:38:03.251Z
 length_layout: Medium
+component_type: lyrics
 ---
 oh God, what have I done?
 I love everything that I’ve lost
