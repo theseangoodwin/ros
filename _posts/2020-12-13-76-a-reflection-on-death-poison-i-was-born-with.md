@@ -5,6 +5,7 @@ entry_number: 76
 location: Municipio XIV, Rome, Italy
 date: 2020-12-13T17:35:39.768Z
 length_layout: Medium
+component_type: s_4
 ---
 What if in my dreams, my death was only a dream? My visions of blood and pain, of sacrifice and courage, may not allude to my future in the way that I believe they do. The thought of death is so real that it is avoided. Who thinks about dying? Who thinks about how they will die? When you picture the face of death, can it look so real that it moves you to tears? Do you see the bloodshot eyes and mournful actions that follow death?
 
