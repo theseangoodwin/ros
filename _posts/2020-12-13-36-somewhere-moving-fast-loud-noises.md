@@ -4,6 +4,7 @@ title: 36. Somewhere, Moving Fast, Loud Noises
 entry_number: 36
 location: Provence-Alpes-Côte d'Azur
 date: 2020-12-13T16:41:53.685Z
+component_type: m_2
 ---
 Right now, the night races past me on this high-speed train back to Marseille. The surroundings alternate between wide open moonlit fields and condensed black within tight concrete tunnels. The wind pierces my ears when we dive under the countryside hills. There is intense pressure on my eardrums as we enter and exit. My eyes are itchy. My throat is dry. I’m tired. I’ve been skiing, eating, laughing, and becoming more thankful for sleep day by day. I’ve been anxious and reluctantly annoyed, which means I’ve made friends as well as some acquaintances. I’m proud of the way I’ve handled myself throughout each of these situations.
 
