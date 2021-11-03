@@ -5,6 +5,7 @@ entry_number: 46
 location: Languedoc
 date: 2020-12-13T16:49:32.565Z
 length_layout: Large
+component_type: l_1
 ---
 I’m conflicted. I often don’t like myself as a person and today happens to be one of those mornings when I wish there was much more room between me and myself. 
 The most beautiful morning emerges from beyond the horizon. The pastel gradient sky touches pale lavender, red, yellow, and green, before spreading across in the most abundant blue. Clouds mix with contrails and compose empty space. These orange strokes are complementary to the water and earth. The scene is a blurry picture that rushes past me. Although the day is still in the making and it may be too early to tell, it is good. Did nature decide this, or did I?
