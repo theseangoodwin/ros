@@ -5,6 +5,7 @@ entry_number: 11
 location: Residence
 date: 2015-01-16T21:43:00.000Z
 length_layout: Medium
+component_type: l_2
 custom_css:
   - AlignEntryCenter
 file: /assets/uploads/2_11.jpg

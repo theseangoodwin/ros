@@ -5,6 +5,7 @@ entry_number: 94
 location: Sahara Desert
 date: 2020-12-13T17:49:23.213Z
 length_layout: Small
+component_type: xs_2-3
 ---
 Prudence moves us to choose in every instance the best means for achieving our goals. 
 

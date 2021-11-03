@@ -5,6 +5,7 @@ entry_number: 89
 location: Sahara Desert
 date: 2020-12-13T17:44:14.489Z
 length_layout: Small
+component_type: m_3
 ---
 Felicity lives
 Stare into speckled night sky

@@ -5,6 +5,7 @@ entry_number: 30
 location: My Apartment
 date: 2020-12-13T16:34:28.138Z
 length_layout: Small
+component_type: s_5
 ---
 Aldo video-called me two nights ago for an interview. He was gathering quotes for a print design project. 
 

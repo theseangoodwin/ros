@@ -5,5 +5,6 @@ entry_number: 64
 location: Brussels, Belgium
 date: 2020-12-13T17:08:35.098Z
 length_layout: X-Small
+component_type: xs_2-3
 ---
 It’s easy to say, “I miss you” when you don’t mean it.

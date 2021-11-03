@@ -5,6 +5,7 @@ entry_number: 13
 location: Notre Dame De Marseille
 date: 2015-01-17T15:57:10.127Z
 length_layout: Large
+component_type: l_1
 file: /assets/uploads/2_13.jpg
 ---
 I give and I take. I am not selfish. I am certainly not selfless. In the end, however, we are all some combination of both. Our presence in a space is a contribution to it as a whole. Whether we give ourselves to the moment and its potential glory or else shy away as a recluse is an argument, a conversation, which we can only introspectively conduct. 

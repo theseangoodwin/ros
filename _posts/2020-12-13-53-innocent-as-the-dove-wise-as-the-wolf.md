@@ -5,6 +5,7 @@ entry_number: 53
 location: London, England
 date: 2020-12-13T16:54:55.846Z
 length_layout: Medium
+component_type: m_3
 ---
 Home sweet hole. I stare down the stagnant cave of vagrancy. I shiver at its depth. I am astounded as I peer over the edge into the black and my insides collapse. I realize that there is some capacity for my imagination to make up the dimensions of the hole, but imagination spawns from truth. This truth lies in the similarities between my days and those of the impoverished. The only difference between tourism and homelessness is the amount of money in your pocket
 

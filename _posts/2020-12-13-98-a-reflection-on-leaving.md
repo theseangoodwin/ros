@@ -5,6 +5,7 @@ entry_number: 98
 location: Campus Luminy
 date: 2020-12-13T17:46:49.402Z
 length_layout: Medium
+component_type: m_2
 ---
 Today has been my last day in Marseille. I cleaned my room and gathered my bags, now much more filled than they were when I arrived. I’ve packed my belongings around an elk antler that is slightly longer and taller than the size of my duffle bag. I got it from Paris and lovingly carried this oblong pointy thing back to my apartment by way of trains and buses, where it was ceremoniously rested atop my wardrobe. Now the antler nearly bursts the seams of my bag. I can only hope it will make it through security and back to the U.S. This evening I’ll leave Luminy and make my way to the edge of Marseille for my flight out of the country. My plane leaves at six in the morning; public transportation won’t be able to get me there that early, so I’ve decided to enjoy a night at the airport.
 

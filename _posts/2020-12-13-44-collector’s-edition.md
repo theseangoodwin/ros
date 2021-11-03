@@ -5,6 +5,7 @@ entry_number: 44
 location: Marseille City Center
 date: 2020-12-13T16:47:09.327Z
 length_layout: Large
+component_type: l_1
 ---
 Vacation has nothing to do with location. It’s a state of mind that I’ve been fooled by placebic palm fronds and a sea of new faces have done a number on my mind. I’ve fallen victim to the mirage of an empty schedule and, as if I’m crawling out of the desert begging for water, I beg to be alone. I dove deep into the pool and want nothing more than to climb out. For the entirety of February I’ve been making my way from bus, to city, to hostel, to dinner party, to bed, to an early rise, to food, and then repeat all with some changeable foreign entourage. Now, at the beginning of Lent, I pardon myself from these commitments to continue where I left myself off.
 

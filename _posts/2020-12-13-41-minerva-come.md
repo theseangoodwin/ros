@@ -5,6 +5,7 @@ entry_number: 41
 location: L'Arc de Triompfe
 date: 2020-12-13T16:45:05.701Z
 length_layout: Large
+component_type: l_1
 ---
 I’m not expecting the ride back to Marseille to be any better than it was on the way down. I’m prepping for the worst. I collect the last 5 euros from my pockets and set out to find dinner. As I make my way from store to store, I collect some seeded green grapes for €2.15, two Granny Smith apples for €1.15, and a crusty round loaf of bread for €1.20. I celebrate this small victory and welcome back the leftover 50 centimes to my pocket.
 
