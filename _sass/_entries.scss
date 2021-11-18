@@ -4,10 +4,21 @@
 
 // entry mixins
 @mixin gravestone {
-    background-color: #041E15;
-    p, h1, h2, h4, h5, a, blockquote {
-        color: $color-dust-storm;
-    }
+    // background-color: #041E15;
+    // p, h1, h2, h4, h5, a, blockquote {
+    //     color: $color-dust-storm;
+    // }
+    // .e_subblock {
+    //     border-left: 1px solid $color-dust-storm;
+    // }
+}
+
+@mixin imgafter {
+
+}
+
+// entry specific CSS
+#entry_0 {
     #entry_0_img {
         position: absolute;
         margin-left: 25vw;
@@ -18,18 +29,6 @@
             background-blend-mode: multiply;    
         }
     }
-    .e_subblock {
-        border-left: 1px solid $color-dust-storm;
-    }
-}
-
-@mixin imgafter {
-
-}
-
-// entry specific CSS
-#entry_0 {
-    @include gravestone();
 }
 
 #entry_1 {
@@ -172,7 +171,6 @@
 }
 
 #entry_4 {
-    background-color: $color-muted-pink;
     position: relative;
     padding: 0px;
     margin-left: -200px;
