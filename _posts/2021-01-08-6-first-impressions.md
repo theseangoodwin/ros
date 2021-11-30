@@ -8,13 +8,22 @@ length_layout: Medium
 component_type: l_1
 file: /assets/uploads/2_6.jpg
 ---
-After making several disjointed inquiries about transportation, I finally arrive on campus. I realize that when I say, ‘I arrive on campus,’ it sounds like I know what I’m doing and where I’m heading now that I’ve come. This is just not true. American colleges and French colleges are very different. America is different than France. Streets, cars,maps, the way you get out of the metro, the signs and the symbols and the colors are jarringly different in France than they are in the United States of America. These vibrant reminders, coupled with the fact that I’ve been travelling for over 20 hours, are proving to be an absolutely wonderful challenge.
+After making several disjointed inquiries about transportation, I finally arrive on campus. I realize that when I say, ‘I arrive on campus,’ it sounds like I know what I’m doing and where I’m heading now that I’ve come. This is not true. 
 
-While I have nevertheless arrived, I am not in any shape to make my flat contract meeting, let alone any of my classes for the day. I have with me my duffle bag with silly little wheels (more than 30 pounds), my carry-on bag with my documentation and electronics (more than 15 pounds), and a profoundly abstract campus city map (useless). So, I wander. 
+\
+American colleges and French colleges are very different. America is different than France. Streets, cars, maps, the way you get out of the metro, the signs and the symbols and the colors are jarringly different here than they are back home. These vibrant reminders, coupled with the fact that I’ve been travelling for over 20 hours, are proving to be an wonderful challenge.
 
-Initially, I stayed with the student group that got off the bus. After climbing a steep slope and some stairs, I soon realized that I made the wrong decision. Maybe a quarter of those on the bus were attending Kedge Business School, but they headed in the opposite direction. Like a fool, I followed the crowd.
+\
+While I have nevertheless arrived, I am not in any shape to make my flat contract meeting, let alone any of my classes for the day. I have with me my duffle bag with silly little wheels (~30 pounds), my carry-on bag with my documentation and electronics (~10 pounds), and a profoundly abstract campus city map (useless). So, I wander. 
 
-For a while, I wondered in intense internal conversation. I was frustrated that I couldn’t interpret the signs or confidently ask for directions. I swallowed my pride and decided to talk to the first uniformed or suited person I could find. Since there were a number of questionable fashion choices and misleading uses of blazers, I decided to tighten up my parameters. The person that I would ask needed to be 30, had a full suit on, and, for added legitimacy, was holding a briefcase. 
+\
+Initially, I stayed with the student group that got off the bus. After climbing a steep slope, rocky path, and some stairs, I soon realized that I made the wrong decision. Maybe a quarter of those on the bus were attending my University, but they headed in the opposite direction. So, I suppose shame on me for following the crowd.
 
+\
+For a while, I wondered in intense internal conversation. I was frustrated that I couldn’t interpret the signs or confidently ask for directions. I swallowed my pride and decided to talk to the first uniformed or suited person I could find. Since there were a number of questionable fashion choices and misleading uses of blazers, I decided to tighten up my parameters. The person that I would ask needed to be about 30 years old, had a full suit on, and, for added legitimacy, should be holding a briefcase. 
+
+\
 This person came in the form of a security guard that didn’t really meet any of my criteria. He worked for Les Calanques Nature Park at the edge of campus. I read about this place before I left for France but had no idea it would be so close to where I would be going to school. I told him that I was looking for the address written on a piece of paper that I pulled out from my carry-on bag. Unfortunately, he didn’t recognize the address and didn’t really speak English. I, even after 4 years of high school language classes, surely will not say that I speak French. 
-Our conversation quickly transformed into a hilarious dance about ourselves. We “talked” about where I came from, the time of my arrival, and laughed together. I think at one point he said that he flew airplanes. I’m not quite sure, but he did stretch out his arms, point his fingers, and tilt his body as if that had something to do with flying. We walked down the hill for a while as he tried to find someone for me to speak English with. It was then that I was introduced to Martine. 
+
+\
+Our conversation quickly transformed into a hilarious dance about ourselves. We “talked” about where I came from, the time of my arrival, and laughed together. I think at one point he said that he flew airplanes. I’m not quite sure, but he did stretch out his arms, point his fingers, and tilt his body as if that had something to do with flying. We walked down the hill for a while as he tried to find someone for me to speak English with. It was then that I was introduced to Martine. 
