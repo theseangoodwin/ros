@@ -1,10 +1,14 @@
 ---
 layout: post
-title: 45. PovertySquad.fr
+title: 45. PovertySquad.fr (Needs XL Comp type)
 entry_number: 45
 location: Marseille City Center
 date: 2020-12-13T16:47:51.941Z
 length_layout: X-Large
+component_type: l_2
+file: ""
+file_2: ""
+file_3: ""
 ---
 I make my way through a grocery store collecting drinks, oranges, saussison, and pain au chocolate for the two homeless men I passed. As I’m writing this, I realize that I’ve picked out the foods I would have really liked to have eaten, which I’m sure has some metaphorical value. When I grab them quickly off the shelves, I recall my fast. I realize why I’ve been given that extra bunch of bananas as well. I put everything in one plastic bag and carry two large drinks in my hands. I put my camera away, fighting the temptation to capture their look in photograph. Two years of social justice education at my university has taught me to be especially intentional in situations like this. I am no savior. I return to their place and offer what I’ve brought.
 
