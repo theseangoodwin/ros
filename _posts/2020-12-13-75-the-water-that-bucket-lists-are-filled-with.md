@@ -6,6 +6,10 @@ location: Vatican City
 date: 2020-12-13T17:34:31.449Z
 length_layout: X-Large
 component_type: l_1
+file: /assets/uploads/th_5_75_1.jpg
+file_2: /assets/uploads/th_5_75_2.jpg
+file_3: /assets/uploads/th_5_75_3.jpg
+file_4: /assets/uploads/th_5_75_4.jpg
 ---
 Five in the morning came with biting vengeance. It came quickly, with cloudy wet weather and cold winds. I shove my feet into my shoes and begin making my way to St. Peter’s Square. There’s already a group of seven at the bus stop, causing me to question if I woke up too late. The bus takes a long time to show up. When it finally arrives, the group comes down from their tiptoes, waiting for the bus to round the corner. We board the bus heading towards the Vatican in silence and excitement. There’s a group of five nuns next to me who are calmly and maturely smiling at one another. It’s early in the morning and I’m not sure what my body language is saying, but I’m probably not looking nearly as cool as these sisters are. It’s like Christmas morning for Catholics. We get off the bus and I immediately lengthen my stride to pass the group. Forget about the nuns; they’re eating my dust. I’m just trying to catch a good glimpse of the Pope.
 
