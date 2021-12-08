@@ -6,6 +6,9 @@ location: Nimes, France
 date: 2020-12-13T17:06:24.369Z
 length_layout: X-Large
 component_type: xl_1
+file: /assets/uploads/th_5_61_detail1.jpg
+file_2: /assets/uploads/th_5_61_detail2.jpg
+file_3: /assets/uploads/th_5_61.jpg
 ---
 In the top tier of the coliseum, I lay out under the sun. For the first time in a long time, I can feel the heat from the sun directly and without shivery, oceanic winds interrupting. My arm is bent to use my hand as a pillow between the wide stone slab and the back of my head. I twist my neck to look down into the sand pit below.
  
