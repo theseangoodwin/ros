@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 3. The Handmade Jewel ("component type" needs to be created for XL_1")
+title: 3. The Handmade Jewel
 entry_number: 3
 location: On the plane
 date: 2020-07-28T01:01:55.411Z
 length_layout: X-Large
-component_type: l_2
+component_type: xl_1
 custom_css:
   - ImgAfter
 image_css:
