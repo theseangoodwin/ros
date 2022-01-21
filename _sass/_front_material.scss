@@ -13,8 +13,8 @@ body {
   background-image: url('/assets/uploads/0.png');
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  background-size: 60%;
-  background-position: -10vw 0;
+  background-size: 80vh;
+  background-position: -5vw 0;
 }
 
 #fm_img {
@@ -56,6 +56,7 @@ a {
   position: absolute;
   z-index: 4;
   width: 25%;
+  max-width: 21rem;
   min-height: 34rem;
   max-height: 38rem;
   margin-left: 60vw;
@@ -70,6 +71,10 @@ a {
     font-size: 12px;
     line-height: 25px;
     text-transform: uppercase;
+
+    span {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -77,6 +82,7 @@ a {
   position: absolute;
   z-index: 4;
   width: 60vw;
+  max-width: 53rem;
   min-height: 26rem;
   max-height: 30rem;
   margin-left: 20vw;

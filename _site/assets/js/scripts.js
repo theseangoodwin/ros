@@ -47,8 +47,11 @@ window.dragMoveListener = dragMoveListener
 // <script type="text/javascript">
 
 window.addEventListener('DOMContentLoaded', (event) => {
-  var element = document.getElementById("entry_sb_3_img2"); 
-  element.classList.toggle("img_hidden");
+  var element = document.getElementById("entry_sb_3_img2");
+  // simple fix to stop console log errors for now
+  if(element != null) {
+    element.classList.toggle("img_hidden"); 
+  }
 });
 
 function addClass() { 
