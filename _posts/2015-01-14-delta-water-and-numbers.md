@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "10. Delta: Water <br>and Numbers (XL 1 component type needs to be
-  created and this entry adjusted as well) "
+title: "10. Delta: Water <br>and Numbers"
 entry_number: 10
 location: Campus Luminy
 date: 2015-01-14T18:04:00.000Z
 length_layout: Large
-component_type: l_1
+component_type: xl_1
 custom_css:
   - ImgAfter
 file: /assets/uploads/2_10_imageafter.jpg
