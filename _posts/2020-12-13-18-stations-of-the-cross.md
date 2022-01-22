@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 18. Stations of the Cross (needs the xl component type)
+title: 18. Stations of the Cross
 entry_number: 18
 location: Notre Dame De Marseille
 date: 2020-12-13T16:11:47.520Z
 length_layout: X-Large
-component_type: l_2
+component_type: xl_1
 file: /assets/uploads/2_18_detail.png
 file_2: /assets/uploads/2_18_quote1.jpg
 file_3: /assets/uploads/2_18_quote2.jpg
