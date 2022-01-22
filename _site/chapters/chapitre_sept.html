@@ -11,7 +11,7 @@
   </head>
   <body>
     <nav id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Rite of Spring</a>  
+  <a href="javascript:void(0)" class="closebtn">Rite of Spring</a>  
     <ul id="mySidebarList">
     
       <div id="SidebarLink">
@@ -74,12 +74,17 @@
 </nav>
 
 <div id="sidebar_main">
-  <button class="openbtn" onclick="openNav()">Rite of Spring</button>
+  <button class="menu-button">
+    <img src="/assets/svg/icon-menu.svg/" /> <img src="/assets/svg/ros_menu.svg/" />
+  </button>
 </div>
 
 <div class="chapter_jump_nav">
     
-        <a class="chapter_jump_button" id="jump_prev" href="/chapters/chapitre_six.html"><h3>Previous Chapter</h3></a>
+        <a class="chapter_jump_button" id="jump_prev" href="/chapters/chapitre_six.html">
+            <!-- <h3>Previous Chapter</h3> -->
+            <img src="/assets/svg/prev_chap.svg/" />
+        </a>
     
     
 </div> 
@@ -315,7 +320,7 @@
             <div class="e_block X-Large   " id="entry_99">
                 <div class="interaction-box"></div>
                 <div class="e_subblock entry_div" id="entry_sb_99">
-                    <!--  -->
+                    
                     <h2 class="e_title"><!--99.&nbsp;-->99. Denouement: A List of Lessons Written  After the Fact </h2> 
                     
                         <div class="e_metadata">
@@ -402,8 +407,9 @@ I learned to love the life I lead. No one will facilitate a perfect lifetime ite
 
 <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
 <script type="text/javascript" src="/assets/js/scripts.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<!-- Commenting out scrollmagic script until JS work approx. end of Feb -->
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> -->
 <script type="text/javascript" src="/assets/js/clone_rotate.js"></script>  
   </body>
 </html>

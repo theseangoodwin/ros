@@ -1,8 +1,14 @@
 <div class="chapter_jump_nav">
     {% if page.previous.url %}
-        <a class="chapter_jump_button" id="jump_prev" href="{{page.previous.url}}"><h3>Previous Chapter</h3></a>
+        <a class="chapter_jump_button" id="jump_prev" href="{{page.previous.url}}">
+            <!-- <h3>Previous Chapter</h3> -->
+            <img src="/assets/svg/prev_chap.svg/" />
+        </a>
     {% endif %}
     {% if page.next.url %}
-        <a class="chapter_jump_button" id="jump_next" href="{{page.next.url}}"><h3>Next Chapter</h3></a>
+        <a class="chapter_jump_button" id="jump_next" href="{{page.next.url}}">
+            <!-- <h3>Next Chapter</h3> -->
+            <img src="/assets/svg/next_chap.svg/" />
+        </a>
     {% endif %}
 </div>
