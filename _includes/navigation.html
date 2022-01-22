@@ -1,5 +1,5 @@
 <nav id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Rite of Spring</a>  
+  <a href="javascript:void(0)" class="closebtn">Rite of Spring</a>  
     <ul id="mySidebarList">
     {% for item in site.data.navigation.items %}
       <div id="SidebarLink">
@@ -14,7 +14,9 @@
 </nav>
 
 <div id="sidebar_main">
-  <button class="openbtn" onclick="openNav()">Rite of Spring</button>
+  <button class="menu-button">
+    <img src="/assets/svg/icon-menu.svg/" /> <img src="/assets/svg/ros_menu.svg/" />
+  </button>
 </div>
 
 {% include chapter_navigator.html %} 

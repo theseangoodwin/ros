@@ -82,7 +82,7 @@ nav ul a {
 .sidebar .closebtn {
   position: relative;
   padding: 0;
-  margin: 24px 0px 48px 56px;
+  margin: 24px;
   color: $color-white;
 }
 
@@ -97,27 +97,19 @@ nav ul a {
     margin: 0;
 }
 
-/* The button used to open the sidebar */
-.openbtn {
-  cursor: pointer;
+.menu-button {
   padding: 0px;
-  border: none;
-  background-color: rgba(255, 0, 0, 0);
-  color: $color-black;
+  display: flex;
+  align-items: center;
+
+  img:first-child {
+    margin-right: 10px;
+  }
 }
 
-.openbtn:before {
-  content: url(/assets/svg/icon-menu.svg);
-  fill: $color-black;
-  width: 20px;
-  float: left;
-  margin-right: 5px;
-  margin-top: -4px;
-}
-
-.openbtn:hover {
-  // background-color: #444;
-}
+// .openbtn:hover {
+//   background-color: #444;
+// }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #sidebar_main {
@@ -125,9 +117,11 @@ nav ul a {
   z-index: 5;
   top: 0px;
   transition: margin-left .5s; /* If you want a transition effect */
-  .openbtn {
+  mix-blend-mode: difference;
+
+  .menu-button {
     margin: 24px 0px 24px 56px;
-}
+  }
 }
 
   
@@ -153,33 +147,21 @@ nav ul a {
   text-decoration: none;
   left: 4vw;
   width: 30vw;
-  h3 {
-    color: $color-black;
-    margin: 0;
-    font-size: 1.25em;
-  }
 }
 
 #jump_next {
   position: absolute;
-  bottom: 4em;
-  h3:before {
-    content: url(/assets/svg/chevron-down.svg);
-    margin-right: 14px;
-  }
+  bottom: 2vh;
 }
 
 #jump_prev {
   position: absolute;
   top: 10vh;
-  h3:before {
-    content: url(/assets/svg/chevron-up.svg);
-    margin-right: 14px;
-  }
 }
 
 .chapter_jump_nav {
   position: fixed;
+  mix-blend-mode: difference;
   height: 100vh;
   z-index: 4;
   left: 0;

@@ -4,16 +4,24 @@
 
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
+
+    const menuBtn = document.querySelector('.menu-button');
+    menuBtn.addEventListener('click', () => {
+      openNav();
+    });
+
+    const closeMenuBtn = document.querySelector('.closebtn');
+    closeMenuBtn.addEventListener('click', () => {
+      closeNav();
+    });
 });
 
 /* Set the left margin of the page content to -370 */
 function closeNav() {
   document.getElementById("mySidebar").style.marginLeft = "-448px";
-  console.log('Closed, Console!');
 }
 
 /* Set the left margin of the page content to 0 */
 function openNav() {
     document.getElementById("mySidebar").style.marginLeft = "0px";
-    console.log('Open, Console!');
   }

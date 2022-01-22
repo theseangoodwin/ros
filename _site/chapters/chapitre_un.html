@@ -11,7 +11,7 @@
   </head>
   <body>
     <nav id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Rite of Spring</a>  
+  <a href="javascript:void(0)" class="closebtn">Rite of Spring</a>  
     <ul id="mySidebarList">
     
       <div id="SidebarLink">
@@ -74,13 +74,18 @@
 </nav>
 
 <div id="sidebar_main">
-  <button class="openbtn" onclick="openNav()">Rite of Spring</button>
+  <button class="menu-button">
+    <img src="/assets/svg/icon-menu.svg/" /> <img src="/assets/svg/ros_menu.svg/" />
+  </button>
 </div>
 
 <div class="chapter_jump_nav">
     
     
-        <a class="chapter_jump_button" id="jump_next" href="/chapters/chapitre_deux.html"><h3>Next Chapter</h3></a>
+        <a class="chapter_jump_button" id="jump_next" href="/chapters/chapitre_deux.html">
+            <!-- <h3>Next Chapter</h3> -->
+            <img src="/assets/svg/next_chap.svg/" />
+        </a>
     
 </div> 
      <!-- this pulls the minimum and maximum entries to be featured in a chapter -->
@@ -111,12 +116,12 @@
             <div class="e_block Large l_1  " id="entry_0">
                 <div class="interaction-box"></div>
                 <div class="e_subblock entry_div" id="entry_sb_0">
-                    <!-- 
+                    
 
 
 <div class="img_div draggable" id="entry_0_img">
 <div class="interaction-box"></div>
-<img src="/assets/uploads/1_0_quote.jpg">
+<img src="https://media.giphy.com/media/148x4ezZxvpIeA/giphy.gif">
 </div>
 
 
@@ -124,7 +129,7 @@
 
 
 
- -->
+
                     <h2 class="e_title"><!--0.&nbsp;-->0. Monument</h2> 
                     
                         <div class="e_metadata">
@@ -405,8 +410,9 @@
 
 <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
 <script type="text/javascript" src="/assets/js/scripts.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<!-- Commenting out scrollmagic script until JS work approx. end of Feb -->
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> -->
 <script type="text/javascript" src="/assets/js/clone_rotate.js"></script>  
   </body>
 </html>
