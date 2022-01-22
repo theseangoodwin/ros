@@ -56,22 +56,26 @@ body {
   @include block_width;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: $wrapper-padding;
-  padding-bottom: $wrapper-padding;
-  // min-width: 640px;
-  // max-width: 1000px;
-  // height: 70%;
+
+  // will need to update the padding accordingly for all blocks as we progress
+  padding-top: 64px; 
+  padding-bottom: 64px;
+
   min-height: 600px;
   max-height: 100vh;
+
+  display: flex;
+  align-items: center;
+
   img {
     width: 100%;
-    // height: auto;
   }
 }
 
 .e_subblock {
   padding-left: 25px;
-  max-height: 725px;
+  height: inherit;
+  // max-height: 725px; need to recalculate based on other posts/post sizes
 }
 
 .outer-wrapper {
@@ -585,6 +589,7 @@ a {
 .draggable,
 .draggable2,
 .draggable3 {
+  z-index: 10;
   touch-action: none; // required by interactjs
   user-select: none; // required by interactjs
   .interaction-box {

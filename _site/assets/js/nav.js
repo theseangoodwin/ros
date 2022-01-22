@@ -4,6 +4,16 @@
 
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
+
+    const menuBtn = document.querySelector('.menu-button');
+    menuBtn.addEventListener('click', () => {
+      openNav();
+    });
+
+    const closeMenuBtn = document.querySelector('.closebtn');
+    closeMenuBtn.addEventListener('click', () => {
+      closeNav();
+    });
 });
 
 /* Set the left margin of the page content to -370 */
