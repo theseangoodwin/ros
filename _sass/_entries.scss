@@ -24,10 +24,6 @@
         margin-left: 25vw;
         margin-top: 15vh;
         width: 52rem;
-        img {
-            background-color: $color-dust-storm;
-            background-blend-mode: multiply;    
-        }
     }
 }
 
@@ -186,6 +182,17 @@
     margin-left: -466px;
     .e_subblock {
         margin: 0px;
+    }
+}
+
+#entry_6 {
+    position: relative;
+    #entry_6_img {
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        width: 40%;
+        height: auto;
     }
 }
 
