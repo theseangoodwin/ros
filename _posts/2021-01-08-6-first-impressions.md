@@ -6,7 +6,8 @@ location: Campus Luminy
 date: 2015-01-13T17:43:00.000Z
 length_layout: Large
 component_type: l_1
-interaction:
+interaction: null
+image_css:
   - draggable
 file: /assets/uploads/2_6.jpg
 ---
