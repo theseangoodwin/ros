@@ -82,7 +82,7 @@
 
 .splash_button {
   position: absolute;
-  background-color: $color-chartreuse;
+  background-color: $color-off-white;
   border: none;
   text-decoration: none;
   padding: 1em 8em;
@@ -93,9 +93,9 @@
 
   &:hover {
     background-color: transparent;
-    border: 1px solid $color-off-white;
+    border: 1px solid $color-chartreuse;
     h3 {
-      color: $color-off-white;
+      color: $color-chartreuse;
     }
   }
 }
