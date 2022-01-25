@@ -211,23 +211,22 @@ a {
   mix-blend-mode: difference;
   max-width: $medium-entry;
   min-width: $medium-entry; // from Figma entry design
-  h2 {
-    column-count: 1;
-    column-span: 1;
-  }
-  .entry_div {
-    // background-color: red;
-    margin-left: 25px;
-    .content_div {
-      height: 500px;
-      column-count: 2;
-      column-gap: 25px;
-      column-fill: auto;
-    }
-  }
-  p {
-    @include p-serif();
-  }
+  // h2 {
+  //   column-count: 1;
+  //   column-span: 1;
+  // }
+  // .entry_div {
+  //   margin-left: 25px;
+  //   // .content_div {
+  //   //   height: 500px;
+  //   //   column-count: 2;
+  //   //   column-gap: 25px;
+  //   //   column-fill: auto;
+  //   // }
+  // }
+  // p {
+  //   @include p-serif();
+  // }
 }
 
 .Large {
@@ -332,19 +331,28 @@ a {
     }
 
     .e_subblock.entry_div {
+      text-align: center;
       display: flex;
       flex-direction: column;
+      border-left: 1px solid $color-dust-storm;
+
       .e_title {
         order: 1;
+        color: $color-dust-storm;
       }
       .e_metadata {
         order: 2;
+        justify-content: center;
+        color: $color-dust-storm;
       }
       .img_div {
         order: 3;
       }
       .content_div {
         order: 4;
+        p {
+          color: $color-dust-storm;
+        }
       }
     }
   }
@@ -381,6 +389,43 @@ a {
   &_1 {
     .e_subblock {
       border-left: 1px solid $color-black;
+    }
+  }
+
+  &_2 {
+    min-width: 55em;
+    max-width: 55em;
+    
+    .e_subblock {
+      display: flex;
+      border-left: 1px solid $color-black;
+      flex-direction: column;
+      .e_title {
+        color: $color-coal;
+        font-size: 0.75em;
+        font-family: sans-serif;
+      }
+      .content_div {
+        p {
+          font-size: 4em;
+          line-height: 1em;
+          span.blackletter {
+            font-size: inherit;
+            line-height: inherit;
+          }
+        }
+        p:last-child {
+          color: $color-coal;
+          font-size: 0.75em;
+          font-family: sans-serif;
+        }
+      }
+    }
+  }
+
+  &_3 {
+    .e_subblock {
+      
     }
   }
 }
