@@ -330,6 +330,23 @@ a {
     &.framed {
       background-color: $color-dust-storm;
     }
+
+    .e_subblock.entry_div {
+      display: flex;
+      flex-direction: column;
+      .e_title {
+        order: 1;
+      }
+      .e_metadata {
+        order: 2;
+      }
+      .img_div {
+        order: 3;
+      }
+      .content_div {
+        order: 4;
+      }
+    }
   }
 }
 
