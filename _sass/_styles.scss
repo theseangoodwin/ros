@@ -360,6 +360,14 @@ a {
   background: $color-heavy-metal;
 }
 
+.quote {
+  &_1 {
+    .e_subblock {
+      border-left: 1px solid $color-black;
+    }
+  }
+}
+
 // post custom classes
 .Reflect {
   text-align: right;
