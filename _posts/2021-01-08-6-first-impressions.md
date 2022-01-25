@@ -4,8 +4,10 @@ title: 6. First Impressions
 entry_number: 6
 location: Campus Luminy
 date: 2015-01-13T17:43:00.000Z
-length_layout: Medium
+length_layout: Large
 component_type: l_1
+interaction:
+  - draggable
 file: /assets/uploads/2_6.jpg
 ---
 After making several disjointed inquiries about transportation, I finally arrive on campus. I realize that when I say, ‘I arrive on campus,’ it sounds like I know what I’m doing and where I’m heading now that I’ve come. This is not true. 
