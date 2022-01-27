@@ -10,12 +10,18 @@
             <div class="e_block {{ post.length_layout }} {{ post.component_type }} {{ post.custom_css }} {{ post.interaction }}" id="entry_{{ post.entry_number }}">
                 <div class="interaction-box"></div>
                 <div class="e_subblock entry_div" id="entry_sb_{{ post.entry_number }}">
-                    {% include entry_media.html %}
-                    <h2 class="e_title"><!--{{ post.entry_number }}.&nbsp;-->{{ post.title }}</h2> 
-                    {% unless post.component_type == "lyrics" %}
-                        {% include entry_metadata.html %}
-                    {% endunless %}
-                    <div class="content_div">{{ post.content }}</div>
+                    {% if post.entry_number == 16 %}
+                        {% include post_photo-after.html %}
+                    {% else if post.entry_number == 15 %}
+                        {% include post_text-detail.html %}
+                    {% else %}
+                        {% include entry_media.html %}
+                        <h2 class="e_title">{{ post.title }}</h2> 
+                        {% unless post.component_type == "lyrics" %}
+                            {% include entry_metadata.html %}
+                        {% endunless %}
+                        <div class="content_div">{{ post.content }}</div>
+                    {% endif %}
                 </div>
             </div>
           {% endif %}
