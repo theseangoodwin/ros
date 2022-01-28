@@ -11,9 +11,9 @@
                 <div class="interaction-box"></div>
                 {% if post.custom_css contains 'ImgAfter' %}
                     {% include post_photo-after.html %}
-                {% elseif post.custom_css contains 'TextWithDetail' or post.entry_number == 15 %}
+                {% elsif post.custom_css contains 'TextWithDetail' or post.entry_number == 15 %}
                     {% include post_text-detail.html %}
-                {% elseif post.custom_css contains 'Lyrics' %}
+                {% elsif post.custom_css contains 'Lyrics' %}
                     <!-- Add in lyrics layout option here -->
                 {% else %}
                     <div class="e_subblock entry_div" id="entry_sb_{{ post.entry_number }}">
@@ -23,7 +23,6 @@
                                 {% include entry_metadata.html %}
                             {% endunless %}
                             <div class="content_div">{{ post.content }}</div>
-                        {% endif %}
                     </div>
                 {% endif %}
             </div>
