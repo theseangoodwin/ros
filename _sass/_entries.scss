@@ -24,10 +24,6 @@
         margin-left: 25vw;
         margin-top: 15vh;
         width: 52rem;
-        img {
-            background-color: $color-dust-storm;
-            background-blend-mode: multiply;    
-        }
     }
 }
 
@@ -59,7 +55,6 @@
 #entry_2 {
     background-color: #373C37;
     padding-right: 20px;
-    margin-right: 50px;
     #entry_2_img {
         background-image: url(/assets/uploads/2_2_quote.jpg);
         background-color: $color-dust-storm;
@@ -119,7 +114,6 @@
             }
         }
     }
-    border-right: 20px solid $color-dust-storm;
 }
 
 
@@ -186,6 +180,17 @@
     margin-left: -466px;
     .e_subblock {
         margin: 0px;
+    }
+}
+
+#entry_6 {
+    position: relative;
+    #entry_6_img {
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        width: 40%;
+        height: auto;
     }
 }
 

@@ -211,23 +211,22 @@ a {
   mix-blend-mode: difference;
   max-width: $medium-entry;
   min-width: $medium-entry; // from Figma entry design
-  h2 {
-    column-count: 1;
-    column-span: 1;
-  }
-  .entry_div {
-    // background-color: red;
-    margin-left: 25px;
-    .content_div {
-      height: 500px;
-      column-count: 2;
-      column-gap: 25px;
-      column-fill: auto;
-    }
-  }
-  p {
-    @include p-serif();
-  }
+  // h2 {
+  //   column-count: 1;
+  //   column-span: 1;
+  // }
+  // .entry_div {
+  //   margin-left: 25px;
+  //   // .content_div {
+  //   //   height: 500px;
+  //   //   column-count: 2;
+  //   //   column-gap: 25px;
+  //   //   column-fill: auto;
+  //   // }
+  // }
+  // p {
+  //   @include p-serif();
+  // }
 }
 
 .Large {
@@ -330,6 +329,32 @@ a {
     &.framed {
       background-color: $color-dust-storm;
     }
+
+    .e_subblock.entry_div {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid $color-dust-storm;
+
+      .e_title {
+        order: 1;
+        color: $color-dust-storm;
+      }
+      .e_metadata {
+        order: 2;
+        justify-content: center;
+        color: $color-dust-storm;
+      }
+      .img_div {
+        order: 3;
+      }
+      .content_div {
+        order: 4;
+        p {
+          color: $color-dust-storm;
+        }
+      }
+    }
   }
 }
 
@@ -358,6 +383,88 @@ a {
 .lyrics {
   @include lightFont();
   background: $color-heavy-metal;
+}
+
+.quote {
+  &_1 {
+    .e_subblock {
+      border-left: 1px solid $color-black;
+    }
+  }
+
+  &_2 {
+    min-width: 70em;
+    max-width: 70em;
+    
+    .e_subblock {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      border-left: 1px solid $color-black;
+      flex-direction: row;
+      .e_title {
+        color: $color-coal;
+        font-size: 0.75em;
+        font-family: sans-serif;
+      }
+      .content_div {
+        p {
+          font-size: 4em;
+          line-height: 1em;
+          span.blackletter {
+            font-size: inherit;
+            line-height: inherit;
+          }
+        }
+        p:last-child {
+          color: $color-coal;
+          font-size: 0.75em;
+          font-family: sans-serif;
+        }
+      }
+    }
+  }
+
+  &_3 {
+    min-width: 70em;
+    max-width: 70em;
+    position: relative;
+
+    .e_subblock {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid $color-black;
+    padding-top: 20px;
+
+      .img_div {
+        position: absolute;
+      }
+
+      .content_div {  
+        p {
+          font-size: 4em;
+          line-height: 1em;
+          text-decoration: underline;
+          text-decoration-thickness: 1px;
+
+          span.blackletter {
+            font-size: inherit;
+            line-height: inherit;
+          }
+        }
+        p:last-child {
+          color: $color-black;
+          font-size: 0.75em;
+          font-family: sans-serif;
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
 // post custom classes
@@ -514,32 +621,32 @@ a {
   }
 }
 
-.ImgAfter {
-  .entry_div {
-    // @include ImgAfter_Grid1;
-    .img_div,
-    .chap_video {
-      grid-column: 2;
-      grid-row: 1 / 5;
-      margin-top: -$wrapper-padding;
-      background-color: $color-white-rock;
-      img,
-      video {
-        height: 100vh;
-        width: auto;
-        mix-blend-mode: multiply;
-      }
-    }
-    .e_title,
-    .e_metadata,
-    .content_div {
-      grid-column: 1;
-    }
-    .content_div {
-      column-count: 2;
-    }
-  }
-}
+// .ImgAfter {
+//   .entry_div {
+//     // @include ImgAfter_Grid1;
+//     .img_div,
+//     .chap_video {
+//       grid-column: 2;
+//       grid-row: 1 / 5;
+//       margin-top: -$wrapper-padding;
+//       background-color: $color-white-rock;
+//       img,
+//       video {
+//         height: 100vh;
+//         width: auto;
+//         mix-blend-mode: multiply;
+//       }
+//     }
+//     .e_title,
+//     .e_metadata,
+//     .content_div {
+//       grid-column: 1;
+//     }
+//     .content_div {
+//       column-count: 2;
+//     }
+//   }
+// }
 #entry_sb_12,
 #entry_sb_12b,
 #entry_sb_12c {
