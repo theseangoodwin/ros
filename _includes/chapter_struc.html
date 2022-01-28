@@ -9,13 +9,14 @@
           {% if post.entry_number >= chap_min and post.entry_number <= chap_max %}
             <div class="e_block {{ post.length_layout }} {{ post.component_type }} {{ post.custom_css }} {{ post.interaction }}" id="entry_{{ post.entry_number }}">
                 <div class="interaction-box"></div>
-                {% if post.entry_number == 7 %}
+                {% if post.custom_css contains 'ImgAfter' %}
                     {% include post_photo-after.html %}
+                {% elseif post.custom_css contains 'TextWithDetail' or post.entry_number == 15 %}
+                    {% include post_text-detail.html %}
+                {% elseif post.custom_css contains 'Lyrics' %}
+                    <!-- Add in lyrics layout option here -->
                 {% else %}
                     <div class="e_subblock entry_div" id="entry_sb_{{ post.entry_number }}">
-                        {% if post.entry_number == 15 %}
-                            {% include post_text-detail.html %}
-                        {% else %}
                             {% include entry_media.html %}
                             <h2 class="e_title">{{ post.title }}</h2> 
                             {% unless post.component_type == "lyrics" %}
