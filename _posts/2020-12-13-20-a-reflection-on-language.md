@@ -4,8 +4,12 @@ title: 20. A Reflection on Language
 entry_number: 20
 location: Campus Luminy
 date: 2015-01-22T16:21:45.783Z
-length_layout: Medium
+length_layout: Large
 component_type: l_2
+custom_css:
+  - ImgAfter
+interaction:
+  - draggable
 file: /assets/uploads/3_20.jpg
 ---
 The French language is not some club to be held in an exclusive manner. The popular perspective claiming that French should only be spoken perfectly creates insurmountable barriers for those without fluency. I live in a country where I am not fluent in the dominant language and have to address this confusing mental block in order to survive. I hope others facing similar hurdles do the same. 
