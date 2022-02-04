@@ -6,6 +6,8 @@ location: Avignon
 date: 2020-12-13T16:32:51.480Z
 length_layout: Medium
 component_type: m_1
+custom_css:
+  - ImgAfter
 file: /assets/uploads/3_28_inline1.jpg
 file_2: /assets/uploads/3_28_inline2.jpg
 file_3: /assets/uploads/3_28_inline3.jpg
