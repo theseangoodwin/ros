@@ -25,21 +25,22 @@ collections:
            name: 'custom_bg', 
            widget: 'select', 
            required: false, 
-           options: 
-            - { label: 'Glade Green', value: 'gladeGreen' }
-            - { label: 'Pampas', value: 'pampas' }
-            - { label: 'Green White', value: 'greenWhite' }
-            - { label: 'Flax Smoke', value: 'flaxSmoke' }
-            - { label: 'White Rock', value: 'whiteRock' }
-            - { label: 'Dust Storm', value: 'dustStorm' }
-            - { label: 'Muted Pink', value: 'mutedPink' }
-            - { label: 'Sepia', value: 'sepia' }
-            - { label: 'Heavy Metal', value: 'heavyMetal' }
-            - { label: 'Holly', value: 'holly' }
-            - { label: 'Gun Metal', value: 'gunMetal' }
-            - { label: 'Kangaroo', value: 'kangaroo' }
-            - { label: 'Eagle', value: 'eagle' }
-         }
+           options: [ 
+            { label: 'Glade Green', value: 'gladeGreen' },
+            { label: 'Pampas', value: 'pampas' },
+            { label: 'Green White', value: 'greenWhite' },
+            { label: 'Flax Smoke', value: 'flaxSmoke' },
+            { label: 'White Rock', value: 'whiteRock' },
+            { label: 'Dust Storm', value: 'dustStorm' },
+            { label: 'Muted Pink', value: 'mutedPink' },
+            { label: 'Sepia', value: 'sepia' },
+            { label: 'Heavy Metal', value: 'heavyMetal' },
+            { label: 'Holly', value: 'holly' },
+            { label: 'Gun Metal', value: 'gunMetal' },
+            { label: 'Kangaroo', value: 'kangaroo' },
+            { label: 'Eagle', value: 'eagle' }
+           ]
+        }
        - { label: 'Interaction', name: 'interaction', widget: 'select', multiple: true, required: false, options: ['draggable']}
        - { label: 'Image CSS', name: 'image_css', widget: 'select', multiple: true, required: false, options: ['draggable']}
        - { label: 'Image-1', name: 'file', widget: 'file', required: false }
