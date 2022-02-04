@@ -6,6 +6,8 @@ location: L'Arc de Triompfe
 date: 2020-12-13T16:45:05.701Z
 length_layout: Large
 component_type: l_1
+custom_css:
+  - ImgAfter
 file: /assets/uploads/3_41alt.jpg
 file_2: /assets/uploads/3_41_inline1.jpg
 file_3: /assets/uploads/3_40.jpg
