@@ -70,6 +70,57 @@ body {
   img {
     width: 100%;
   }
+
+  /* As we can't check with elements hold which background color via SCSS, I've opted to just have the
+  * bg color be determined here.
+  */
+  &.gladeGreen {
+    background-color: $color-glade-green;
+  }
+
+  &.pampas {
+    background-color: $color-pampas;
+  }
+
+  &.greenWhite {
+    background-color: $color-green-white;
+  }
+
+  &.flaxSmoke {
+    background-color: $color-flax-smoke;
+  }
+
+  &.whiteRock {
+    background-color: $color-white-rock;
+  }
+
+  &.dustStorm {
+    background-color: $color-dust-storm;
+  }
+
+  &.mutedPink {
+    background-color: $color-sepia;
+  }
+
+  &.heavyMetal {
+    background-color: $color-heavy-metal;
+  }
+
+  &.holly {
+    background-color: $color-holly;
+  }
+
+  &.gunMetal {
+    background-color: $color-gun-metal;
+  }
+
+  &.kangaroo {
+    background-color: $color-kangaroo;
+  }
+
+  &.eagle {
+    background-color: $color-eagle;
+  }
 }
 
 .e_subblock {
@@ -316,7 +367,7 @@ a {
   }
 
   &_2 {
-    background-color: $color-coal;
+    background-color: $color-gun-metal;
     color: $color-hushed-pink;
     .entry_div {
       border-left: 1px solid $color-hushed-pink;
@@ -403,7 +454,7 @@ a {
       border-left: 1px solid $color-black;
       flex-direction: row;
       .e_title {
-        color: $color-coal;
+        color: $color-gun-metal;
         font-size: 0.75em;
         font-family: sans-serif;
       }
@@ -417,7 +468,7 @@ a {
           }
         }
         p:last-child {
-          color: $color-coal;
+          color: $color-gun-metal;
           font-size: 0.75em;
           font-family: sans-serif;
         }
