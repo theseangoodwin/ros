@@ -1,1 +1,5 @@
+# Ignores node modules
 node_modules
+
+# Ignores compiled site files
+_site
