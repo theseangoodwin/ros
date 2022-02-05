@@ -6,6 +6,7 @@ location: Le Vieux Port
 date: 2020-12-13T16:03:45.332Z
 length_layout: Large
 component_type: lyrics
+custom_bg: heavyMetal
 ---
 out with the old 
 you’ve grown 
