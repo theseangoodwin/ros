@@ -4,7 +4,7 @@ title: 14. Value and Worth
 entry_number: 14
 location: Le Vieux Port
 date: 2020-12-13T16:03:45.332Z
-length_layout: Large
+length_layout: X-Small
 component_type: lyrics
 custom_bg: heavyMetal
 ---
