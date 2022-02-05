@@ -307,20 +307,28 @@ a {
 
 /* COMMON COMPONENT STYLING */
 .xs {
+  // single column
   &_1 {
     border-left: $color-black;
   }
 
   &_2 {
-    &-1,
+    // body + photo
+    &-1 {
+      background-color: $color-pampas;
+    }
+
+    // large text quote
     &-2 {
       background-color: $color-hunter-green;
     }
 
+    // side by side | double arch
     &-3 {
       background-color: $color-dust-storm;
     }
 
+    // for all xs components, the content div bg is white pre mocks
     &-1,
     &-2,
     &-3 {
@@ -330,6 +338,7 @@ a {
     }
   }
 
+  // body + png
   &_3 {
     background-color: $color-pampas;
   }
@@ -340,24 +349,34 @@ a {
 }
 
 .s {
+  // scrollable
   &_1 {
     background-color: $color-steel;
   }
 
+  // tap-to-rotate
   &_2 {
     background-color: $color-muted-pink;
   }
 
+  // draggable
   &_3 {
     background-color: $color-muted-pink;
   }
 
+  // paper, pull-up | large text quote | large text quote + png
   &_4 {
     background-color: $color-steel;
+  }
+
+  // click-to-scroll
+  &_5 {
+    background-color: $color-pampas;
   }
 }
 
 .m {
+  // body + photo after
   &_1 {
     background-color: $color-flax-smoke;
 
@@ -366,6 +385,7 @@ a {
     }
   }
 
+  // body + time before
   &_2 {
     background-color: $color-gun-metal;
     color: $color-hushed-pink;
@@ -374,6 +394,7 @@ a {
     }
   }
 
+  // centered body + photo | scrollable body + png | recolor + frame
   &_3 {
     background-color: $color-hunter-green;
 
@@ -410,11 +431,19 @@ a {
 }
 
 .l {
+  // body only
   &_1 {
+    // .entry_div {
+    //   padding: 64px 50px;
+    // }
     background-color: $color-kangaroo;
   }
 
+  // body + img after
   &_2 {
+    // .entry_div {
+    //   padding: 64px 50px;
+    // }
     background-color: $color-green-smoke;
   }
 
@@ -426,7 +455,13 @@ a {
 }
 
 .xl {
+  // body only | extra long opt.
   &_1 {
+    background-color: $color-green-smoke;
+  }
+
+  // body + img after
+  &_a {
     background-color: $color-green-smoke;
   }
 }
@@ -437,12 +472,14 @@ a {
 }
 
 .quote {
+  // std. quote + detail png | sm., lg. quote + png overlay
   &_1 {
     .e_subblock {
       border-left: 1px solid $color-black;
     }
   }
 
+  // lg. quote + img after
   &_2 {
     min-width: 70em;
     max-width: 70em;
@@ -476,6 +513,7 @@ a {
     }
   }
 
+  // lined quote + png
   &_3 {
     min-width: 70em;
     max-width: 70em;
@@ -515,6 +553,11 @@ a {
         }
       }
     }
+  }
+
+  &_4 {
+    // lg. text quote, pull paper up
+    background-color: $color-pampas;
   }
 }
 
