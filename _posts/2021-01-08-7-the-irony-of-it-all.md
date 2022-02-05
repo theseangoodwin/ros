@@ -8,6 +8,7 @@ length_layout: Large
 component_type: l_1
 custom_css:
   - ImgAfter
+custom_bg: kangaroo
 file: /assets/uploads/2_7_inline1.jpg
 file_2: ""
 ---
