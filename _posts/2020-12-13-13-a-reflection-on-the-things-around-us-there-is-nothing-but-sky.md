@@ -8,6 +8,7 @@ length_layout: Large
 component_type: m_1
 custom_css:
   - ImgAfter
+custom_bg: pampas
 file: /assets/uploads/2_13.jpg
 ---
 I give and I take. I am not selfish. I am certainly not selfless. In the end, however, we are all some combination of both. Our presence in a space is a contribution to it as a whole.
