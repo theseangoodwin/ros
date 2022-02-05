@@ -88,14 +88,21 @@ body {
 
   &.mutedPink { background-color: $color-sepia; }
 
-  &.heavyMetal { background-color: $color-heavy-metal; }
+  &.heavyMetal { 
+    @include lightFont();
+    background-color: $color-heavy-metal; 
+  }
 
   &.holly { 
     @include lightFont();
+    // will need to add .pink or additional class conditional to change font to light pink when wanted
     background-color: $color-holly; 
   }
 
-  &.gunMetal { background-color: $color-gun-metal; }
+  &.gunMetal { 
+    @include lightFont();
+    background-color: $color-gun-metal;
+  }
 
   &.kangaroo { background-color: $color-kangaroo; }
 
