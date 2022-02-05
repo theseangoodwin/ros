@@ -74,59 +74,41 @@ body {
   /* As we can't check with elements hold which background color via SCSS, I've opted to just have the
   * bg color be determined here.
   */
-  &.gladeGreen {
-    background-color: $color-glade-green;
-  }
+  &.gladeGreen { background-color: $color-glade-green; }
 
-  &.pampas {
-    background-color: $color-pampas;
-  }
+  &.pampas { background-color: $color-pampas; }
 
-  &.greenWhite {
-    background-color: $color-green-white;
-  }
+  &.greenWhite { background-color: $color-green-white; }
 
-  &.flaxSmoke {
-    background-color: $color-flax-smoke;
-  }
+  &.flaxSmoke { background-color: $color-flax-smoke; }
 
-  &.whiteRock {
-    background-color: $color-white-rock;
-  }
+  &.whiteRock { background-color: $color-white-rock; }
 
-  &.dustStorm {
-    background-color: $color-dust-storm;
-  }
+  &.dustStorm { background-color: $color-dust-storm; }
 
-  &.mutedPink {
-    background-color: $color-sepia;
-  }
+  &.mutedPink { background-color: $color-sepia; }
 
-  &.heavyMetal {
-    background-color: $color-heavy-metal;
-  }
+  &.heavyMetal { background-color: $color-heavy-metal; }
 
-  &.holly {
-    background-color: $color-holly;
-  }
+  &.holly { background-color: $color-holly; }
 
-  &.gunMetal {
-    background-color: $color-gun-metal;
-  }
+  &.gunMetal { background-color: $color-gun-metal; }
 
-  &.kangaroo {
-    background-color: $color-kangaroo;
-  }
+  &.kangaroo { background-color: $color-kangaroo; }
 
-  &.eagle {
-    background-color: $color-eagle;
-  }
+  &.eagle { background-color: $color-eagle; }
 }
 
 .e_subblock {
   padding-left: 25px;
   height: inherit;
   // max-height: 725px; need to recalculate based on other posts/post sizes
+
+  a:hover {
+    background-color: $color-chartreuse;
+    transition: all 0.5s linear;
+    //     content: url({{ post.file }})
+  }
 }
 
 .outer-wrapper {
