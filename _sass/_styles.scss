@@ -29,8 +29,8 @@
 // font mixins
 
 @mixin lightFont {
-  p, h1, h2, h4, h5, a, blockquote {
-    color: $color-white;
+  p, h1, h2, h3, h4, h5, a, span, blockquote {
+    color: $color-off-white;
     font-family: serif;
   }
 
@@ -90,7 +90,10 @@ body {
 
   &.heavyMetal { background-color: $color-heavy-metal; }
 
-  &.holly { background-color: $color-holly; }
+  &.holly { 
+    @include lightFont();
+    background-color: $color-holly; 
+  }
 
   &.gunMetal { background-color: $color-gun-metal; }
 
