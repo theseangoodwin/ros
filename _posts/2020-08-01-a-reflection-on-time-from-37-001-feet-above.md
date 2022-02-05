@@ -8,6 +8,7 @@ length_layout: Small
 component_type: xs_2-1
 custom_css:
   - Reflect
+custom_bg: mutedPink
 interaction:
   - draggable
 file: /assets/uploads/2_4.svg
