@@ -19,7 +19,7 @@
 
 // entry specific CSS
 #entry_0 {
-    #entry_0_img {
+    #E0_Q1 {
         position: absolute;
         margin-left: 25vw;
         margin-top: 15vh;
@@ -148,15 +148,15 @@
         background-image: url(/assets/svg/asterisk.svg);
         background-repeat: no-repeat;
     }
-    #entry_sb_3_img1 {
+    #E3_I1 {
         display: block;
     }
-    #entry_sb_3_img2 {
+    #E3_Q2 {
         position: absolute;
         width: 60%;
         margin-left: 80em;
     }
-    #entry_sb_3_img3 {
+    #E3_I3 {
         position: absolute;
         width: 8em;
         margin-left: 62em;
@@ -185,7 +185,7 @@
 
 #entry_6 {
     position: relative;
-    #entry_6_img {
+    #E6_I1 {
         position: absolute;
         top: 10%;
         left: 40%;
@@ -195,7 +195,7 @@
 }
 
 #entry_10 {
-    img {
+    img#E10_I1 {
         width: 200px; //temporary
     }
 }
@@ -203,7 +203,7 @@
 #entry_11 {
     @include gravestone();
     min-width: 62em;
-    #entry_11_img img {
+    img#E11_I1 {
         width: 100%;
         padding-right: 8em;
         padding-left: 8em;

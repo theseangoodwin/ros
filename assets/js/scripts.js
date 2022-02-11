@@ -52,12 +52,29 @@ window.addEventListener('DOMContentLoaded', (event) => {
   if(element != null) {
     element.classList.toggle("img_hidden"); 
   }
+
+  findPostLinks();
 });
 
 function addClass() { 
   var element = document.getElementById("entry_sb_3_img2"); 
   element.classList.toggle("draggable");
   element.classList.toggle("img_hidden");
+}
+
+const findPostLinks = () => {
+  const entryImages = document.querySelectorAll('[id*=E]');
+  console.log(entryImages);
+  entryImages.forEach(entry => {
+    // console.log(entry.tagName);
+    if(entry.tagName != 'A') {
+      entry.classList.add("img_hidden");
+    }
+    const anchorLinkId = entry.id;
+    console.log(`Img ID: ${anchorLinkId}`);
+    const anchorTag = document.querySelector(`a[${anchorLinkId}]`);
+    console.log(`anchorTag: ${anchorTag}`);
+  });
 }
 
 

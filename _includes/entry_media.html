@@ -1,34 +1,70 @@
+<!-- Special Case: First image should be interaction or video? Should not be the case! -->
 {% if post.file %}
-{% if post.file contains '.webm' %}
-<video source src="{{ post.file }}" type="video/webm" class="chap_video" controls autoplay loop muted>
-<p>Your browser doesn't support HTML5 video.</p>
-</video>
-{% elsif post.file contains '.mp4' %}
-<video source src="{{ post.file }}" type="video/mp4" class="chap_video" controls autoplay loop muted>
-<p>Your browser doesn't support HTML5 video.</p>
-</video>
+  {% if post.file contains '.webm' %}
+    <video source src="{{ post.file }}" id="entry_{{ post.entry_number }}_video" type="video/webm" class="chap_video" controls autoplay loop muted>
+    <p>Your browser doesn't support HTML5 video.</p>
+    </video>
+  {% elsif post.file contains '.mp4' %}
+    <video source src="{{ post.file }}" id="entry_{{ post.entry_number }}_video" type="video/mp4" class="chap_video" controls autoplay loop muted>
+    <p>Your browser doesn't support HTML5 video.</p>
+    </video>
 {% else %}
-{% if post.image_css %}
-<div class="img_div {{ post.image_css }}" id="entry_{{ post.entry_number }}_img">
-<div class="interaction-box"></div>
-<img src="{{ post.file }}">
-</div>
-{% else %}
-<div class="img_div" id="entry_{{ post.entry_number }}_img">
-<img src="{{ post.file }}" id="entry_sb_{{ post.entry_number }}_img1">
-</div>
+  {% if post.file contains "quote" %}
+    {% assign imgType = "Q1" %}
+    {% else %}
+    {% assign imgType = "I1" %}
+  {% endif %}
+  {% if post.image_css %}
+    <div class="img_div {{ post.image_css }}" id="E{{ post.entry_number }}_{{ imgType }}"> 
+      <!-- id="entry_{{ post.entry_number }}_img" -->
+    <div class="interaction-box"></div>
+    <img src="{{ post.file }}">
+    </div>
+  {% else %}
+    <div class="img_div E{{ post.entry_number }}_{{ imgType }}" id="E{{ post.entry_number }}_{{ imgType }}">
+    <img src="{{ post.file }}" id="E{{ post.entry_number }}_{{ imgType }}">
+    <!-- id="entry_sb_{{ post.entry_number }}_img1" id="entry_{{ post.entry_number }}_img"-->
+    </div>
+  {% endif %}
 {% endif %}
-{% endif %}
+
 {% if post.file_2 %}
-<img src="{{ post.file_2 }}" {{ post.custom_css }} id="entry_sb_{{ post.entry_number }}_img2">
+  {% if post.file_2 contains "quote" %}
+    {% assign imgType2 = "Q2"%}
+  {% elsif post.file_2 contains "inline" %}
+    {% assign imgType2 = "I2" %}
+  {% endif %}
+  <img src="{{ post.file_2 }}" {{ post.custom_css }} id="E{{post.entry_number}}_{{ imgType2 }}">
+  <!-- id="entry_sb_{{ post.entry_number }}_img2" -->
 {% endif %}
+
 {% if post.file_3 %}
-<img src="{{ post.file_3 }}" id="entry_sb_{{ post.entry_number }}_img3">
+  {% if post.file_3 contains "quote" %}
+    {% assign imgType3 = "Q3"%}
+  {% else %}
+    {% assign imgType3 = "I3" %}
+  {% endif %}
+  <img src="{{ post.file_3 }}" id="E{{post.entry_number}}_{{ imgType3 }}">
+  <!-- id="entry_sb_{{ post.entry_number }}_img3" -->
 {% endif %}
+
 {% if post.file_4 %}
-<img src="{{ post.file_4 }}">
+  {% if post.file_4 contains "quote" %}
+    {% assign imgType4 = "Q4"%}
+  {% else %}
+    {% assign imgType4 = "I4" %}
+  {% endif %}
+  <img src="{{ post.file_4 }}" id="E{{post.entry_number}}_{{ imgType4 }}">
+  <!-- id="entry_{{ post.entry_number }}_img4" -->
 {% endif %}
+
 {% if post.file_5 %}
-<img src="{{ post.file_5 }}">
+  {% if post.file_5 contains "quote" %}
+    {% assign imgType5 = "Q5"%}
+    {% else %}
+    {% assign imgType5 = "I5" %}
+  {% endif %}
+  <img src="{{ post.file_5 }}" id="E{{post.entry_number}}_{{ imgType5 }}">
+  <!-- id="entry_{{ post.entry_number }}_img5" -->
 {% endif %}
 {% endif %}
