@@ -1,11 +1,11 @@
 <!-- Special Case: First image should be interaction or video? Should not be the case! -->
 {% if post.file %}
   {% if post.file contains '.webm' %}
-    <video source src="{{ post.file }}" id="entry_{{ post.entry_number }}_video" type="video/webm" class="chap_video" controls autoplay loop muted>
+    <video source src="{{ post.file }}" id="entry_{{ post.entry_number }}_video" type="video/webm" class="chap_video" autoplay loop muted>
     <p>Your browser doesn't support HTML5 video.</p>
     </video>
   {% elsif post.file contains '.mp4' %}
-    <video source src="{{ post.file }}" id="entry_{{ post.entry_number }}_video" type="video/mp4" class="chap_video" controls autoplay loop muted>
+    <video source src="{{ post.file }}" id="entry_{{ post.entry_number }}_video" type="video/mp4" class="chap_video" autoplay loop muted>
     <p>Your browser doesn't support HTML5 video.</p>
     </video>
 {% else %}
