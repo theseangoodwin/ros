@@ -72,8 +72,8 @@ const findPostLinks = () => {
     }
     const anchorLinkId = entry.id;
     console.log(`Img ID: ${anchorLinkId}`);
-    const anchorTag = document.querySelector(`a[${anchorLinkId}]`);
-    console.log(`anchorTag: ${anchorTag}`);
+    const anchorTag = document.querySelector(`a[class*=${anchorLinkId}]`);
+    console.log(anchorTag);
   });
 }
 
