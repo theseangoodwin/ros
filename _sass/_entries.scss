@@ -172,6 +172,16 @@
     max-height: 48em;
     min-width: 42em;
     max-width: 50em;
+
+    .interaction-box {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+
+    .entry_div {
+        background: none;
+    }
 }
 
 #entry_5 {
@@ -208,4 +218,9 @@
         padding-right: 8em;
         padding-left: 8em;
     }
+}
+
+#entry_13 {
+    background-image: url('/assets/uploads/2_13.jpg');
+    background-size: 100% 100%;
 }
