@@ -204,6 +204,15 @@
     }
 }
 
+#entry_7 {
+    .entry_div {
+        max-height: 80vh;
+        overflow: scroll;
+        -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+        mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+    }
+}
+
 #entry_10 {
     img#E10_I1 {
         width: 200px; //temporary
@@ -223,4 +232,14 @@
 #entry_13 {
     background-image: url('/assets/uploads/2_13.jpg');
     background-size: 100% 100%;
+
+    .entry_div {
+        position: absolute;
+        bottom: 0;
+        width: 600px;
+        height: 700px;
+        background-color: #F2F0F2;
+        overflow: scroll;
+        padding: 30px;
+    }
 }

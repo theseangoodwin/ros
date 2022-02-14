@@ -467,6 +467,18 @@ a {
 .lyrics {
   @include lightFont();
   background: $color-heavy-metal;
+  .entry_div {
+    height: 100%;
+    width: inherit;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .content_div {
+      text-align: center;
+      max-height: 100vh;
+      overflow: scroll;
+    }
+  }
 }
 
 .quote {
