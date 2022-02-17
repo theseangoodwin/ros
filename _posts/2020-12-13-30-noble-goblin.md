@@ -10,7 +10,7 @@ file: /assets/uploads/3_30_detail.jpg
 file_2: /assets/uploads/3_30_video.webm
 file_3: /assets/uploads/3_30.jpg
 ---
-I remember how dusty clouds of baking flour swirled as Polish, and English, and Portuguese words were spoken into them. When I was young, my whole family baked together and made recipes that were brought over from our homelands. My grandmother quickly swatted the back of my head when I over-zealously mixed the dry ingredients up and into the air or made little animals out of the pierogi.\
+<a class="E30_Q1">I remember how dusty clouds of baking flour swirled as Polish, and English, and Portuguese words were spoken into them.</a> When I was young, my whole family baked together and made recipes that were brought over from our homelands. My grandmother quickly swatted the back of my head when I over-zealously mixed the dry ingredients up and into the air or made little animals out of the pierogi.\
 \
 I remember energetically directing my brothers and friends as we constructed forts in woods behind the neighborhood. I was the one confirming the perfect spot when we found it and helping the others imagine what the finished structure would look like. When the sun began setting we’d get whistled in for dinner and race out of the treeline back home.\
 \
