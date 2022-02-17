@@ -6,9 +6,11 @@ location: Grenoble
 date: 2020-12-13T16:38:24.794Z
 length_layout: X-Small
 component_type: xs_3
-file: /assets/uploads/3_32_alt2.mp4
-file_2: /assets/uploads/3_32.jpg
+custom_css:
+  - ImgAfter
+file: /assets/uploads/3_32_quote1.mp4
+file_2: /assets/uploads/3_32_after.jpg
 ---
-“If I have seen further than others, it is by standing upon the shoulders of giants.” 
+<a class="E31_Q1">“If I have seen further than others, it is by standing upon the shoulders of giants.” </a>
 
 —Isaac Newton
