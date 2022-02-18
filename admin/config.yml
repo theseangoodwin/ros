@@ -29,6 +29,11 @@ collections:
        - { label: 'Image-3', name: 'file_3', widget: 'file', required: false }
        - { label: 'Image-4', name: 'file_4', widget: 'file', required: false }
        - { label: 'Image-5', name: 'file_5', widget: 'file', required: false }
+       - { label: 'Image-6', name: 'file_6', widget: 'file', required: false }
+       - { label: 'Image-7', name: 'file_7', widget: 'file', required: false }
+       - { label: 'Image-8', name: 'file_8', widget: 'file', required: false }
+       - { label: 'Image-9', name: 'file_9', widget: 'file', required: false }
+       - { label: 'Image-10', name: 'file_10', widget: 'file', required: false }
        - { label: 'Body', name: 'body', widget: 'markdown' }
 
    - name: 'Chapters'
