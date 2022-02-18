@@ -8,13 +8,14 @@ length_layout: Large
 component_type: l_1
 custom_css:
   - ImgAfter
-file: /assets/uploads/3_41alt.jpg
+custom_bg: heavyMetal
+file: /assets/uploads/3_41_after.jpg
 file_2: /assets/uploads/3_41_inline1.jpg
-file_3: /assets/uploads/3_40.jpg
+file_3: ""
 ---
 I’m not expecting the ride back to Marseille to be any better than it was on the way down. I’m prepping for the worst. I collect the last 5 euros from my pockets and set out to find dinner. As I make my way from store to store, I collect some seeded green grapes for €2.15, two Granny Smith apples for €1.15, and a crusty round loaf of bread for €1.20. I celebrate this small victory and welcome back the leftover 50 centimes to my pocket.\
- 
-My path leads me across Barcelona’s Arc de Triomfe. With time to spare before my bus leaves at midnight, I step beneath the arch and into an area outlined by palm trees, ornate brass lampposts with more warm orange lights, and concrete benches. The rectangle-shaped plaza is filled with strolling couples, a few skateboarders, and dogs running free as their owners take back the daily tourist’s haven. I claim a bench, take off my shoes, cross my legs, and have my meal, ending the trip in a similar manner as I started it. This time there are a few differences, however, and the greatest is acknowledged as I speak to myself, panning across the docile cityscape. 
+
+My path leads me across Barcelona’s Arc de Triomfe. With time to spare before my bus leaves at midnight, I step beneath the arch and into an area outlined by palm trees, ornate brass lampposts with more warm orange lights, and concrete benches. <a class="E41_I1">The rectangle-shaped plaza is filled with strolling couples, a few skateboarders, and dogs running free as their owners take back the daily tourist’s haven.</a> I claim a bench, take off my shoes, cross my legs, and have my meal, ending the trip in a similar manner as I started it. This time there are a few differences, however, and the greatest is acknowledged as I speak to myself, panning across the docile cityscape. 
 
 —
 
