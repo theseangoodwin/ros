@@ -11,6 +11,6 @@ custom_css:
 file: /assets/uploads/3_32_quote1.mp4
 file_2: /assets/uploads/3_32_after.jpg
 ---
-<a class="E31_Q1">“If I have seen further than others, it is by standing upon the shoulders of giants.” </a>
+<blockquote="E31_Q1">“If I have seen further than others, it is by standing upon the shoulders of giants.” </blockquote>
 
 —Isaac Newton
