@@ -10,7 +10,7 @@ custom_css:
   - ImgAfter
 image_css:
   - draggable
-file: /assets/uploads/2_3_imageafter.jpg
+file: /assets/uploads/2_3_after.jpg
 file_2: /assets/uploads/2_3_quote.jpg
 file_3: ""
 ---
