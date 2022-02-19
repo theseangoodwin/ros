@@ -10,11 +10,13 @@
     </video>
 {% else %}
   {% if post.file contains "quote" %}
-    {% assign imgType = "Q1" %}
+      {% assign imgType = "Q1" %}
     {% elsif post.file contains "inline" %}
-    {% assign imgType = "I1" %}
+      {% assign imgType = "I1" %}
     {% elsif post.file contains "detail" %}
-    {% assign imgType = "D1" %}
+      {% assign imgType = "D1" %}
+    {% elsif post.file_1 contains "after" %}
+      {% assign imgType1 = "A1" %}
   {% endif %}
   {% if post.image_css %}
     <div class="img_div {{ post.image_css }}" id="E{{ post.entry_number }}_{{ imgType }}"> 
@@ -37,6 +39,8 @@
       {% assign imgType2 = "I2" %}
     {% elsif post.file_2 contains "detail" %}
       {% assign imgType2 = "D2" %}
+    {% elsif post.file_2 contains "after" %}
+      {% assign imgType2 = "A2" %}
     {% endif %}
     <img src="{{ post.file_2 }}" {{ post.custom_css }} id="E{{post.entry_number}}_{{ imgType2 }}">
     <!-- id="entry_sb_{{ post.entry_number }}_img2" -->
@@ -49,6 +53,8 @@
       {% assign imgType3 = "I3" %}
     {% elsif post.file_3 contains "detail" %}
       {% assign imgType3 = "D3" %}
+    {% elsif post.file_3 contains "after" %}
+      {% assign imgType3 = "A3" %}
     {% endif %}
     <img src="{{ post.file_3 }}" id="E{{post.entry_number}}_{{ imgType3 }}">
     <!-- id="entry_sb_{{ post.entry_number }}_img3" -->
@@ -61,6 +67,8 @@
     {% assign imgType4 = "I4" %}
   {% elsif post.file_4 contains "detail" %}
     {% assign imgType4 = "D4" %}
+  {% elsif post.file_4 contains "after" %}
+    {% assign imgType4 = "A4" %}
   {% endif %}
     <img src="{{ post.file_4 }}" id="E{{post.entry_number}}_{{ imgType4 }}">
     <!-- id="entry_{{ post.entry_number }}_img4" -->
