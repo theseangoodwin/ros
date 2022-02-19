@@ -8,6 +8,7 @@ length_layout: Medium
 component_type: m_2
 custom_css:
   - ImgAfter
+custom_bg: gladeGreen
 file: /assets/uploads/3_26_after.jpg
 file_2: /assets/uploads/3_26_video.webm
 ---
