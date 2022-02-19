@@ -9,8 +9,8 @@ component_type: m_2
 custom_css:
   - ImgAfter
 custom_bg: gladeGreen
-file: /assets/uploads/3_26_after.jpg
-file_2: /assets/uploads/3_26_video.webm
+file: /assets/uploads/3_26_video.webm
+file_2: /assets/uploads/3_26_after.jpg
 ---
 I bought my train ticket and made plans to get to Avignon yesterday evening. It was a spur-of-the moment decision, the likes of which I don’t normally make. I stress myself out. 
 
