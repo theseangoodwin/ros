@@ -8,8 +8,8 @@ length_layout: Large
 component_type: l_2
 custom_css:
   - ImgAfter
-interaction:
-  - draggable
+custom_bg: dustStorm
+interaction: null
 file: /assets/uploads/3_20_after.jpg
 ---
 The French language is not some club to be held in an exclusive manner. The popular perspective claiming that French should only be spoken perfectly creates insurmountable barriers for those without fluency. I live in a country where I am not fluent in the dominant language and have to address this confusing mental block in order to survive. I hope others facing similar hurdles do the same. \
