@@ -8,6 +8,6 @@ length_layout: X-Small
 component_type: xs_2-2
 file: /assets/uploads/3_22_quote.jpg
 ---
-<blockquote="E19_Q1">“Remember those posters that said, ‘Today is the first day of the rest of your life?’ Well, that’s true of every day but one — the day you die.” </blockquote>
+<blockquote class="E19_Q1">“Remember those posters that said, ‘Today is the first day of the rest of your life?’ Well, that’s true of every day but one — the day you die.” </blockquote>
 
 –Lester Burnham, American Beauty (2000)
