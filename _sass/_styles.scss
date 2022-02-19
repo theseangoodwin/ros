@@ -94,19 +94,25 @@ body {
 
   &.mutedPink { background-color: $color-sepia; }
 
-  &.heavyMetal { 
-    @include lightFont();
+  &.heavyMetal {
+    not &.xs_2-2 {
+      @include lightFont();
+    } 
     background-color: $color-heavy-metal; 
   }
 
   &.holly { 
-    @include lightFont();
+    not &.xs_2-2 {
+      @include lightFont();
+    } 
     // will need to add .pink or additional class conditional to change font to light pink when wanted
     background-color: $color-holly; 
   }
 
   &.gunMetal { 
-    @include lightFont();
+    not &.xs_2-2 {
+      @include lightFont();
+    } 
     background-color: $color-gun-metal;
   }
 
@@ -322,8 +328,11 @@ a {
       min-width: 650px;
       max-width: 650px;
       padding: 40px 55px;
-      .e_subblock {
-        padding: 0;
+      .content_div {
+        blockquote {
+          line-height: 2.75rem;
+          margin: 30px 0;
+        }
       }
     }
 
