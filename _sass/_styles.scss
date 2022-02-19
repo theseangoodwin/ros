@@ -208,17 +208,17 @@ a {
 
 // post size classes
 .X-Small {
-  background-color: $color-white;
-  display: flex;
-  min-width: 450px;
-  max-width: 450px;
-  .e_subblock {
-    width: 70%;
-    margin: 20px;
-  }
-  .entry_div {
-    align-self: flex-start;
-  }
+  // background-color: $color-white;
+  // display: flex;
+  // min-width: 450px;
+  // max-width: 450px;
+  // .e_subblock {
+  //   width: 70%;
+  //   margin: 20px;
+  // }
+  // .entry_div {
+  //   align-self: flex-start;
+  // }
   p {
     @include p-serif();
   }
@@ -318,7 +318,13 @@ a {
 
     // large text quote
     &-2 {
-      background-color: $color-hunter-green;
+      // background-color: $color-hunter-green;
+      min-width: 650px;
+      max-width: 650px;
+      padding: 40px 55px;
+      .e_subblock {
+        padding: 0;
+      }
     }
 
     // side by side | double arch
@@ -332,6 +338,13 @@ a {
     &-3 {
       .entry_div {
         background-color: $color-off-white;
+        height: 100%;
+        width: 100%;
+        padding: 50px 50px 25px 50px;
+        border-radius: 45% 45% 0 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
       }
     }
   }
@@ -469,7 +482,7 @@ a {
   background: $color-heavy-metal;
   .entry_div {
     height: 100%;
-    width: inherit;
+    width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;

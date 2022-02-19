@@ -63,20 +63,29 @@ function addClass() {
 }
 
 const findPostLinks = () => {
+  // Finds all entry images
   const entryImages = document.querySelectorAll('[id*=E]');
-  console.log(entryImages);
+  console.log(entryImages); // logs nodelist
   entryImages.forEach(entry => {
-    // console.log(entry.tagName);
     if(entry.tagName != 'A') {
+      // for all non-a tag images/hide them
       entry.classList.add("img_hidden");
     }
+    // find the anchorLinkID and print it
     const anchorLinkId = entry.id;
     console.log(`Img ID: ${anchorLinkId}`);
+
+    // will need to do the same for blockquotes as well
     const anchorTag = document.querySelector(`a[class*=${anchorLinkId}]`);
-    console.log(anchorTag);
-    anchorTag.addEventListener('mouseover', () => {
-      entry.classList.toggle("img_hidden");
-    });
+    
+    if(anchorTag != null) {
+      console.log(anchorTag);
+      anchorTagRect = anchorTag.getBoundingClientRect();
+      console.log('AnchorTag x-coord is: ' + anchorTagRect.x);
+      anchorTag.addEventListener('mouseover', () => {
+        entry.classList.toggle("img_hidden");
+      });
+    }
   });
 }
 
