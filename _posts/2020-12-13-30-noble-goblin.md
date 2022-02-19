@@ -7,9 +7,9 @@ date: 2020-12-13T16:34:28.138Z
 length_layout: Large
 component_type: l_2
 custom_bg: heavyMetal
-file: /assets/uploads/3_30_detail.jpg
-file_2: /assets/uploads/3_30_video.webm
-file_3: /assets/uploads/3_30.jpg
+file: /assets/uploads/3_30_video.webm
+file_2: /assets/uploads/3_30_detail.jpg
+file_3: /assets/uploads/3_30_quote1.jpg
 ---
 <a class="E30_Q1">I remember how dusty clouds of baking flour swirled as Polish, and English, and Portuguese words were spoken into them.</a> When I was young, my whole family baked together and made recipes that were brought over from our homelands. My grandmother quickly swatted the back of my head when I over-zealously mixed the dry ingredients up and into the air or made little animals out of the pierogi.\
 \
