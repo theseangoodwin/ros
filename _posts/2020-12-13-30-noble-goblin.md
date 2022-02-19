@@ -6,6 +6,7 @@ location: My Apartment
 date: 2020-12-13T16:34:28.138Z
 length_layout: Large
 component_type: l_2
+custom_bg: heavyMetal
 file: /assets/uploads/3_30_detail.jpg
 file_2: /assets/uploads/3_30_video.webm
 file_3: /assets/uploads/3_30.jpg
