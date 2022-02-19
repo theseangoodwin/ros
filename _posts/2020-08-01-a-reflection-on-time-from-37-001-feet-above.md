@@ -11,7 +11,7 @@ custom_css:
 custom_bg: mutedPink
 interaction:
   - draggable
-file: /assets/uploads/2_4.svg
+file: /assets/uploads/2_4_detail.svg
 ---
 What is the significance of time if left undefined by color or by clockwork? If the shades are pulled down and the sun is gone, how do we measure the speed of our movement? Time is relative and strikingly universal. It is simultaneously passing and permanent. If it relies on location, then crossing so many lines at once should be a paradox. Where does time end? I want to know so I can get back the six hours that were taken from me on this plane. \
 \
