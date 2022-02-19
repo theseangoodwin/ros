@@ -8,6 +8,7 @@ length_layout: X-Small
 component_type: xs_3
 custom_css:
   - ImgAfter
+custom_bg: pampas
 file: /assets/uploads/3_32_quote1.mp4
 file_2: /assets/uploads/3_32_after.jpg
 ---
