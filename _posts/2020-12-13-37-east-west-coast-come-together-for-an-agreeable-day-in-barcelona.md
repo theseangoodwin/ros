@@ -12,7 +12,7 @@ file: /assets/uploads/3_37_quote1.jpg
 file_2: ""
 file_3: /assets/uploads/3_37_after.jpg
 ---
-<a class="E37_Q1">The bus pulls into the station and the city is still dark.</a> My mind is blurry from the disorienting late night ride from Marseille. I spent yesterday in my apartment slowly working on a presentation concerning the broad topic of ‘leadership’ for one of my classes.
+<blockquote class="E37_Q1">The bus pulls into the station and the city is still dark.</blockquote> My mind is blurry from the disorienting late night ride from Marseille. I spent yesterday in my apartment slowly working on a presentation concerning the broad topic of ‘leadership’ for one of my classes.
 
 I get off the bus in groggy disarray from a cold’s onset and from 9 sleepless hours in a cramped space. My pursed eyes and scratchy throat are making it difficult to enjoy my arrival to Barcelona. I step down and pass a few other riders while I look for a place to sit, recuperate, and pull together a plan for when the sun rises. I cross the horseshoe-shaped cobblestone bus bay, under streetlights that are notably different from the color I remember back home. These are gentler and have a warmness about them that isn’t so abrasive against the sleeping world. I enter through a slow-to-react automatic door and sit down for a moment. It isn’t long before another rider from the bus promptly approaches me and extends her hand for an introduction.
 
