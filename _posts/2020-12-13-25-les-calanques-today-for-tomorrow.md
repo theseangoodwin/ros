@@ -8,6 +8,7 @@ length_layout: X-Large
 component_type: xl_a
 custom_css:
   - ImgAfter
+custom_bg: flaxSmoke
 file: /assets/uploads/3_25_inline1.jpg
 file_2: /assets/uploads/3_25_quote1.jpg
 file_3: /assets/uploads/3_25_quote2.jpg
