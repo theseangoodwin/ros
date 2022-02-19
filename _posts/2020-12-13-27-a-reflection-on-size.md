@@ -8,6 +8,7 @@ length_layout: Medium
 component_type: m_1
 custom_css:
   - ImgAfter
+custom_bg: kangaroo
 file: /assets/uploads/3_27_inline1.jpg
 file_2: /assets/uploads/3_27_after.jpg
 ---
