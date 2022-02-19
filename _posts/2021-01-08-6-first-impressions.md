@@ -10,7 +10,7 @@ custom_bg: greenWhite
 interaction: null
 image_css:
   - draggable
-file: /assets/uploads/2_6.jpg
+file: /assets/uploads/2_6_content.jpg
 ---
 After making several disjointed inquiries about transportation, I finally arrive on campus. I realize that when I say, ‘I arrive on campus,’ it sounds like I know what I’m doing and where I’m heading now that I’ve come. This is not true. 
 
