@@ -28,7 +28,8 @@ My mind is drawn back to the final hours of my Grandmother’s life. I see her i
 \
 I didn’t see it happen. It doesn’t matter where I am, even if I had the opportunity to see, I wouldn’t have been able to watch her die. My eyes close tightly. My tears swim The day she died was close to the day I turned thirteen. I didn’t know how to handle the selfish side of me that just wanted a normal birthday. I was too young, too egocentric. I had never dealt with anything like this before, and the \
 \
-<blockquote class="E3_Q1">
+
+<blockquote class="E3_Q2">
 ideas I previously held of <span class="blackletter">life</span> and death never focused much on <span class="blackletter">death.</span>
 <button onclick = "addClass()" class="interaction-box-inline"><a></a></button></blockquote> \
 \
