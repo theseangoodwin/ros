@@ -5,6 +5,7 @@ entry_number: 19
 date: 2020-12-13T16:13:36.832Z
 length_layout: Large
 component_type: s_5
+custom_bg: kangaroo
 file: /assets/uploads/3_19_inline1alt.jpg
 file_2: /assets/uploads/3_19_inline3.jpg
 file_3: /assets/uploads/3_19_inline4.jpg
