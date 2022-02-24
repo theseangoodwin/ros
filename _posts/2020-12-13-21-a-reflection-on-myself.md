@@ -5,7 +5,7 @@ entry_number: 21
 location: My Apartment
 date: 2015-01-24T16:23:05.521Z
 length_layout: Medium
-component_type: m_3
+component_type: xs_2-1
 custom_bg: heavyMetal
 file: /assets/uploads/3_21_content.jpg
 ---
