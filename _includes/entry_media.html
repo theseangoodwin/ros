@@ -1,4 +1,3 @@
-<!-- Special Case: First image should be interaction or video? Should not be the case! -->
 {% if post.file %}
   {% if post.file contains '.webm' %}
     <video source src="{{ post.file }}" id="entry_{{ post.entry_number }}_video" type="video/webm" class="chap_video" autoplay loop muted>

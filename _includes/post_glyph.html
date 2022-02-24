@@ -1,0 +1,13 @@
+<div class="e_subblock entry_div" id="entry_sb_{{ post.entry_number }}">
+	<span class="">{{ post.entry_number }}.</span>
+	<img src="{{ post.glyph }}" alt="{{ post.glpyh_altText }}" />
+	{% include entry_metadata.html %}
+	<div class="content_div">
+		<div class="content_div--text">
+			{{ post.content }}
+		</div>
+		<div class="content_div--media">
+			{% include entry_media.html %}
+		</div>
+	</div>
+</div>
