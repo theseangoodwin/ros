@@ -107,6 +107,7 @@ body {
     } 
     // will need to add .pink or additional class conditional to change font to light pink when wanted
     background-color: $color-holly; 
+    @include lightFont();
   }
 
   &.gunMetal { 
@@ -318,16 +319,12 @@ a {
 
   &_2 {
     // body + photo
-    &-1 {
-      background-color: $color-pampas;
-    }
+    // &-1 {
+    //   background-color: $color-pampas;
+    // }
 
     // large text quote
     &-2 {
-      // background-color: $color-hunter-green;
-      min-width: 650px;
-      max-width: 650px;
-      padding: 40px 55px;
       .content_div {
         blockquote {
           line-height: 2.75rem;
@@ -336,24 +333,24 @@ a {
       }
     }
 
-    // side by side | double arch
-    &-3 {
-      background-color: $color-dust-storm;
-    }
-
-    // for all xs components, the content div bg is white pre mocks
+    // common styling for xs components
     &-1,
-    &-2,
-    &-3 {
+    &-2 {
       .entry_div {
         background-color: $color-off-white;
         height: 100%;
         width: 100%;
         padding: 50px 50px 25px 50px;
-        border-radius: 45% 45% 0 0;
+        border-radius: 50% 50% 0 0;
         display: flex;
         justify-content: center;
         flex-direction: column;
+
+        .content_div {
+          min-width: 700px;
+          max-width: 700px;
+          padding: 40px 55px;
+        }
       }
     }
   }

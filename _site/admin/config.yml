@@ -16,6 +16,7 @@ collections:
        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
        - { label: 'Title', name: 'title', widget: 'string' }
        - { label: 'Title Glyph', name: 'glyph', widget: 'file', required: false}
+       - { label: 'Title Glyph Alt Text', name: 'glyph_altText', widget: 'string', required: false }
        - { label: 'Entry No.', name: 'entry_number', widget: 'number', valueType: int, min: 0, max: 109, step: 1 }
        - { label: 'Location', name: 'location', widget: 'string', required: false }
        - { label: 'Publish Date', name: 'date', widget: 'datetime', required: false }

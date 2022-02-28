@@ -13,7 +13,7 @@
                     {% include post_photo-after.html %}
                 {% elsif post.custom_css contains 'TextWithDetail' or post.entry_number == 15 %}
                     {% include post_text-detail.html %}
-                {% elsif post.glyph != blank %}
+                {% elsif post.custom_css contains 'Glyph' %}
                     {% include post_glyph.html %}
                 {% else %}
                     <div class="e_subblock entry_div" id="entry_sb_{{ post.entry_number }}">
