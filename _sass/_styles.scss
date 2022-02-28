@@ -388,8 +388,6 @@ a {
 
   // click-to-scroll
   &_5 {
-    border: 3px solid red;
-    .e_block {
       display: flex;
       max-width: 600px;
       min-width: 600px;
@@ -399,7 +397,6 @@ a {
         -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
         mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
       }
-    }
   }
 }
 
@@ -469,10 +466,18 @@ a {
 
   // body + img after
   &_2 {
-    // .entry_div {
-    //   padding: 64px 50px;
-    // }
-    background-color: $color-green-smoke;
+    max-width: $large-entry;
+    min-width: $large-entry;
+
+    .entry_div {
+      position: absolute;
+      bottom: 0;
+      width: 600px;
+      height: 700px;
+      background-color: #f2f0f2;
+      overflow: scroll;
+      padding: 30px;
+    }
   }
 
   &_1,&_2 {
