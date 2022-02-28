@@ -4,7 +4,7 @@ title: 20. A Reflection on Language
 entry_number: 20
 location: Campus Luminy
 date: 2015-01-22T16:21:45.783Z
-length_layout: Large
+length_layout: null
 component_type: l_2
 custom_css:
   - ImgAfter
