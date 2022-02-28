@@ -3,7 +3,7 @@ layout: post
 title: 19. A Reflection on the Things I Think I Know
 entry_number: 19
 date: 2020-12-13T16:13:36.832Z
-length_layout: Large
+length_layout: Small
 component_type: s_5
 custom_bg: kangaroo
 file: /assets/uploads/3_19_inline1alt.jpg
