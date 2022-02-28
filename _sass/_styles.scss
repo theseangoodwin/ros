@@ -388,7 +388,18 @@ a {
 
   // click-to-scroll
   &_5 {
-    background-color: $color-pampas;
+    border: 3px solid red;
+    .e_block {
+      display: flex;
+      max-width: 600px;
+      min-width: 600px;
+      .entry_div {
+        max-height: 80vh;
+        overflow: scroll;
+        -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+        mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+      }
+    }
   }
 }
 
