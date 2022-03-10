@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 88. Chapel (Dyebath)
+title: Chapel (Dyebath)
 entry_number: 88
 location: Taouz, Morocco
 date: 2020-12-13T17:43:42.686Z
