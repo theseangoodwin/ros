@@ -8,17 +8,22 @@
     <p>Your browser doesn't support HTML5 video.</p>
     </video>
 {% else %}
-  {% if post.file contains "quote" %}
+  {% assign fileOne = post.file %}
+  {% if fileOne contains "content" %}
+    <!-- Check first if it has a content tag -->
+    {% assign imgType = "C1" %}
+  {% else %}
+    {% if fileOne contains "quote" %}
       {% assign imgType = "Q1" %}
-    {% elsif post.file contains "inline" %}
+    {% elsif fileOne contains "inline" %}
       {% assign imgType = "I1" %}
-    {% elsif post.file contains "detail" %}
+    {% elsif fileOne contains "detail" %}
       {% assign imgType = "D1" %}
-    {% elsif post.file_1 contains "after" %}
+    {% elsif fileOne contains "after" %}
       {% assign imgType = "A1" %}
-    {% elsif post.file_1 contains "content" %}
-      {% assign imgType = "C1" %}
+    {% endif %}
   {% endif %}
+
   {% if post.image_css %}
     <div class="img_div {{ post.image_css }}" id="E{{ post.entry_number }}_{{ imgType }}"> 
       <!-- id="entry_{{ post.entry_number }}_img" -->
@@ -42,10 +47,10 @@
       {% assign imgType2 = "D2" %}
     {% elsif post.file_2 contains "after" %}
       {% assign imgType2 = "A2" %}
-    {% elsif post.file_2 contains "content" %}
+    {% else %}
       {% assign imgType2 = "C2" %}
     {% endif %}
-    <img src="{{ post.file_2 }}" {{ post.custom_css }} id="E{{post.entry_number}}_{{ imgType2 }}">
+    <img src="{{ post.file_2 }}" {{ post.custom_css }} id="E{{ post.entry_number }}_{{ imgType2 }}">
     <!-- id="entry_sb_{{ post.entry_number }}_img2" -->
   {% endif %}
 
@@ -58,10 +63,10 @@
       {% assign imgType3 = "D3" %}
     {% elsif post.file_3 contains "after" %}
       {% assign imgType3 = "A3" %}
-    {% elsif post.file_3 contains "content" %}
+    {% else %}
       {% assign imgType3 = "C3" %}
     {% endif %}
-    <img src="{{ post.file_3 }}" id="E{{post.entry_number}}_{{ imgType3 }}">
+    <img src="{{ post.file_3 }}" id="E{{ post.entry_number }}_{{ imgType3 }}">
     <!-- id="entry_sb_{{ post.entry_number }}_img3" -->
   {% endif %}
 
@@ -74,10 +79,10 @@
     {% assign imgType4 = "D4" %}
   {% elsif post.file_4 contains "after" %}
     {% assign imgType4 = "A4" %}
-  {% elsif post.file_4 contains "content" %}
+  {% else %}
     {% assign imgType4 = "C4" %}
   {% endif %}
-    <img src="{{ post.file_4 }}" id="E{{post.entry_number}}_{{ imgType4 }}">
+    <img src="{{ post.file_4 }}" id="E{{ post.entry_number }}_{{ imgType4 }}">
     <!-- id="entry_{{ post.entry_number }}_img4" -->
   {% endif %}
 
@@ -90,10 +95,10 @@
       {% assign imgType5 = "D5" %}
     {% elsif post.file_5 contains "after" %}
       {% assign imgType5 = "A5" %}
-    {% elsif post.file_5 contains "content" %}
+    {% else %}
       {% assign imgType5 = "C5" %}
     {% endif %}
-    <img src="{{ post.file_5 }}" id="E{{post.entry_number}}_{{ imgType5 }}">
+    <img src="{{ post.file_5 }}" id="E{{ post.entry_number }}_{{ imgType5 }}">
     <!-- id="entry_{{ post.entry_number }}_img5" -->
   {% endif %}
 
@@ -106,10 +111,10 @@
       {% assign imgType6 = "D6" %}
     {% elsif post.file_6 contains "after" %}
       {% assign imgType6 = "A6" %}
-    {% elsif post.file_6 contains "content" %}
+    {% else %}
       {% assign imgType6 = "C6" %}
     {% endif %}
-    <img src="{{ post.file_6 }}" id="E{{post.entry_number}}_{{ imgType6 }}">
+    <img src="{{ post.file_6 }}" id="E{{ post.entry_number }}_{{ imgType6 }}">
   {% endif %}
 
   {% if post.file_7 %}
@@ -121,10 +126,10 @@
       {% assign imgType7 = "D7" %}
     {% elsif post.file_7 contains "after" %}
       {% assign imgType7 = "A7" %}
-    {% elsif post.file_7 contains "content" %}
+    {% else %}
       {% assign imgType7 = "C7" %}
     {% endif %}
-    <img src="{{ post.file_7 }}" id="E{{post.entry_number}}_{{ imgType7 }}">
+    <img src="{{ post.file_7 }}" id="E{{ post.entry_number }}_{{ imgType7 }}">
   {% endif %}
 
   {% if post.file_8 %}
@@ -136,10 +141,10 @@
       {% assign imgType8 = "D8" %}
     {% elsif post.file_8 contains "after" %}
       {% assign imgType8 = "A8" %}
-    {% elsif post.file_8 contains "content" %}
+    {% else %}
       {% assign imgType8 = "C8" %}
     {% endif %}
-    <img src="{{ post.file_8 }}" id="E{{post.entry_number}}_{{ imgType8 }}">
+    <img src="{{ post.file_8 }}" id="E{{ post.entry_number }}_{{ imgType8 }}">
   {% endif %}
 
   {% if post.file_9 %}
@@ -151,7 +156,7 @@
       {% assign imgType9 = "D9" %}
     {% elsif post.file_9 contains "after" %}
       {% assign imgType9 = "A9" %}
-    {% elsif post.file_9 contains "content" %}
+    {% else %}
       {% assign imgType9 = "C9" %}
     {% endif %}
     <img src="{{ post.file_9 }}" id="E{{post.entry_number}}_{{ imgType9 }}">
@@ -166,7 +171,7 @@
       {% assign imgType10 = "D10" %}
     {% elsif post.file_10 contains "after" %}
       {% assign imgType10 = "A10" %}
-    {% elsif post.file_10 contains "content" %}
+    {% else %}
       {% assign imgType10 = "C10" %}
     {% endif %}
     <img src="{{ post.file_10 }}" id="E{{post.entry_number}}_{{ imgType10 }}">
