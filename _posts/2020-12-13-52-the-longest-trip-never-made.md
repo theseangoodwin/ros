@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 52. The Longest Trip Never Made
+title: The Longest Trip Never Made
 entry_number: 52
 location: London, England
 date: 2020-12-13T16:53:50.087Z
