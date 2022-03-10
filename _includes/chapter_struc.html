@@ -15,13 +15,13 @@
                     {% include post_text-detail.html %}
                 {% elsif post.custom_css contains 'Glyph' %}
                     {% include post_glyph.html %}
+                {% elsif post.component_type == 'lyrics' %}
+                    {% include post_lyrics.html %}
                 {% else %}
                     <div class="e_subblock entry_div" id="entry_sb_{{ post.entry_number }}">
                         {% include entry_media.html %}
-                        <h2 class="e_title">{{ post.title }}</h2> 
-                        {% unless post.component_type == "lyrics" %}
-                            {% include entry_metadata.html %}
-                        {% endunless %}
+                        <h2 class="e_title">{{ post.title }}</h2>
+                        {% include entry_metadata.html %}
                         <div class="content_div">{{ post.content }}</div>
                     </div>
                 {% endif %}
