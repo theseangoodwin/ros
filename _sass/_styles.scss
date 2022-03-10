@@ -508,8 +508,14 @@ a {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    text-align: center;
+
+    h2 {
+      margin: 20px 0 10px;
+    }
+    
     .content_div {
-      text-align: center;
+      // text-align: center;
       max-height: 100vh;
       overflow: scroll;
       -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);

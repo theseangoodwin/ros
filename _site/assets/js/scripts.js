@@ -65,7 +65,7 @@ function addClass() {
 const findPostLinks = () => {
   // Finds all entry images
   const entryImages = document.querySelectorAll('[id^=E]');
-  const contentImages = document.querySelectorAll('[id*=C]');
+  const contentImages = document.querySelectorAll('[id*=C],[id*=D]');
 
   const filteredImgs = [...entryImages].filter(img => ![...contentImages].includes(img));
 
