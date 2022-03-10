@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 57. Become Love (cesspool)
+title: Become Love (cesspool)
 entry_number: 57
 location: Centre-Val de Loire
 date: 2020-12-13T16:57:27.969Z
