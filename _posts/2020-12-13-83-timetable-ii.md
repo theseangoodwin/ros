@@ -6,6 +6,7 @@ location: Fes, Morocco
 date: 2020-12-13T17:41:26.060Z
 length_layout: Medium
 component_type: s_1
+custom_bg: white
 ---
 8:18 Fes
 9:20 Imouzzer Kandar for breakfast
