@@ -34,7 +34,7 @@
 #entry_1 {
   column-count: 1;
   background-color: $color-pampas;
-  background-image: url('/assets/svg/entry_1_scribble.svg');
+  // background-image: url('/assets/svg/entry_1_scribble.svg');
   background-repeat: no-repeat;
   background-size: 362px;
   background-position: 64% 4%;
@@ -125,15 +125,15 @@
   min-width: 243em;
   max-width: 243em;
   padding-right: 0px;
-  .entry_div {
-    @include ImgAfter_Grid2;
-  }
+  // .entry_div {
+  //   @include ImgAfter_Grid2;
+  // }
   .img_div {
     grid-column: 5 / 5;
     margin-left: 50px;
   }
   .content_div {
-    grid-column: 1 / 5;
+    // grid-column: 1 / 5;
     column-count: 4;
     blockquote {
       margin: 0;
@@ -169,29 +169,29 @@
 }
 
 #entry_4 {
-  position: relative;
-  padding: 0px;
-  margin-left: -200px;
-  margin-top: 9.375em;
-  max-height: 48em;
-  min-width: 42em;
-  max-width: 50em;
+  // position: relative;
+  // padding: 0px;
+  // margin-left: -200px;
+  // margin-top: 9.375em;
+  // max-height: 48em;
+  // min-width: 42em;
+  // max-width: 50em;
 
-  .interaction-box {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-  }
+  // .interaction-box {
+  //   position: absolute;
+  //   top: 5px;
+  //   left: 5px;
+  // }
 
-  .entry_div {
-    background: none;
-  }
+  // .entry_div {
+  //   background: none;
+  // }
 }
 
 #entry_5 {
-  background-color: $color-pampas;
+  // background-color: $color-pampas;
   padding-left: 0px;
-  margin-left: -466px;
+  // margin-left: -466px;
   .e_subblock {
     margin: 0px;
   }
@@ -234,7 +234,7 @@
 }
 
 #entry_13 {
-	@include imgBackground('/assets/uploads/2_13_back.jpg');
+	// @include imgBackground('/assets/uploads/2_13_back.jpg');
 }
 
 #entry_20 {

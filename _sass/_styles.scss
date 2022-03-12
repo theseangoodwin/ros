@@ -458,10 +458,9 @@ a {
 .l {
   // body only
   &_1 {
-    // .entry_div {
-    //   padding: 64px 50px;
-    // }
-    background-color: $color-kangaroo;
+    .entry_div {
+      padding: 64px 50px;
+    }
   }
 
   // body + img after
