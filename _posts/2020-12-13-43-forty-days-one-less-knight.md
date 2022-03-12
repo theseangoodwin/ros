@@ -6,6 +6,7 @@ location: My Apartment
 date: 2020-12-13T16:46:40.861Z
 length_layout: Medium
 component_type: m_1
+custom_bg: greenSmoke
 file: /assets/uploads/4_43_quote1.png
 file_2: /assets/uploads/4_43.png
 file_3: /assets/uploads/4_43_detail.png
