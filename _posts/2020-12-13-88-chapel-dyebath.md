@@ -4,7 +4,7 @@ title: Chapel (Dyebath)
 entry_number: 88
 location: Taouz, Morocco
 date: 2020-12-13T17:43:42.686Z
-length_layout: Small
+length_layout: null
 component_type: lyrics
 ---
 death, pattern, fault
