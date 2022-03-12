@@ -6,6 +6,7 @@ location: Bus to Luminy
 date: 2020-12-13T17:38:48.808Z
 length_layout: Small
 component_type: s_1
+custom_bg: greenWhite
 file: /assets/uploads/6_79_detail.png
 ---
 We don’t have to know how to do it all, there are others who can help us. I’ve learned to be more patient with myself since new skills come with time, and with people.
