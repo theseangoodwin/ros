@@ -6,6 +6,8 @@ location: Washington, D.C.
 date: 2020-12-13T17:47:18.092Z
 length_layout: X-Large
 component_type: xl_1
+custom_css:
+  - ExtraLong
 custom_bg: pampas
 ---
 Over the course of the past year, I’ve read through this book quite a few times. I’ve thought about the moments these words capture. I think about the wine, the small apartment, the dim desk lamp I wrote beneath, and about the wine some more. I think about the journals, the tickets, the maps I burned through, and then about where I began. I am there again but this time it looks different, and it feels different, and it will never be the same now that I know what it’s like to live another way.
