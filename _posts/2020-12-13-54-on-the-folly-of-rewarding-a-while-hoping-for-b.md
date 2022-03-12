@@ -6,6 +6,7 @@ location: London, England
 date: 2020-12-13T16:55:27.514Z
 length_layout: Medium
 component_type: m_1
+custom_bg: holly
 file: /assets/uploads/4_54.jpg
 ---
 London has gone dry despite the weather and I shrink. I hoped that this trip would be a source of inspiration, but I find none here. The throngs of people and drinks create semi-reflective conversations, but they are shallow and quickly drain. I can hardly keep my thoughts.
