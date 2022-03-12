@@ -8,7 +8,7 @@ length_layout: Medium
 component_type: m_1
 custom_bg: greenSmoke
 file: /assets/uploads/4_43_quote1.png
-file_2: /assets/uploads/4_43.png
+file_2: /assets/uploads/4_43_quote2.png
 file_3: /assets/uploads/4_43_detail.png
 ---
 Tyler Durdon called it when he looked to camera in Fight Club and said, “You’re not your fuckin’ khakis.” Gone are the days of the monolith and blind consumerism. In order to make it now, brands need clarity to navigate new complexity in the world as well as creativity to be the change customers want to see in it.\
