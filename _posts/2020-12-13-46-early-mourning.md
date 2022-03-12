@@ -6,6 +6,7 @@ location: Languedoc
 date: 2020-12-13T16:49:32.565Z
 length_layout: Large
 component_type: l_1
+custom_bg: mutedPink
 file: /assets/uploads/4_46_inline.jpg
 file_2: /assets/uploads/4_46_quote1.jpg
 file_3: /assets/uploads/4_46.jpg
