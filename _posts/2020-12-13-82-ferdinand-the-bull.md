@@ -6,6 +6,7 @@ location: Madrid, Spain
 date: 2020-12-13T17:40:36.671Z
 length_layout: Large
 component_type: l_2
+custom_bg: gray
 ---
 “Once upon a time in Spain there lived a bull and his name was Ferdinand. All of the other little bulls in the pasture loved to run around and butt their heads together, but not Ferdinand. Ferdinand preferred to just sit quietly and smell the flowers. He had a favorite spot in the shade under a cork tree in the pasture. He would sit there all day long and sit just quietly and smell the flowers. 
 His mother, who was a cow, asked him if he wanted to play and butt heads like the other little bulls but Ferdinand said no, he preferred to just sit quietly and smell the flowers. His mother, who was very understanding, decided to just let him be happy there under the cork tree.
