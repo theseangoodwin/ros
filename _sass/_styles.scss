@@ -120,6 +120,14 @@ body {
   &.kangaroo { background-color: $color-kangaroo; }
 
   &.eagle { background-color: $color-eagle; }
+
+  &.white {
+    background-color: $color-white;
+  }
+
+  &.gray {
+    background-color: $color-gray;
+  }
 }
 
 .e_subblock {
@@ -130,7 +138,6 @@ body {
   a:hover {
     background-color: $color-chartreuse;
     transition: all 0.5s linear;
-    //     content: url({{ post.file }})
   }
 }
 
@@ -287,16 +294,16 @@ a {
 
 .Large {
   // background-color: blue;
-  max-width: $large-entry;
-  min-width: $large-entry; // from Figma entry design
-  .entry_div {
-    margin-left: 25px;
-  }
-  .content_div {
-    column-count: 3;
-    column-gap: 25px;
-    column-fill: auto;
-  }
+  //max-width: $large-entry;
+  // min-width: $large-entry; // from Figma entry design
+  // .entry_div {
+    // margin-left: 25px;
+  // }
+  // .content_div {
+  //   column-count: 3;
+  //   column-gap: 25px;
+  //   column-fill: auto;
+  // }
 }
 
 .X-Large {
@@ -457,17 +464,30 @@ a {
 
 .l {
   // body only
-  &_1 {
+  max-width: $large-entry;
+  min-width: $large-entry;
+
+  .content_div {
+    column-count: 2;
+    column-gap: 25px;
+    column-fill: auto;
+  }
+
     .entry_div {
-      padding: 64px 50px;
+    margin-left: 25px;
+    border-left: 1px solid $color-black;
+  }
+
+  &_1 {
+    .content_div {
+      column-count: 2;
+      column-gap: 25px;
+      column-fill: auto;
     }
   }
 
   // body + img after
   &_2 {
-    max-width: $large-entry;
-    min-width: $large-entry;
-
     .entry_div {
       position: absolute;
       bottom: 0;
@@ -476,11 +496,18 @@ a {
       background-color: #f2f0f2;
       overflow: scroll;
       padding: 30px;
+      column-count: 1;
+      column-gap: 25px;
+      column-fill: auto;
     }
   }
 
   &_1,&_2 {
+    max-width: $large-entry;
+    min-width: $large-entry;
+
     .entry_div {
+      margin-left: 25px;
       border-left: 1px solid $color-black;
     }
   }
