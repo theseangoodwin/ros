@@ -5,6 +5,7 @@ entry_number: 36
 location: Provence-Alpes-Côte d'Azur
 date: 2020-12-13T16:41:53.685Z
 component_type: m_2
+custom_bg: gray
 image_css:
   - draggable
 file: /assets/uploads/3_36_draggable.jpg
