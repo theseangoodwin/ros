@@ -6,7 +6,7 @@ location: Rome, Italy
 date: 2020-12-13T17:32:24.543Z
 length_layout: X-Large
 component_type: xl_1
-custom_bg: holly
+custom_bg: black
 file: /assets/uploads/th_5_73_1.jpg
 file_2: /assets/uploads/th_5_73_2.jpg
 file_3: /assets/uploads/th_5_73_3.jpg
