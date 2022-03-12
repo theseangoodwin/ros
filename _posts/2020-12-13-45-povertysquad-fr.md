@@ -1,11 +1,12 @@
 ---
 layout: post
-title: 45. PovertySquad.fr (Needs XL Comp type)
+title: 45. PovertySquad.fr
 entry_number: 45
 location: Marseille City Center
 date: 2020-12-13T16:47:51.941Z
 length_layout: X-Large
-component_type: l_2
+component_type: xl_1
+custom_bg: kangaroo
 file: ""
 file_2: ""
 file_3: ""
