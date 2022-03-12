@@ -463,26 +463,20 @@ a {
 }
 
 .l {
-  // body only
-  max-width: $large-entry;
-  min-width: $large-entry;
-
-  .content_div {
-    column-count: 2;
-    column-gap: 25px;
-    column-fill: auto;
-  }
-
-    .entry_div {
-    margin-left: 25px;
-    border-left: 1px solid $color-black;
-  }
 
   &_1 {
     .content_div {
-      column-count: 2;
+      column-count: 3;
       column-gap: 25px;
       column-fill: auto;
+    }
+
+    &.ImgAfter {
+      .content_div {
+        column-count: 2;
+        column-gap: 25px;
+        column-fill: auto;
+      }
     }
   }
 
@@ -516,12 +510,15 @@ a {
 .xl {
   // body only | extra long opt.
   &_1 {
-    background-color: $color-green-smoke;
-  }
-
-  // body + img after
-  &_a {
-    background-color: $color-green-smoke;
+    
+    // body + img after
+    &.ImgAfter {
+      .content_div {
+        column-count: 3;
+        column-gap: 25px;
+        column-fill: auto;
+      }
+    }
   }
 }
 
