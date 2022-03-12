@@ -5,10 +5,10 @@ entry_number: 13
 location: Notre Dame De Marseille
 date: 2015-01-17T15:57:10.127Z
 length_layout: Large
-component_type: m_1
+component_type: l_1
 custom_css:
   - ImgAfter
-custom_bg: pampas
+custom_bg: greenWhite
 file: /assets/uploads/2_13_back.jpg
 ---
 I give and I take. I am not selfish. I am certainly not selfless. In the end, however, we are all some combination of both. Our presence in a space is a contribution to it as a whole.
