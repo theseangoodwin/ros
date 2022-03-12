@@ -6,6 +6,7 @@ location: Brussels, Belgium
 date: 2020-12-13T17:08:35.098Z
 length_layout: X-Small
 component_type: xs_2-3
+custom_bg: holly
 file: /assets/uploads/th_5_64.jpg
 file_2: /assets/uploads/th_5_64_2.jpg
 ---
