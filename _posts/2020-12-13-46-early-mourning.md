@@ -9,7 +9,7 @@ component_type: l_1
 custom_bg: mutedPink
 file: /assets/uploads/4_46_inline.jpg
 file_2: /assets/uploads/4_46_quote1.jpg
-file_3: /assets/uploads/4_46.jpg
+file_3: /assets/uploads/4_46_content.png
 ---
 I’m conflicted. I often don’t like myself as a person and today happens to be one of those mornings when I wish there was much more room between me and myself. \
 
