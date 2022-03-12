@@ -6,6 +6,7 @@ location: Montpellier
 date: 2020-12-13T16:50:14.398Z
 length_layout: Medium
 component_type: m_1
+custom_bg: pampas
 file: /assets/uploads/4_47_quote1.jpg
 ---
 Here’s to the future. I promise myself that I will return someday. Montpellier is a small city that has both preserved its history and radically adopted new technology. The tramline peeks in and out of concrete plazas and the mirrored glass facades of 21st century buildings extenuate and reanimate the past life of stone buildings. For now, I celebrate alone. This is a toast dedicated to the days spent for myself. I try to ignore my throbbing hip and cool my scratchy throat by drinking from a seltzer water bottle refilled with still water. I’ve claimed a bench overlooking the artificially green Lez River below. My rented bike is on the kickstand behind me and I unwrap an icy blue cough drop from its aluminum tray. Funnily enough, these have been a few moments which I’ve enjoyed most.
