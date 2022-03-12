@@ -64,10 +64,24 @@ function addClass() {
 
 const findPostLinks = () => {
   // Finds all entry images
-  const entryImages = document.querySelectorAll('[id*=E]');
+  const entryImages = document.querySelectorAll('[id^=E]');
+  const contentImages = document.querySelectorAll('[id*=C],[id*=D]');
+
+  const filteredImgs = [...entryImages].filter(img => ![...contentImages].includes(img));
+
+  console.group('Entry Images and Content Images');
+  console.log('Entry Images');
   console.log(entryImages); // logs nodelist
-  entryImages.forEach(entry => {
-    if(entry.tagName != 'A') {
+  console.log('Content Images');
+  console.log(contentImages);
+  console.log('Filtered Images');
+  console.log(filteredImgs);
+  console.groupEnd()
+
+
+
+  filteredImgs.forEach(entry => {
+    if(entry.tagName != 'A' ) {
       // for all non-a tag images/hide them
       entry.classList.add("img_hidden");
     }
