@@ -6,6 +6,8 @@ location: Marseille, France
 date: 2020-12-13T17:45:37.947Z
 length_layout: Medium
 component_type: m_1
+custom_css:
+  - ImgAfter
 custom_bg: greenWhite
 ---
 Fluorescent lights reflect off plastic cups and spilled liquor. Blue-green glass bottles line the tables. The sea foam walls are stained and the kitchen sinks don’t drain. Pasta is glued to the sides of the pot and stuck to the backsplash.
