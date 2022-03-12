@@ -4,7 +4,7 @@ title: Become Love (cesspool)
 entry_number: 57
 location: Centre-Val de Loire
 date: 2020-12-13T16:57:27.969Z
-length_layout: Small
+length_layout: null
 component_type: lyrics
 ---
 I know I am so hollow 
