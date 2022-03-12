@@ -74,6 +74,7 @@ body {
   align-items: center;
 
   img {
+    object-fit: cover;
     width: 100%;
   }
 
@@ -328,9 +329,9 @@ a {
 
   &_2 {
     // body + photo
-    // &-1 {
-    //   background-color: $color-pampas;
-    // }
+    &-1 {
+      
+    }
 
     // large text quote
     &-2 {
@@ -352,13 +353,13 @@ a {
         padding: 50px 50px 25px 50px;
         border-radius: 50% 50% 0 0;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         flex-direction: column;
 
         .content_div {
           min-width: 700px;
           max-width: 700px;
-          padding: 40px 55px;
+          //padding: 40px 55px;
         }
       }
     }
