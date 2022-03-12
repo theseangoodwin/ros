@@ -6,6 +6,7 @@ location: Nord-Pas-de-Calais
 date: 2020-12-13T16:56:45.624Z
 length_layout: Small
 component_type: s_3
+custom_bg: pampas
 file: /assets/uploads/th_5_56_quote1.jpg
 file_2: /assets/uploads/th_5_56_quote2.jpg
 file_3: /assets/uploads/th_5_56_quote3.jpg
