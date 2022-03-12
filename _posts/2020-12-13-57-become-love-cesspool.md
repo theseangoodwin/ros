@@ -6,6 +6,7 @@ location: Centre-Val de Loire
 date: 2020-12-13T16:57:27.969Z
 length_layout: null
 component_type: lyrics
+custom_bg: gunMetal
 ---
 I know I am so hollow 
 just an empty cave 
