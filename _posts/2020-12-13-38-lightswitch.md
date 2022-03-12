@@ -8,8 +8,8 @@ length_layout: Small
 component_type: s_3
 custom_css:
   - ImgAfter
-interaction:
-  - draggable
+custom_bg: gray
+interaction: null
 file: /assets/uploads/3_38_inline1.jpg
 file_2: /assets/uploads/3_38_after.jpg
 ---
