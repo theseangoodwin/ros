@@ -6,6 +6,7 @@ location: Vatican City
 date: 2020-12-13T17:34:31.449Z
 length_layout: X-Large
 component_type: l_1
+custom_bg: flaxSmoke
 file: /assets/uploads/th_5_75_1.jpg
 file_2: /assets/uploads/th_5_75_2.jpg
 file_3: /assets/uploads/th_5_75_3.jpg
