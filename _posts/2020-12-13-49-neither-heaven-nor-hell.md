@@ -6,6 +6,7 @@ location: St. Patrick's Cathedral, London England
 date: 2020-12-13T16:51:36.237Z
 length_layout: Small
 component_type: s_1
+custom_bg: dustStorm
 file: /assets/uploads/4_49.jpg
 ---
 If I had it my way, the selfishness my eyes seek would take me away while my soul tells me to turn back. Back and forth, between the two ends and always in the middle. Here in this gradient plane, I believe I am alone. I can’t bring myself to commit to either side at any point soon. A bankrupt soul for a happy heart? Can’t the two coexist? Isn’t it possible for black and white to create balance, repetition, movement, scale, and beauty? My insides aren’t any different than others’. At least they shouldn’t be.
