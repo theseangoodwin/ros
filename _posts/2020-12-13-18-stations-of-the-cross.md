@@ -6,6 +6,8 @@ location: Notre Dame De Marseille
 date: 2020-12-13T16:11:47.520Z
 length_layout: X-Large
 component_type: xl_1
+custom_css:
+  - ExtraLong
 custom_bg: pampas
 file: /assets/uploads/2_18_detail.png
 file_2: /assets/uploads/2_18_quote1.jpg
