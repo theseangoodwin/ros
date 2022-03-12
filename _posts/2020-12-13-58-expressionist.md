@@ -6,6 +6,7 @@ location: La Rochelle
 date: 2020-12-13T16:58:32.266Z
 length_layout: X-Large
 component_type: xl_1
+custom_bg: greenSmoke
 file: /assets/uploads/th_5_58_detailalt.jpg
 ---
 “Great. I have some questions below so you can have some food for thought. I’ll follow up in March and see if that would be a good time for you to provide responses or if you’d like to wait a bit. Also, if you have a headshot and/or any pictures of the university and your study abroad experience, we would love to include those as well. Thank you very much for your help with this. I’ll be sure to let you know when the article is published.
