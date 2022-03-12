@@ -92,7 +92,7 @@ body {
 
   &.dustStorm { background-color: $color-dust-storm; }
 
-  &.mutedPink { background-color: $color-sepia; }
+  &.mutedPink { background-color: $color-muted-pink; }
 
   &.heavyMetal {
     not &.xs_2-2 {
@@ -116,6 +116,8 @@ body {
     } 
     background-color: $color-gun-metal;
   }
+
+  &.sepia { background-color: $color-sepia; }
 
   &.kangaroo { background-color: $color-kangaroo; }
 
