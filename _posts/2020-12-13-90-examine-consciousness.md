@@ -6,6 +6,7 @@ location: Sahara Desert
 date: 2020-12-13T17:44:47.533Z
 length_layout: X-Small
 component_type: quote_3
+custom_bg: holly
 ---
 “An unexamined life is not worth living.” 
 	
