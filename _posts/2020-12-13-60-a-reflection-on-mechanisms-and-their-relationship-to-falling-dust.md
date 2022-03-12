@@ -6,6 +6,7 @@ location: Nimes, France
 date: 2020-12-13T17:05:34.836Z
 length_layout: Medium
 component_type: m_1
+custom_bg: kangaroo
 file: /assets/uploads/th_5_60_quote1.jpg
 ---
 Metallic buzz, cold reverb, still air, and nothingness. There’s blank space between my eyes and the shivering stones of this Gothic church. I sit and stare blankly, noticing the momentary speckles of falling dust. They glisten. I’m at peace until a strange man steps into the sanctuary. He’s dressed in all black but is not a priest. He looks tiny because the ceiling hangs and looms ominously above his dusty brown head. His soft-heeled shoes make more sound than they should in this quiet place. It’s early evening. The tranquil specks drift through the stained light that gleams in the fading sun. Heel, toe, heel, toe, with purpose and pattern, his steps break the air. My neck turns so my eyes can follow him. He reaches the center of the marble altar, clicks his ankles together, and bends at the waist in a way that makes me think that he cracked his spine in a few places. He straightens his back, puts his hands down to his side, and continues on his way. He steps diagonally up onto the altar and then to the lectern. 
