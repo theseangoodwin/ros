@@ -8,6 +8,7 @@ length_layout: X-Large
 component_type: xl_1
 custom_css:
   - ImgAfter
+custom_bg: greenSmoke
 image_css:
   - draggable
 file: /assets/uploads/2_3_after.jpg
