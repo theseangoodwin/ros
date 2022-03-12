@@ -6,6 +6,7 @@ location: London, England
 date: 2020-12-13T16:53:50.087Z
 length_layout: Small
 component_type: lyrics
+custom_bg: flaxSmoke
 ---
 I know we won’t survive 
 I swear we won’t make it out alive
