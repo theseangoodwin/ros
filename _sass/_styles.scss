@@ -310,14 +310,14 @@ a {
 }
 
 .X-Large {
-  background-color: $color-green-smoke;
-  max-width: $xlarge-entry;
-  min-width: $xlarge-entry;
-  .content_div {
-    column-count: 4;
-    column-gap: 25px;
-    column-fill: auto;
-  }
+  // background-color: $color-green-smoke;
+  // max-width: $xlarge-entry;
+  // min-width: $xlarge-entry;
+  // .content_div {
+  //   column-count: 4;
+  //   column-gap: 25px;
+  //   column-fill: auto;
+  // }
 }
 
 /* COMMON COMPONENT STYLING */
@@ -413,7 +413,9 @@ a {
 .m {
   // body + photo after
   &_1 {
-    background-color: $color-flax-smoke;
+    &.ImgAfter {
+
+    }
 
     .entry_div {
       border-left: 1px solid $color-black;
@@ -493,9 +495,9 @@ a {
       background-color: #f2f0f2;
       overflow: scroll;
       padding: 30px;
-      column-count: 1;
-      column-gap: 25px;
-      column-fill: auto;
+      // column-count: 1;
+      // column-gap: 25px;
+      // column-fill: auto;
     }
   }
 
@@ -513,11 +515,29 @@ a {
 .xl {
   // body only | extra long opt.
   &_1 {
+    max-width: $xlarge-entry;
+    min-width: $xlarge-entry;
     
+    .content_div {
+      column-count: 4;
+      column-gap: 25px;
+      column-fill: auto;
+    }
     // body + img after
     &.ImgAfter {
       .content_div {
         column-count: 3;
+        column-gap: 25px;
+        column-fill: auto;
+      }
+    }
+
+    &.ExtraLong {
+      min-width: $xlargelong-entry;
+      max-width: $xlargelong-entry;
+      
+      .content_div {
+        column-count: 7;
         column-gap: 25px;
         column-fill: auto;
       }
@@ -528,6 +548,8 @@ a {
 .lyrics {
   @include lightFont();
   background: $color-heavy-metal;
+  min-width: $xsmall-entry;
+  max-width: $xsmall-entry;
   .entry_div {
     height: 100%;
     width: 100%;

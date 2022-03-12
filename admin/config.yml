@@ -22,7 +22,7 @@ collections:
        - { label: 'Publish Date', name: 'date', widget: 'datetime', required: false }
        - { label: 'Entry length', name: 'length_layout', widget: 'select', required: false, options: ['X-Small', 'Small', 'Medium', 'Large', 'X-Large' ]}
        - { label: 'Component Type', name: 'component_type', widget: 'select', required: true, options: ['xs_1', 'xs_2-1', 'xs_2-2', 'xs_2-3', 'xs_3', 's_1', 's_2', 's_3', 's_4', 's_5', 'm_1', 'm_2', 'm_3', 'l_1', 'l_2', 'xl_1', 'xl_a', 'quote_1', 'quote_2', 'quote_3', 'quote_4', 'lyrics', 'p_1', 'p_2', 'p_3'] }
-       - { label: 'Custom CSS', name: 'custom_css', widget: 'select', multiple: true, required: false, options: ['Reflect', 'BigSpace', 'BigTime', 'AlignEntryCenter', 'ImgAfter', 'Rotate180', 'Scatter', 'TextWithDetail']}
+       - { label: 'Custom CSS', name: 'custom_css', widget: 'select', multiple: true, required: false, options: ['Reflect', 'BigSpace', 'BigTime', 'AlignEntryCenter', 'ImgAfter', 'ExtraLong', 'Rotate180', 'Scatter', 'TextWithDetail']}
        - { label: 'Custom Background Color', name: 'custom_bg', widget: 'select', required: false, options: ['gladeGreen','pampas','greenWhite','flaxSmoke','whiteRock','dustStorm','mutedPink','sepia','heavyMetal','holly','gunMetal','kangaroo','eagle', 'white', 'gray', 'black']}
        - { label: 'Interaction', name: 'interaction', widget: 'select', multiple: true, required: false, options: ['draggable']}
        - { label: 'Image CSS', name: 'image_css', widget: 'select', multiple: true, required: false, options: ['draggable']}
