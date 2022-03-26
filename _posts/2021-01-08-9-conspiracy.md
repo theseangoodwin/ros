@@ -8,7 +8,6 @@ length_layout: X-Small
 component_type: quote_4
 custom_css:
   - Quote
-  - Q4
 custom_bg: gray
 ---
 “When you want something, all the universe <span class="blackletter">conspires</span> in helping you to achieve it.” 
