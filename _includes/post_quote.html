@@ -1,0 +1,33 @@
+{% if post.custom_css contains 'Q1' %}
+    {% assign custom_class = 'quote_1' %}
+{% elsif post.custom_css contains 'Q2' %}
+    {% assign custom_class = 'quote_2' %}
+{% elsif post.custom_css contains 'Q3' %}
+    {% assign custom_class = 'quote_3' %}
+{% elsif post.custom_css contains 'Q4' %}
+    {% assign custom_class = 'quote_4' %}
+{% endif %}
+
+<div class="e_subblock entry_div {{ custom_class }}" id="entry_sb_{{ post.entry_number }}">
+    {% if post.custom_css contains 'Q1' or post.custom_css contains 'Q3' %}
+        {% include entry_media.html %}
+        <div class="e_header">
+            <h2 class="e_title">{{ post.title }}</h2>
+            {% include entry_metadata.html %}
+        </div>
+        <div class="content_div">{{ post.content }}</div>
+    {% elsif post.custom_css contains 'Q2' %}
+        <!-- Content Column -->
+        <div>
+            <div class="e_header">
+                <h2 class="e_title">{{ post.title }}</h2>
+                {% include entry_metadata.html %}
+            </div>
+            <div class="content_div">{{ post.content }}</div>
+        </div>
+        <!-- Image Column -->
+        <div>{% include entry_media.html %}</div>
+    {% elsif post.custom_css contains 'Q4' %}
+        <!-- Custom page pull up quote style -->
+    {% endif %}
+</div>

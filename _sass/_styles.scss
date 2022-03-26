@@ -479,6 +479,9 @@ a {
 .l {
 
   &_1 {
+    max-width: $large-entry;
+    min-width: $large-entry;
+
     .content_div {
       column-count: 3;
       column-gap: 25px;
@@ -486,6 +489,9 @@ a {
     }
 
     &.ImgAfter {
+      max-width: $large-entry-after;
+      min-width: $large-entry-after;
+
       .content_div {
         column-count: 2;
         column-gap: 25px;
@@ -494,7 +500,7 @@ a {
     }
   }
 
-  // body + img after
+  // body + background image
   &_2 {
     .entry_div {
       position: absolute;
@@ -511,9 +517,6 @@ a {
   }
 
   &_1,&_2 {
-    max-width: $large-entry;
-    min-width: $large-entry;
-
     .entry_div {
       margin-left: 25px;
       border-left: 1px solid $color-black;

@@ -11,8 +11,8 @@
                 <div class="interaction-box"></div>
                 {% if post.custom_css contains 'ImgAfter' %}
                     {% include post_photo-after.html %}
-                {% elsif post.custom_css contains 'TextWithDetail' or post.entry_number == 15 %}
-                    {% include post_text-detail.html %}
+                {% elsif post.custom_css contains 'Quote' %}
+                    {% include post_quote.html %}
                 {% elsif post.custom_css contains 'Glyph' %}
                     {% include post_glyph.html %}
                 {% elsif post.component_type == 'lyrics' %}
