@@ -502,6 +502,8 @@ a {
 
   // body + background image
   &_2 {
+    max-width: $large-entry;
+    min-width: $large-entry;
     .entry_div {
       position: absolute;
       bottom: 0;
