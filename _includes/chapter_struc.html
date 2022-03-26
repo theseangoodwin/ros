@@ -17,6 +17,8 @@
                     {% include post_glyph.html %}
                 {% elsif post.component_type == 'lyrics' %}
                     {% include post_lyrics.html %}
+                {% elsif post.component_type == 'm_3' %}
+                    {% include post_centered.html %}
                 {% else %}
                     <div class="e_subblock entry_div" id="entry_sb_{{ post.entry_number }}">
                         {% include entry_media.html %}

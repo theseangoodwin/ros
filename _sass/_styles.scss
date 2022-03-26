@@ -2,6 +2,9 @@
 * {
   box-sizing: border-box;
   cursor: url('/assets/svg/std_cursor.svg'), auto;
+  ::selection {
+    background: rgba(219, 255, 0, 0.5);
+  }
 }
 
 .interaction-box {
@@ -28,9 +31,9 @@
 
 // font mixins
 
-@mixin lightFont {
+@mixin lightFont($fontColor) {
   p, h1, h2, h3, h4, h5, a, span, blockquote {
-    color: $color-off-white;
+    color: $fontColor;
     font-family: serif;
   }
 
@@ -99,23 +102,23 @@ body {
 
   &.heavyMetal {
     not &.xs_2-2 {
-      @include lightFont();
+      @include lightFont($color-off-white);
     } 
     background-color: $color-heavy-metal; 
   }
 
   &.holly { 
     not &.xs_2-2 {
-      @include lightFont();
+      @include lightFont($color-off-white);
     } 
     // will need to add .pink or additional class conditional to change font to light pink when wanted
     background-color: $color-holly; 
-    @include lightFont();
+    @include lightFont($color-off-white);
   }
 
   &.gunMetal { 
     not &.xs_2-2 {
-      @include lightFont();
+      @include lightFont($color-off-white);
     } 
     background-color: $color-gun-metal;
   }
@@ -247,7 +250,7 @@ a {
 }
 
 .Small {
-  background-color: $color-white;
+  
   // .e_subblock {
   // margin-left: 25px;
   // }
@@ -332,7 +335,7 @@ a {
   &_2 {
     // body + photo
     &-1 {
-      
+      // TBD
     }
 
     // large text quote
@@ -369,7 +372,8 @@ a {
 
   // body + png
   &_3 {
-    background-color: $color-pampas;
+    min-width: $xsmall-entry;
+    max-width: $xsmall-entry;
   }
 
   .entry_div {
@@ -380,7 +384,8 @@ a {
 .s {
   // scrollable
   &_1 {
-    background-color: $color-steel;
+    min-width: $small-entry;
+    max-width: $small-entry;
   }
 
   // tap-to-rotate
@@ -435,37 +440,39 @@ a {
 
   // centered body + photo | scrollable body + png | recolor + frame
   &_3 {
-    background-color: $color-hunter-green;
+    align-items: flex-end;
 
-    &.framed {
-      background-color: $color-dust-storm;
-    }
-
-    .e_subblock.entry_div {
+    .centered-wrapper {
+      @include lightFont($color-off-white);
       text-align: center;
+      align-items: center;
       display: flex;
       flex-direction: column;
-      border-left: 1px solid $color-dust-storm;
+      border-left: 1px solid $color-hushed-pink;
+      padding: 30px 0;
 
-      .e_title {
-        order: 1;
-        color: $color-dust-storm;
+      &.framed {
+        background-color: $color-dust-storm;
       }
-      .e_metadata {
-        order: 2;
-        justify-content: center;
-        color: $color-dust-storm;
-      }
+
       .img_div {
-        order: 3;
-      }
-      .content_div {
-        order: 4;
-        p {
-          color: $color-dust-storm;
+        &[id*=C],&[id*=D] {
+          height: 275px;
+          width: 570px;
+          margin-top: 40px;
+          img {
+            height: 100%;
+          }
+        }
+        &[id*=D] img {
+          object-fit: fill;
         }
       }
-    }
+
+      .content_div {
+        padding: 0 40px;
+      }
+    }    
   }
 }
 
@@ -515,11 +522,12 @@ a {
 }
 
 .xl {
+  max-width: $xlarge-entry;
+  min-width: $xlarge-entry;
   // body only | extra long opt.
   &_1 {
     max-width: $xlarge-entry;
     min-width: $xlarge-entry;
-    
     .content_div {
       column-count: 4;
       column-gap: 25px;
@@ -548,7 +556,7 @@ a {
 }
 
 .lyrics {
-  @include lightFont();
+  @include lightFont($color-off-white);
   background: $color-heavy-metal;
   min-width: $xsmall-entry;
   max-width: $xsmall-entry;
