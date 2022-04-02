@@ -5,7 +5,7 @@ entry_number: 25
 location: Les Calanques
 date: 2020-12-13T16:28:16.910Z
 length_layout: X-Large
-component_type: xl_a
+component_type: xl_1
 custom_css:
   - ImgAfter
 custom_bg: flaxSmoke
