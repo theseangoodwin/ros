@@ -59,6 +59,7 @@ body {
 // https://redstapler.co/pure-css-horizontal-scrolling-website-tutorial/#:~:text=First%20we%20will%20create%20a,is%20in%20the%20right%20position.
 @mixin block_width {
   width: 60%;
+  // padding: 64px 50px;
 }
 
 .e_block {
@@ -420,13 +421,35 @@ a {
 .m {
   // body + photo after
   &_1 {
-    &.ImgAfter {
+    min-width: $large-entry;
+    max-width: $large-entry;
 
-    }
+    &.e_block {
+      padding: 0;
 
-    .entry_div {
-      border-left: 1px solid $color-black;
+      .e_subblock {
+        &.entry_div {
+          border-left: 1px solid $color-black;
+          margin: 64px 50px;
+          width: 60%;
+          .content_div {
+            column-count: 2;
+            column-gap: 25px;
+            column-fill: auto;
+          }
+        }
+        &--img-after {
+          height: 100%;
+          width: 40%;
+          img[id*=A] {
+            height: 100%;
+          }
+        }
+      }
     }
+    
+
+    
   }
 
   // body + time before
@@ -455,7 +478,7 @@ a {
         background-color: $color-dust-storm;
       }
 
-      .img_div {
+      img {
         &[id*=C],&[id*=D] {
           height: 275px;
           width: 570px;
@@ -590,15 +613,18 @@ a {
 .quote {
   // std. quote + detail png | sm., lg. quote + png overlay
   &_1 {
-    .e_subblock {
-      border-left: 1px solid $color-black;
+    &.e_block {
+      padding: 150px 120px;
+      .e_subblock {
+        border-left: 1px solid $color-black;
+      }
     }
   }
 
   // lg. quote + img after
   &_2 {
-    min-width: 70em;
-    max-width: 70em;
+    min-width: $large-entry;
+    max-width: $large-entry;
     
     .e_subblock {
       width: 100%;
@@ -606,25 +632,51 @@ a {
       display: flex;
       border-left: 1px solid $color-black;
       flex-direction: row;
-      .e_title {
-        color: $color-gun-metal;
-        font-size: 0.75em;
-        font-family: sans-serif;
-      }
-      .content_div {
-        p {
-          font-size: 4em;
-          line-height: 1em;
-          span.blackletter {
-            font-size: inherit;
-            line-height: inherit;
+      position: relative;
+      .content_column {
+        width: 50%;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .e_header {
+          display: flex;
+          flex-direction: row;
+          align-items: baseline;
+
+          .e_title {
+            margin-right: 20px;
+            text-transform: uppercase;
+          }
+
+          .e_title,
+          .e_metadata h4,
+          .e_metadata h5 {
+            color: $color-steel;
+            font-size: 0.75em;
+            font-family: sans-serif;
+          }
+      
+        }
+        .content_div {
+          p {
+            font-size: 4.75em;
+            line-height: 1em;
+            span.blackletter {
+              font-size: inherit;
+              line-height: inherit;
+            }
+          }
+          p:last-child {
+            color: $color-steel;
+            font-size: 0.75em;
+            font-family: sans-serif;
           }
         }
-        p:last-child {
-          color: $color-gun-metal;
-          font-size: 0.75em;
-          font-family: sans-serif;
-        }
+      }
+      .img_column {
+        width: 50%;
       }
     }
   }
@@ -645,7 +697,7 @@ a {
     border-left: 1px solid $color-black;
     padding-top: 20px;
 
-      .img_div {
+      img {
         position: absolute;
       }
 

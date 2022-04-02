@@ -10,7 +10,7 @@
         <div class="content_div">{{ post.content }}</div>
     {% elsif post.component_type == 'quote_2' %}
         <!-- Content Column -->
-        <div>
+        <div class="content_column">
             <div class="e_header">
                 <h2 class="e_title">{{ post.title }}</h2>
                 {% include entry_metadata.html %}
@@ -18,6 +18,6 @@
             <div class="content_div">{{ post.content }}</div>
         </div>
         <!-- Image Column -->
-        <div>{% include entry_media.html %}</div>
+        <div class="img_column">{% include entry_media.html %}</div>
     {% endif %}
 </div>

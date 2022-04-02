@@ -32,26 +32,43 @@
 }
 
 #entry_1 {
-  column-count: 1;
-  background-color: $color-pampas;
-  // background-image: url('/assets/svg/entry_1_scribble.svg');
-  background-repeat: no-repeat;
-  background-size: 362px;
-  background-position: 64% 4%;
-  .content_div {
-    column-count: 1;
-  }
+  position: relative;
+
   img {
-    height: 64px;
-    width: 64px;
+    position: absolute;
+
+    &#E1_D2 {
+      height: 375px;
+      width: auto;
+      top: 10%;
+      right: 10%;  
+    }
+    &#E1_D1, &#E1_D3 {
+      height: 30px;
+      width: auto; 
+      z-index: 3; 
+    }
+    &#E1_D1 {
+      top: 25%;
+      right: 35%;
+    }
+    &#E1_D3 {
+      top: 40%;
+      right: 15%;
+    }
   }
-  #entry_1_img img {
-    display: block;
-    mix-blend-mode: multiply;
-    margin-left: 50%;
-  }
+  // #entry_1_img img {
+  //   display: block;
+  //   mix-blend-mode: multiply;
+  //   margin-left: 50%;
+  // }
   blockquote {
     margin-left: 0;
+    line-height: 1.6em;
+  }
+  .content_div {
+    position: relative;
+    z-index: 2;
   }
 }
 
@@ -235,6 +252,18 @@
 
 #entry_13 {
 	// @include imgBackground('/assets/uploads/2_13_back.jpg');
+}
+
+#entry_18 {
+  position: relative;
+
+  img[id*=D] {
+    position: absolute;
+    height: 300px;
+    width: auto;
+    top: 10%;
+    left: 40%;
+  }
 }
 
 #entry_20 {
