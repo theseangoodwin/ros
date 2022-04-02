@@ -269,3 +269,12 @@
 #entry_20 {
 	@include imgBackground('/assets/uploads/3_20_after.jpg');
 }
+
+#entry_36 {
+  position: relative;
+
+  .img_div {
+    position: absolute;
+    top: 10%;
+  }
+}

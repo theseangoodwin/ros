@@ -447,13 +447,12 @@ a {
         }
       }
     }
-    
-
-    
   }
 
   // body + time before
   &_2 {
+    min-width: $medium-entry;
+    max-width: $medium-entry;
     background-color: $color-gun-metal;
     color: $color-hushed-pink;
     .entry_div {
@@ -515,10 +514,20 @@ a {
       max-width: $large-entry-after;
       min-width: $large-entry-after;
 
-      .content_div {
-        column-count: 2;
-        column-gap: 25px;
-        column-fill: auto;
+      &.e_block {
+        padding: 0;
+        .e_subblock {
+          width: 40%;
+          padding: 64px 30px;
+          .content_div {
+            column-count: 2;
+            column-gap: 25px;
+            column-fill: auto;
+          }
+          &--img-after {
+            width: 60%;
+          }
+        }
       }
     }
   }
@@ -563,10 +572,22 @@ a {
     }
     // body + img after
     &.ImgAfter {
-      .content_div {
-        column-count: 3;
-        column-gap: 25px;
-        column-fill: auto;
+      .e_block {
+        padding: 0;
+
+        .e_subblock {
+          width: 45%;
+          margin: 0 20px;
+          .content_div {
+            column-count: 3;
+            column-gap: 25px;
+            column-fill: auto;
+          }
+          &--img-after {
+            width: 55%;
+            height: 100%;
+          }
+        }
       }
     }
 
