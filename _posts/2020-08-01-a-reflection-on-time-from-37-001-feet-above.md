@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 4. A Reflection from</br> 37,001 Feet Above
+title: 4. A Reflection at 37,001 Feet
 entry_number: 4
 location: Unlisted
 date: 2015-12-02T04:32:00.000Z
