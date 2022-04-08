@@ -10,6 +10,7 @@ custom_css:
   - ImgAfter
 custom_bg: greenWhite
 file: /assets/uploads/2_13_back.jpg
+file_2: /assets/uploads/detail_45.png
 ---
 I give and I take. I am not selfish. I am certainly not selfless. In the end, however, we are all some combination of both. Our presence in a space is a contribution to it as a whole.
 
