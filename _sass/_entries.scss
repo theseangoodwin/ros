@@ -230,6 +230,15 @@
     width: 40%;
     height: auto;
   }
+
+  img[id*=D] {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    bottom: 140px;
+    left: 500px;
+    transform: rotate(4deg);
+  }
 }
 
 // #entry_7 {
