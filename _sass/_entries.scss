@@ -270,6 +270,14 @@
 	// @include imgBackground('/assets/uploads/2_13_back.jpg');
 }
 
+#entry_15 {
+  img[id*=D] {
+    width: 90%;
+    bottom: 20%;
+    right: 0;
+  }
+}
+
 #entry_18 {
   position: relative;
 
