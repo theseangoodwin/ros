@@ -8,7 +8,7 @@ length_layout: Large
 component_type: l_1
 custom_css:
   - ImgAfter
-custom_bg: greenSmoke
+custom_bg: gladeGreen
 file: /assets/uploads/2_13_back.jpg
 file_2: /assets/uploads/detail_45.png
 ---
