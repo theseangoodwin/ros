@@ -186,7 +186,14 @@
 }
 
 #entry_4 {
-  // position: relative;
+  position: relative;
+
+  img[id*=D] {
+    position: absolute;
+    top: 60px;
+    width: 75%;
+    right: 12%;
+  }
   // padding: 0px;
   // margin-left: -200px;
   // margin-top: 9.375em;
