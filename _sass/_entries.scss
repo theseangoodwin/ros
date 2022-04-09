@@ -293,7 +293,7 @@
   img[id*=D] {
     position: absolute;
     height: auto;
-    width: 100%;
+    width: auto;
     left: 0;
     top: -46%;
   }
@@ -309,5 +309,25 @@
   .img_div {
     position: absolute;
     top: 10%;
+  }
+}
+
+#entry_43 {
+  position: relative;
+  img[id*=D] {
+    position: absolute;
+    top: 0;
+  }
+}
+
+#entry_58{
+  position: relative;
+
+  img[id*=D] {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
   }
 }
