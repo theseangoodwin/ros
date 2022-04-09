@@ -4,8 +4,8 @@ title: "26. Avignon: A Stone’s Throw"
 entry_number: 26
 location: Avignon
 date: 2020-12-13T16:30:44.366Z
-length_layout: Medium
-component_type: m_2
+length_layout: X-Large
+component_type: xl_1
 custom_css:
   - ImgAfter
 custom_bg: gladeGreen
