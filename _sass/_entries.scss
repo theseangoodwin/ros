@@ -21,6 +21,8 @@
   background-size: 100% 100%;
 }
 
+/*TO-DO: Clean up relative positioning to mixin for entries*/
+
 // entry specific CSS
 #entry_0 {
   #E0_Q1 {
@@ -287,6 +289,16 @@
   }
 }
 
+#entry_16 {
+  position: relative;
+
+  img[id=E16_D3] {
+      position: absolute;
+      left: 0;
+      top: -126px;
+    }
+}
+
 #entry_18 {
   position: relative;
 
@@ -301,6 +313,30 @@
 
 #entry_20 {
 	@include imgBackground('/assets/uploads/3_20_after.jpg');
+}
+
+#entry_25 {
+  position: relative;
+
+  img {
+    &[id=E25_D4], 
+    &[id=E25_D5] {
+      position: absolute;
+      height: auto;
+    }
+
+    &[id=E25_D4] {
+      width: 4%;
+      bottom: 40%;
+      left: 21%;
+    }
+
+    &[id=E25_D5] {
+      width: 2%;
+      bottom: 20%;
+      left: 49%;
+    }
+  }
 }
 
 #entry_36 {
