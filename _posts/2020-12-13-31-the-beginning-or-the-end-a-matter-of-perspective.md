@@ -10,6 +10,7 @@ custom_css:
   - ImgAfter
 custom_bg: gray
 file: /assets/uploads/3_31_video.webm
+file_2: /assets/uploads/detail_5.svg
 ---
 The problems we think we have and the hardships we face now; pain is not relative. It needs to be held in a constant proportion to the goals we all live for. I write from the inside of a cell. The image of my face is reflected on the glass pane that covers one of the doors of a Gestapo detainment block. Two artists have been at work on this medium. The prison walls have the dingy defiled characteristics only Time has the patience to craft. The other man inside, someone whom I’ve grown to admire, has left his mark over Time’s signature. Letters, words, calendars, and drawings are engraved now in both serious and cynical detail for the world to see.\
 \
