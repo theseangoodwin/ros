@@ -565,17 +565,16 @@ a {
   &_1 {
     max-width: $xlarge-entry;
     min-width: $xlarge-entry;
-    .content_div {
-      column-count: 4;
-      column-gap: 25px;
-      column-fill: auto;
-    }
     // body + img after
     &.ImgAfter {
-      .e_block {
+      max-width: $xlargelong-entry;
+      min-width: $xlargelong-entry;
+
+      &.e_block {
         padding: 0;
 
         .e_subblock {
+          border-left: solid 1px $color-black;
           width: 45%;
           margin: 0 20px;
           .content_div {
@@ -589,6 +588,12 @@ a {
           }
         }
       }
+    }
+
+    .content_div {
+      column-count: 4;
+      column-gap: 25px;
+      column-fill: auto;
     }
 
     &.ExtraLong {
