@@ -6,8 +6,7 @@ location: Les Calanques
 date: 2020-12-13T16:28:16.910Z
 length_layout: X-Large
 component_type: xl_1
-custom_css:
-  - ImgAfter
+custom_css: null
 custom_bg: flaxSmoke
 file: /assets/uploads/3_25_inline1.jpg
 file_2: /assets/uploads/3_25_quote1.jpg
