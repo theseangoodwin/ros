@@ -4,8 +4,8 @@ title: 32. Gigantomachy
 entry_number: 32
 location: Grenoble
 date: 2020-12-13T16:38:24.794Z
-length_layout: X-Small
-component_type: xs_3
+length_layout: X-Large
+component_type: xl_1
 custom_css:
   - ImgAfter
 custom_bg: pampas
