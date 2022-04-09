@@ -8,6 +8,7 @@ length_layout: X-Large
 component_type: xl_1
 custom_css:
   - ImgAfter
+custom_bg: pampas
 file: /assets/uploads/2_10_after.jpg
 file_2: /assets/uploads/2_10_inline.jpg
 ---
