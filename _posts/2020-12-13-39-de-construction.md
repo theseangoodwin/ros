@@ -4,10 +4,11 @@ title: 39. (de)construction
 entry_number: 39
 location: Sagrada Familia
 date: 2020-12-13T16:43:45.241Z
-length_layout: Small
-component_type: s_1
-custom_css: null
-custom_bg: white
+length_layout: X-Large
+component_type: xl_1
+custom_css:
+  - ImgAfter
+custom_bg: dustStorm
 image_css: null
 file: /assets/uploads/3_39_video.webm
 ---
