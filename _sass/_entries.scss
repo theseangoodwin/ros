@@ -268,6 +268,15 @@
 
 #entry_13 {
 	// @include imgBackground('/assets/uploads/2_13_back.jpg');
+  position: relative;
+
+  img[id*=D] {
+    position: absolute;
+    bottom: 9%;
+    left: 33%;
+    width: 15%;
+    transform: rotate(-27deg);
+  }
 }
 
 #entry_15 {
@@ -283,10 +292,10 @@
 
   img[id*=D] {
     position: absolute;
-    height: 300px;
-    width: auto;
-    top: 10%;
-    left: 40%;
+    height: auto;
+    width: 100%;
+    left: 0;
+    top: -46%;
   }
 }
 
