@@ -9,8 +9,7 @@ component_type: xl_1
 custom_css:
   - ImgAfter
 custom_bg: greenSmoke
-image_css:
-  - draggable
+image_css: null
 file: /assets/uploads/2_3_after.jpg
 file_2: /assets/uploads/2_3_quote.jpg
 file_3: ""
