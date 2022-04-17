@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 21. A Reflection on Myself
+glyph: /assets/uploads/detail_glyph_ast.svg
 entry_number: 21
 location: My Apartment
 date: 2015-01-24T16:23:05.521Z
