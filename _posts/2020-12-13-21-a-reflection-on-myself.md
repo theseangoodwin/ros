@@ -8,5 +8,6 @@ length_layout: null
 component_type: xs_2-1
 custom_bg: heavyMetal
 file: /assets/uploads/3_21_content.jpg
+file_2: /assets/uploads/detail_glyph_ast.svg
 ---
 When I walked into my room last night, I found that all my posters had fallen to the ground. I am so out of my element that even the particles of paint are trying to tell me so. As if I had forgotten that the most simple aspects of my home culture have been taken from me. As if I could forget where I am. Shame on me for trying to make these walls feel a bit more like home. These things around me fall down and so I reach down and re-secure them with care.
