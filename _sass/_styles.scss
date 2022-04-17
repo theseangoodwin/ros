@@ -185,6 +185,11 @@ body {
   margin-left: 0em;
 }
 
+@mixin fade-out {
+  -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+}
+
 .img_div {
   .interaction-box {
     position: absolute;
@@ -336,7 +341,11 @@ a {
   &_2 {
     // body + photo
     &-1 {
-      // TBD
+      .content_div {
+        img {
+          max-height: 300px;
+        }
+      }
     }
 
     // large text quote
@@ -385,8 +394,9 @@ a {
 .s {
   // scrollable
   &_1 {
-    min-width: $small-entry;
-    max-width: $small-entry;
+    // min-width: $small-entry;
+    // max-width: $small-entry;
+
   }
 
   // tap-to-rotate
@@ -405,15 +415,15 @@ a {
   }
 
   // click-to-scroll
-  &_5 {
+  &_5, &_1 {
       display: flex;
       max-width: 600px;
       min-width: 600px;
       .entry_div {
+        @include fade-out();
+        border-left: 1px solid $color-black;
         max-height: 80vh;
         overflow: scroll;
-        -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
-        mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
       }
   }
 }
@@ -462,6 +472,8 @@ a {
 
   // centered body + photo | scrollable body + png | recolor + frame
   &_3 {
+    min-width: $medium-entry;
+    max-width: $medium-entry;
     align-items: flex-end;
 
     .centered-wrapper {
