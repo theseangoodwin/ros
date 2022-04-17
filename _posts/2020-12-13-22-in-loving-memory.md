@@ -8,6 +8,7 @@ length_layout: null
 component_type: xs_2-2
 custom_bg: heavyMetal
 file: /assets/uploads/3_22_quote.jpg
+file_2: /assets/uploads/detail_glyph_dast.svg
 ---
 <blockquote class="E19_Q1">“Remember those posters that said, ‘Today is the first day of the rest of your life?’ Well, that’s true of every day but one — the day you die.” </blockquote>
 
