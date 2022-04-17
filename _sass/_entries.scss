@@ -315,6 +315,17 @@
 	@include imgBackground('/assets/uploads/3_20_after.jpg');
 }
 
+#entry_23 {
+  position: relative;
+  img[id*=D] {
+    position: absolute;
+    bottom: 4%;
+    right: 36%;
+    width: 15%;
+    height: auto;
+  }
+}
+
 #entry_25 {
   position: relative;
 
@@ -336,6 +347,16 @@
       bottom: 20%;
       left: 49%;
     }
+  }
+}
+
+#entry_29 {
+  position: relative;
+
+  img[id*=D] {
+    position: absolute;
+    width: 33%;
+    right: 0;
   }
 }
 
