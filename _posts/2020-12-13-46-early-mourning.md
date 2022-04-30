@@ -11,7 +11,7 @@ file: /assets/uploads/4_46_inline.jpg
 file_2: /assets/uploads/4_46_quote1.jpg
 file_3: /assets/uploads/4_46_content.png
 ---
-I’m conflicted. <a class=“E46_I1”> I often don’t like myself as a person and today happens to be one of those mornings when I wish there was much more room between me and myself.</a> 
+I’m conflicted. <a class="E46_I1">I often don’t like myself as a person and today happens to be one of those mornings when I wish there was much more room between me and myself.</a>
 
 The most beautiful morning emerges from beyond the horizon. The pastel gradient sky touches pale lavender, red, yellow, and green, before spreading across in the most abundant blue. Clouds mix with contrails and compose empty space. These orange strokes are complementary to the water and earth. The scene is a blurry picture that rushes past me. Although the day is still in the making and it may be too early to tell, it is good. Did nature decide this, or did I? 
 
