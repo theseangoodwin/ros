@@ -8,7 +8,7 @@ length_layout: Large
 component_type: l_1
 custom_css:
   - ImgAfter
-custom_bg: eagle
+custom_bg: flaxSmoke
 file: /assets/uploads/3_41_after.jpg
 file_2: /assets/uploads/3_41_inline1.jpg
 file_3: ""
