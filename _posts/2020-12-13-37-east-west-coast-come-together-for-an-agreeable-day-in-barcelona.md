@@ -8,7 +8,7 @@ length_layout: X-Large
 component_type: xl_1
 custom_css:
   - ImgAfter
-custom_bg: greenSmoke
+custom_bg: white
 file: /assets/uploads/3_37_quote1.jpg
 file_3: /assets/uploads/3_37_after.jpg
 ---
