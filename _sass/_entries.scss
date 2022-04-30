@@ -360,6 +360,31 @@
   }
 }
 
+#entry_31 {
+  position: relative;
+
+  img[id*=D] {
+    position: absolute;
+    width: 7%;
+    bottom: 6%;
+    left: 14%;
+    transform: rotate(-4deg);
+  }
+}
+
+#entry_33 {
+  position: relative;
+
+  img[id*=D] {
+    position: absolute;
+    width: 14%;
+    height: auto;
+    top: 19%;
+    right: 17%;
+    transform: rotate(-5deg);
+  }
+}
+
 #entry_36 {
   position: relative;
 
