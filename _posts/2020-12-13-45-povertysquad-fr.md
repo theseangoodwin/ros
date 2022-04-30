@@ -10,8 +10,6 @@ custom_bg: kangaroo
 image_css:
   - draggable
 file: /assets/uploads/4_45_content.png
-file_2: ""
-file_3: ""
 ---
 I make my way through a grocery store collecting drinks, oranges, saussison, and pain au chocolate for the two homeless men I passed. As I’m writing this, I realize that I’ve picked out the foods I would have really liked to have eaten, which I’m sure has some metaphorical value. When I grab them quickly off the shelves, I recall my fast. I realize why I’ve been given that extra bunch of bananas as well. I put everything in one plastic bag and carry two large drinks in my hands. I put my camera away, fighting the temptation to capture their look in photograph. Two years of social justice education at my university has taught me to be especially intentional in situations like this. I am no savior. I return to their place and offer what I’ve brought.
 
