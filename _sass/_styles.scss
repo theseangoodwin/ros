@@ -74,6 +74,8 @@ body {
   min-height: 600px;
   max-height: 100vh;
 
+  position: relative;
+
   display: flex;
   align-items: center;
 
@@ -194,6 +196,11 @@ body {
   .interaction-box {
     position: absolute;
   }
+
+  &.draggable {
+    position: absolute;
+    width: max-content;
+  }
 }
 
 a {
@@ -232,6 +239,7 @@ a {
 
 .chap_video {
   display: block;
+  width: 100%;
 }
 
 // post size classes

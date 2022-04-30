@@ -10,7 +10,6 @@ custom_css:
   - ImgAfter
 custom_bg: greenSmoke
 file: /assets/uploads/3_37_quote1.jpg
-file_2: ""
 file_3: /assets/uploads/3_37_after.jpg
 ---
 <blockquote class="E37_Q1">The bus pulls into the station and the city is still dark.</blockquote> My mind is blurry from the disorienting late night ride from Marseille. I spent yesterday in my apartment slowly working on a presentation concerning the broad topic of ‘leadership’ for one of my classes.
