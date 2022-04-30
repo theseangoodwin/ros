@@ -10,7 +10,7 @@ custom_bg: gladeGreen
 file: /assets/uploads/4_44_inline1.png
 file_2: ""
 ---
-Vacation has nothing to do with location. It’s a state of mind that I’ve been fooled by. <Inline class=“E44_I1”> Placebic palm fronds and a sea of new faces have done a number on my mind.</Inline> I’ve fallen victim to the mirage of an empty schedule and, as if I’m crawling out of the desert searching for water, I’m craving to be alone. For the entirety of February I’ve been making my way from bus, to city, to hostel, to dinner party, to bar, to bed, to an early rise, to food, and then repeat all with a slew of new people. Now, at the beginning of Lent, I pardon myself from my own pressures to continue where I left myself off.
+Vacation has nothing to do with location. It’s a state of mind that I’ve been fooled by. <a class=“E44_I1”> Placebic palm fronds and a sea of new faces have done a number on my mind.</a> I’ve fallen victim to the mirage of an empty schedule and, as if I’m crawling out of the desert searching for water, I’m craving to be alone. For the entirety of February I’ve been making my way from bus, to city, to hostel, to dinner party, to bar, to bed, to an early rise, to food, and then repeat all with a slew of new people. Now, at the beginning of Lent, I pardon myself from my own pressures to continue where I left myself off.
 
 I’ve committed these next few days to more intimately understand my relationship with Marseille. The city and people has welcomed me so warmly, and yet every chance I’ve had, I left to go to some other place. I owe it some level of attention and I get the feeling it’s been keeping so many things from me to discover. I’ve got this pearly city at my fingertips, yet I ignored it because of the familiarity of the word ‘home.’
 
