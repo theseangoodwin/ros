@@ -11,7 +11,6 @@ custom_css:
 custom_bg: gunMetal
 file: /assets/uploads/3_41_after.jpg
 file_2: /assets/uploads/3_41_inline1.jpg
-file_3: ""
 ---
 I’m not expecting the ride back to Marseille to be any better than it was on the way down. I’m prepping for the worst. I collect the last 5 euros from my pockets and set out to find dinner. As I make my way from store to store, I collect some seeded green grapes for €2.15, two Granny Smith apples for €1.15, and a crusty round loaf of bread for €1.20. I celebrate this small victory and welcome back the leftover 50 centimes to my pocket.\
 

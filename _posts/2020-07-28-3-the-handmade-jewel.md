@@ -12,7 +12,6 @@ custom_bg: greenSmoke
 image_css: null
 file: /assets/uploads/2_3_after.jpg
 file_2: /assets/uploads/2_3_quote.jpg
-file_3: ""
 ---
 A few days before my departure, I showed my mother the basilica in Marseille. She taught me about Christian relics, which sent me on a seemingly elusive quest for a piece of history. It wasn’t long before history made its way to me.\
 \
