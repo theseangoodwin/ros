@@ -7,6 +7,8 @@ date: 2020-12-13T16:47:51.941Z
 length_layout: X-Large
 component_type: xl_1
 custom_bg: kangaroo
+image_css:
+  - draggable
 file: /assets/uploads/4_45_content.png
 file_2: ""
 file_3: ""
