@@ -7,6 +7,8 @@ date: 2020-12-13T16:55:27.514Z
 length_layout: Medium
 component_type: m_1
 custom_bg: holly
+image_css:
+  - draggable
 file: /assets/uploads/4_54_content.png
 file_2: /assets/uploads/4_54_inline.png
 ---
