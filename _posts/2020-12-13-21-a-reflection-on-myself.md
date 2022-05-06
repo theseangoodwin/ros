@@ -7,6 +7,8 @@ location: My Apartment
 date: 2015-01-24T16:23:05.521Z
 length_layout: null
 component_type: xs_2-1
+custom_css:
+  - Glyph
 custom_bg: heavyMetal
 file: /assets/uploads/3_21_content.jpg
 ---
