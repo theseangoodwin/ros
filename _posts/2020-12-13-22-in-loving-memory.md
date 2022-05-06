@@ -7,6 +7,8 @@ location: My Apartment
 date: 2020-12-13T16:25:32.420Z
 length_layout: null
 component_type: xs_2-2
+custom_css:
+  - Glyph
 custom_bg: heavyMetal
 file: /assets/uploads/3_22_quote.jpg
 ---
