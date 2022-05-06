@@ -167,19 +167,19 @@ body {
   }
 }
 
-@mixin interaction-box-boilerplate {
+@mixin interaction-box-boilerplate($image) {
   display: block;
   width: 2.8125em;
   height: 2.8125em;
   margin-top: 0.25em;
   margin-left: 0.25em;
   background-color: $color-chartreuse;
-  background-image: url(/assets/svg/draggable.svg);
+  background-image: url($image);
   background-position: center center;
 }
 
 @mixin interaction-box-boilerplate-inline {
-  @include interaction-box-boilerplate();
+  @include interaction-box-boilerplate('/assets/svg/asterisk.svg');
   display: inline-block;
   width: 0.8em;
   height: 0.8em;
@@ -205,8 +205,7 @@ body {
 
 a {
   .interaction-box {
-    @include interaction-box-boilerplate();
-    background-image: url(/assets/svg/asterisk.svg);
+    @include interaction-box-boilerplate('/assets/svg/asterisk.svg');
   }
 }
 
@@ -482,7 +481,7 @@ a {
   &_3 {
     min-width: $medium-entry;
     max-width: $medium-entry;
-    align-items: flex-end;
+    // align-items: flex-end; may want to adjust this due to the way it's sitting on the laptop
 
     .centered-wrapper {
       @include lightFont($color-off-white);
@@ -512,7 +511,15 @@ a {
       }
 
       .content_div {
+        @include fade-out();
         padding: 0 40px;
+        height: 150px;
+        overflow: scroll;
+        // &:after {
+        //   content: "";
+        //   @include interaction-box-boilerplate('/assets/svg/chevron-down.svg');
+        //   border: 3px solid red;
+        // }
       }
     }    
   }
@@ -1007,8 +1014,7 @@ a {
   touch-action: none; // required by interactjs
   user-select: none; // required by interactjs
   .interaction-box {
-    @include interaction-box-boilerplate();
-    background-image: url(/assets/svg/draggable.svg);
+    @include interaction-box-boilerplate('/assets/svg/draggable.svg');
   }
 }
 
