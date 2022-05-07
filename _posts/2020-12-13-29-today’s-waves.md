@@ -4,7 +4,7 @@ title: 29. Today’s Waves
 entry_number: 29
 location: Avignon
 date: 2020-12-13T16:33:48.648Z
-length_layout: Small
+length_layout: null
 component_type: s_1
 custom_css: null
 file: /assets/uploads/3_29_quote1.jpg
