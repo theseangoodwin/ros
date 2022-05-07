@@ -4,7 +4,7 @@ title: "28. Avignon: Near Glass Houses"
 entry_number: 28
 location: Avignon
 date: 2020-12-13T16:32:51.480Z
-length_layout: Medium
+length_layout: null
 component_type: m_1
 custom_css: null
 file: /assets/uploads/3_28_inline1.jpg
