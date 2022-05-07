@@ -4,7 +4,7 @@ title: 41. Minerva, Come
 entry_number: 41
 location: L'Arc de Triompfe
 date: 2020-12-13T16:45:05.701Z
-length_layout: Large
+length_layout: null
 component_type: l_1
 custom_css:
   - ImgAfter
