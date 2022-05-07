@@ -4,7 +4,7 @@ title: 38. Lightswitch
 entry_number: 38
 location: Barcelona City Center
 date: 2020-12-13T16:43:25.546Z
-length_layout: Small
+length_layout: null
 component_type: s_3
 custom_css:
   - ImgAfter
