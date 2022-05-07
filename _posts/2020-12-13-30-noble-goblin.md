@@ -4,7 +4,7 @@ title: 30. Noble Goblin and the Courage to Leave
 entry_number: 30
 location: My Apartment
 date: 2020-12-13T16:34:28.138Z
-length_layout: Large
+length_layout: null
 component_type: l_2
 custom_bg: heavyMetal
 file: /assets/uploads/3_30_video.webm
