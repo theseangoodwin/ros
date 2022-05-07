@@ -4,7 +4,7 @@ title: 18. Stations of the Cross
 entry_number: 18
 location: Notre Dame De Marseille
 date: 2020-12-13T16:11:47.520Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 custom_css:
   - ExtraLong
