@@ -4,7 +4,7 @@ title: "10. Delta: Water <br>and Numbers"
 entry_number: 10
 location: Campus Luminy
 date: 2015-01-14T18:04:00.000Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 custom_css:
   - ImgAfter
