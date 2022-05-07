@@ -4,11 +4,11 @@ title: "31. The Beginning or the End:  A Matter of Perspective"
 entry_number: 31
 location: Grenoble
 date: 2020-12-13T16:37:01.815Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 custom_css:
   - ImgAfter
-custom_bg: gray
+custom_bg: whiteRock
 file: /assets/uploads/3_31_video.webm
 file_2: /assets/uploads/detail_5.svg
 ---
