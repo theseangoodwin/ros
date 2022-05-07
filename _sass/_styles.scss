@@ -648,6 +648,7 @@ a {
 
 .lyrics {
   @include lightFont($color-off-white);
+  
   background: $color-heavy-metal;
   min-width: $xsmall-entry;
   max-width: $xsmall-entry;

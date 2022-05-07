@@ -367,6 +367,16 @@
 #entry_31 {
   position: relative;
 
+  min-width: $large-entry-after;
+  max-width: $large-entry-after;
+
+  .e_subblock.entry_div {
+    width: 60%;
+  }
+  .e_subblock--img-after {
+    width: 40%;
+  }
+
   img[id*=D] {
     position: absolute;
     width: 7%;
