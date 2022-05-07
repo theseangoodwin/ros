@@ -8,7 +8,7 @@ length_layout: null
 component_type: m_1
 custom_css:
   - ImgAfter
-custom_bg: pampas
+custom_bg: white
 file: /assets/uploads/3_32_quote1.mp4
 file_2: /assets/uploads/3_32_quote.jpg
 ---
