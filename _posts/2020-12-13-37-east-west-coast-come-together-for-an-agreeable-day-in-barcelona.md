@@ -4,7 +4,7 @@ title: 37. East & West Coast Come Together For an  Agreeable Day in Barcelona
 entry_number: 37
 location: Barcelona
 date: 2020-12-13T16:42:36.822Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 custom_css:
   - ImgAfter
