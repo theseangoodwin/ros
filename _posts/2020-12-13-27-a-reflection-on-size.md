@@ -4,7 +4,7 @@ title: 27. A Reflection on Size
 entry_number: 27
 location: Avignon
 date: 2020-12-13T16:31:55.382Z
-length_layout: Medium
+length_layout: null
 component_type: m_1
 custom_css:
   - ImgAfter
