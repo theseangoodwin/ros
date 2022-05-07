@@ -4,7 +4,7 @@ title: 12. On <br> Losing Sleep
 entry_number: 12
 location: Campus Luminy
 date: 2020-08-15T19:31:21.874Z
-length_layout: Small
+length_layout: null
 component_type: s_2
 custom_css:
   - Scatter
