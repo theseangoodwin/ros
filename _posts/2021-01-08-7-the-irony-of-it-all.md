@@ -4,7 +4,7 @@ title: 7. The Irony of it All
 entry_number: 7
 location: Luminy
 date: 2015-01-13T17:50:00.000Z
-length_layout: Large
+length_layout: null
 component_type: l_1
 custom_css: null
 custom_bg: kangaroo
