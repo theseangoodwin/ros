@@ -4,7 +4,7 @@ title: 43. Forty Days & One Less Knight
 entry_number: 43
 location: My Apartment
 date: 2020-12-13T16:46:40.861Z
-length_layout: Medium
+length_layout: null
 component_type: m_1
 custom_bg: greenSmoke
 file: /assets/uploads/4_43_quote1.png
