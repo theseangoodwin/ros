@@ -4,7 +4,7 @@ title: 13. A Reflection on the Things Around Us  There is Nothing But Sky
 entry_number: 13
 location: Notre Dame De Marseille
 date: 2015-01-17T15:57:10.127Z
-length_layout: Large
+length_layout: null
 component_type: l_1
 custom_css:
   - ImgAfter
