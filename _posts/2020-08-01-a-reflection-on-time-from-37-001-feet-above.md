@@ -4,7 +4,7 @@ title: 4. A Reflection at 37,001 Feet
 entry_number: 4
 location: Unlisted
 date: 2015-12-02T04:32:00.000Z
-length_layout: X-Small
+length_layout: null
 component_type: xs_2-1
 custom_css: null
 custom_bg: mutedPink
