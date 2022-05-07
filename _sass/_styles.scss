@@ -187,9 +187,9 @@ body {
   margin-left: 0em;
 }
 
-@mixin fade-out {
-  -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
-  mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+@mixin fade-out($direction) {
+  -webkit-mask-image: linear-gradient(to $direction, black 90%, transparent 100%);
+  mask-image: linear-gradient(to $direction, black 90%, transparent 100%);
 }
 
 .img_div {
@@ -375,13 +375,23 @@ a {
         padding: 50px 50px 25px 50px;
         border-radius: 50% 50% 0 0;
         display: flex;
-        justify-content: end;
+        justify-content: space-between;
         flex-direction: column;
+        .e_title {
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: column;
+          align-items: center;
 
+          img {
+            width: 60px;
+            height: auto;
+            margin: 20px 0;
+          }
+        }
         .content_div {
           min-width: 700px;
           max-width: 700px;
-          //padding: 40px 55px;
         }
       }
     }
@@ -427,7 +437,7 @@ a {
       max-width: 600px;
       min-width: 600px;
       .entry_div {
-        @include fade-out();
+        @include fade-out(bottom);
         border-left: 1px solid $color-black;
         max-height: 80vh;
         overflow: scroll;
@@ -511,7 +521,7 @@ a {
       }
 
       .content_div {
-        @include fade-out();
+        @include fade-out(bottom);
         padding: 0 40px;
         height: 150px;
         overflow: scroll;
@@ -641,6 +651,9 @@ a {
   background: $color-heavy-metal;
   min-width: $xsmall-entry;
   max-width: $xsmall-entry;
+  .e_subblock { // re-visit and fix overarching e-subblock padding issue
+    padding: 0;
+  }
   .entry_div {
     height: 100%;
     width: 100%;
@@ -654,11 +667,9 @@ a {
     }
     
     .content_div {
-      // text-align: center;
       max-height: 100vh;
       overflow: scroll;
-      -webkit-mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
-      mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+      @include fade-out(bottom);
     }
   }
 }

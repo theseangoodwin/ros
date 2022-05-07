@@ -376,6 +376,21 @@
   }
 }
 
+#entry_32 {
+  .e_subblock.entry_div {
+    width: 40%;
+    .content_div {
+      column-count: 1;
+    }
+  }
+  .e_subblock--img-after {
+    width: 60%;
+    .chap_video {
+      object-fit: cover;
+    }
+  }
+}
+
 #entry_33 {
   position: relative;
 
