@@ -4,7 +4,7 @@ title: 6. First Impressions
 entry_number: 6
 location: Campus Luminy
 date: 2015-01-13T17:43:00.000Z
-length_layout: Large
+length_layout: null
 component_type: l_1
 custom_bg: greenWhite
 interaction: null
