@@ -4,7 +4,7 @@ title: 24. A Reflection on Odd Numbers
 entry_number: 24
 location: Le Vieux Port
 date: 2015-01-29T16:27:08.079Z
-length_layout: Medium
+length_layout: null
 component_type: m_3
 custom_bg: holly
 file: /assets/uploads/3_24_detail.svg
