@@ -4,7 +4,7 @@ title: "33. A Reflection on the Barriers  Language Break "
 entry_number: 33
 location: Campus Luminy
 date: 2020-12-13T16:39:24.450Z
-length_layout: Medium
+length_layout: null
 component_type: m_3
 custom_bg: flaxSmoke
 file: /assets/uploads/3_33_content.jpg
