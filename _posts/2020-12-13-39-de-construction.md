@@ -4,7 +4,7 @@ title: 39. (de)construction
 entry_number: 39
 location: Sagrada Familia
 date: 2020-12-13T16:43:45.241Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 custom_css:
   - ImgAfter
