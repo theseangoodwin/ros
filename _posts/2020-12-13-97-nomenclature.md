@@ -4,7 +4,7 @@ title: 97. Nomenclature
 entry_number: 97
 location: My Apartment
 date: 2020-12-13T17:46:35.364Z
-length_layout: Small
+length_layout: null
 component_type: s_1
 custom_bg: gladeGreen
 ---
