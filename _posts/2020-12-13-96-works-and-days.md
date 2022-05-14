@@ -4,7 +4,7 @@ title: 96. Works and Days
 entry_number: 96
 location: Marseille, France
 date: 2020-12-13T17:46:13.642Z
-length_layout: X-Small
+length_layout: null
 component_type: xs_1
 custom_bg: kangaroo
 ---
