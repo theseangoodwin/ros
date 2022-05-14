@@ -4,7 +4,7 @@ title: 75. The Water That Bucket Lists  Are Filled With
 entry_number: 75
 location: Vatican City
 date: 2020-12-13T17:34:31.449Z
-length_layout: X-Large
+length_layout: null
 component_type: l_1
 custom_bg: flaxSmoke
 file: /assets/uploads/th_5_75_1.jpg
