@@ -4,7 +4,7 @@ title: 74. Heliophilia
 entry_number: 74
 location: Rome, Italy
 date: 2020-12-13T17:34:09.595Z
-length_layout: Small
+length_layout: null
 component_type: xs_1
 custom_bg: pampas
 file: /assets/uploads/th_5_74_1.jpg
