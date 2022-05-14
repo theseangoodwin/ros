@@ -4,7 +4,7 @@ title: 54. On the Folly of Rewarding  A While Hoping for B
 entry_number: 54
 location: London, England
 date: 2020-12-13T16:55:27.514Z
-length_layout: Medium
+length_layout: null
 component_type: m_1
 custom_bg: holly
 image_css:
