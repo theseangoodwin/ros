@@ -4,7 +4,7 @@ title: 47. Something to Look Forward To
 entry_number: 47
 location: Montpellier
 date: 2020-12-13T16:50:14.398Z
-length_layout: Medium
+length_layout: null
 component_type: m_1
 custom_bg: pampas
 file: /assets/uploads/4_47_quote1.jpg
