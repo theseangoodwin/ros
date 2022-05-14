@@ -4,7 +4,7 @@ title: 53. Innocent as the Dove, Wise as the Wolf
 entry_number: 53
 location: London, England
 date: 2020-12-13T16:54:55.846Z
-length_layout: Medium
+length_layout: null
 component_type: m_3
 custom_bg: white
 file: /assets/uploads/4_53_content.png
