@@ -4,7 +4,7 @@ title: 98. A Reflection on Leaving
 entry_number: 98
 location: Campus Luminy
 date: 2020-12-13T17:46:49.402Z
-length_layout: Medium
+length_layout: null
 component_type: m_2
 custom_bg: gray
 ---
