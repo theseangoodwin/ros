@@ -4,7 +4,7 @@ title: 49. Neither Heaven Nor Hell
 entry_number: 49
 location: St. Patrick's Cathedral, London England
 date: 2020-12-13T16:51:36.237Z
-length_layout: Small
+length_layout: null
 component_type: s_1
 custom_bg: dustStorm
 image_css:
