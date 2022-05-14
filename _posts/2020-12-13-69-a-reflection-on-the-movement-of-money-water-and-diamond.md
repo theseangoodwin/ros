@@ -4,7 +4,7 @@ title: "69. A Reflection on the Movement of  Money: Water and Diamond "
 entry_number: 69
 location: Nevers, France
 date: 2020-12-13T17:12:08.593Z
-length_layout: Medium
+length_layout: null
 component_type: m_3
 custom_bg: pampas
 file: /assets/uploads/th_5_69_quote.jpg
