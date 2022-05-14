@@ -4,7 +4,7 @@ title: 82. Ferdinand the Bull
 entry_number: 82
 location: Madrid, Spain
 date: 2020-12-13T17:40:36.671Z
-length_layout: Large
+length_layout: null
 component_type: l_2
 custom_bg: gray
 ---
