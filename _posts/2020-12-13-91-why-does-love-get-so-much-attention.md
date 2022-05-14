@@ -4,7 +4,7 @@ title: 91.  Why Does Love Get So Much Attention?
 entry_number: 91
 location: Sahara Desert
 date: 2020-12-13T17:45:06.866Z
-length_layout: Small
+length_layout: null
 component_type: quote_1
 custom_css:
   - Quote
