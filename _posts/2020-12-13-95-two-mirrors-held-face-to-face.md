@@ -4,7 +4,7 @@ title: 95. Two Mirrors Held Face to Face
 entry_number: 95
 location: Marseille, France
 date: 2020-12-13T17:45:37.947Z
-length_layout: Medium
+length_layout: null
 component_type: m_1
 custom_css:
   - ImgAfter
