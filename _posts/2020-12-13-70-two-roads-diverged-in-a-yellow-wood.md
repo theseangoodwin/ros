@@ -4,7 +4,7 @@ title: Two Roads Diverged in a Yellow Wood
 entry_number: 70
 location: Provence-Alpes-Côte d'Azur
 date: 2020-12-13T17:29:50.331Z
-length_layout: Small
+length_layout: null
 component_type: lyrics
 custom_bg: mutedPink
 file: /assets/uploads/th_5_70_quote.jpg
