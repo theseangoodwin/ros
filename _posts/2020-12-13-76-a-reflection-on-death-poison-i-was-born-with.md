@@ -4,7 +4,7 @@ title: "76. A Reflection on Death:  Poison I Was Born With "
 entry_number: 76
 location: Municipio XIV, Rome, Italy
 date: 2020-12-13T17:35:39.768Z
-length_layout: Medium
+length_layout: null
 component_type: s_4
 custom_bg: white
 ---
