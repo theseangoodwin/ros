@@ -4,7 +4,7 @@ title: 72. Love Language
 entry_number: 72
 location: Les Calanques
 date: 2020-12-13T17:32:01.159Z
-length_layout: Small
+length_layout: null
 component_type: s_3
 custom_bg: heavyMetal
 file: /assets/uploads/th_5_72_detail.jpg
