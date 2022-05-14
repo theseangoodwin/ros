@@ -4,7 +4,7 @@ title: 58. Expressionist
 entry_number: 58
 location: La Rochelle
 date: 2020-12-13T16:58:32.266Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 custom_bg: white
 file: /assets/uploads/th_5_58_detailalt.jpg
