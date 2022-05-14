@@ -4,7 +4,7 @@ title: "80. This Bull Hits Hard "
 entry_number: 80
 location: My Apartment
 date: 2020-12-13T17:39:13.919Z
-length_layout: Small
+length_layout: null
 component_type: s_5
 custom_bg: kangaroo
 ---
