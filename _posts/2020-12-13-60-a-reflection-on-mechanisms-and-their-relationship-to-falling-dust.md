@@ -4,7 +4,7 @@ title: 60. A Reflection on Mechanisms and Their Relationship to Falling Dust
 entry_number: 60
 location: Nimes, France
 date: 2020-12-13T17:05:34.836Z
-length_layout: Medium
+length_layout: null
 component_type: m_1
 custom_bg: kangaroo
 file: /assets/uploads/th_5_60_quote1.jpg
