@@ -4,7 +4,7 @@ title: "99. Denouement: A List of Lessons Written  After the Fact "
 entry_number: 99
 location: Washington, D.C.
 date: 2020-12-13T17:47:18.092Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 custom_css:
   - ExtraLong
