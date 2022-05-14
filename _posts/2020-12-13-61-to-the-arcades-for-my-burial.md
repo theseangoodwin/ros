@@ -4,7 +4,7 @@ title: 61. To the Arcades For My Burial
 entry_number: 61
 location: Nimes, France
 date: 2020-12-13T17:06:24.369Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 file: /assets/uploads/th_5_61_detail1.jpg
 file_2: /assets/uploads/th_5_61_detail2.jpg
