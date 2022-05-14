@@ -4,7 +4,7 @@ title: 86. A Reflection on Terrorism and 7 Dead
 entry_number: 86
 location: Eastern Morocco
 date: 2020-12-13T17:42:52.387Z
-length_layout: Small
+length_layout: null
 component_type: s_2
 custom_bg: gray
 ---
