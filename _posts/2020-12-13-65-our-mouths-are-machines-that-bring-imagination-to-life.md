@@ -4,7 +4,7 @@ title: 65. Our Mouths are Machines That  Bring Imagination to Life
 entry_number: 65
 location: Geneva, Switzerland
 date: 2020-12-13T17:09:35.208Z
-length_layout: Small
+length_layout: null
 component_type: s_1
 custom_bg: white
 ---
