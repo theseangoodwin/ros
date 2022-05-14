@@ -4,7 +4,7 @@ title: 56. Contortionist
 entry_number: 56
 location: Nord-Pas-de-Calais
 date: 2020-12-13T16:56:45.624Z
-length_layout: Small
+length_layout: null
 component_type: s_3
 custom_bg: pampas
 file: /assets/uploads/th_5_56_inline1.jpg
