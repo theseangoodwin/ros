@@ -4,7 +4,7 @@ title: 67. The Worst Night of My Life
 entry_number: 67
 location: Geneva, Switzerland
 date: 2020-12-13T17:10:47.343Z
-length_layout: Small
+length_layout: null
 component_type: xs_1
 custom_bg: kangaroo
 ---
