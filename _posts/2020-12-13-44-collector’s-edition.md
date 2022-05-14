@@ -4,7 +4,7 @@ title: 44. Collector’s Edition
 entry_number: 44
 location: Marseille City Center
 date: 2020-12-13T16:47:09.327Z
-length_layout: Large
+length_layout: null
 component_type: l_1
 custom_bg: gladeGreen
 file: /assets/uploads/4_44_inline1.png
