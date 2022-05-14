@@ -4,7 +4,7 @@ title: 46. Early Mourning
 entry_number: 46
 location: Languedoc
 date: 2020-12-13T16:49:32.565Z
-length_layout: Large
+length_layout: null
 component_type: l_1
 custom_bg: mutedPink
 file: /assets/uploads/4_46_inline.jpg
