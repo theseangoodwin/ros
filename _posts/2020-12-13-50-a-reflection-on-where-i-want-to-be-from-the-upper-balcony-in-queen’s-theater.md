@@ -5,7 +5,7 @@ title: 50. A Reflection on Where I Want to Be,  From the Upper Balcony in
 entry_number: 50
 location: London, England
 date: 2020-12-13T16:52:43.344Z
-length_layout: Small
+length_layout: null
 component_type: s_2
 custom_bg: gray
 image_css:
