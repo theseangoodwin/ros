@@ -4,7 +4,7 @@ title: "63. 4th Sunday of Lent: The Wilderness"
 entry_number: 63
 location: Luxembourg
 date: 2020-12-13T17:07:56.512Z
-length_layout: Small
+length_layout: null
 component_type: s_1
 custom_bg: flaxSmoke
 file: /assets/uploads/th_5_63_quote.jpg
