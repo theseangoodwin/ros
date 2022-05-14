@@ -4,7 +4,7 @@ title: 83. Timetable II
 entry_number: 83
 location: Fes, Morocco
 date: 2020-12-13T17:41:26.060Z
-length_layout: Medium
+length_layout: null
 component_type: s_1
 custom_bg: white
 ---
