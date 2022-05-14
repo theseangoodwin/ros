@@ -4,7 +4,7 @@ title: 45. PovertySquad.fr
 entry_number: 45
 location: Marseille City Center
 date: 2020-12-13T16:47:51.941Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 custom_bg: kangaroo
 image_css:
