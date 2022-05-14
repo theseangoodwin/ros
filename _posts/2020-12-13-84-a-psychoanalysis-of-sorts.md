@@ -4,7 +4,7 @@ title: "84. A Psychoanalysis of Sorts "
 entry_number: 84
 location: Midelt Region, Morocco
 date: 2020-12-13T17:41:50.992Z
-length_layout: X-Small
+length_layout: null
 component_type: xs_3
 custom_bg: holly
 ---
