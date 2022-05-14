@@ -4,7 +4,7 @@ title: 68. Makes Way for the Morning
 entry_number: 68
 location: Parc Naturel Régional du Morvan
 date: 2020-12-13T17:11:33.790Z
-length_layout: Medium
+length_layout: null
 component_type: xs_1
 custom_bg: gladeGreen
 ---
