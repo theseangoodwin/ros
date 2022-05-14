@@ -4,7 +4,7 @@ title: 73. Myself, Through The Nerves of Another,  and Hours Without Measure
 entry_number: 73
 location: Rome, Italy
 date: 2020-12-13T17:32:24.543Z
-length_layout: X-Large
+length_layout: null
 component_type: xl_1
 custom_bg: black
 file: /assets/uploads/th_5_73_1.jpg
