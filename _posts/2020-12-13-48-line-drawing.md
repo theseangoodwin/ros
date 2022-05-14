@@ -4,7 +4,7 @@ title: 48. Line Drawing
 entry_number: 48
 location: Montpellier
 date: 2020-12-13T16:51:01.259Z
-length_layout: X-Small
+length_layout: null
 component_type: xs_3
 custom_bg: holly
 image_css:
