@@ -4,7 +4,7 @@ title: 64. A Reflection on the Things That  Are Missing From Me
 entry_number: 64
 location: Brussels, Belgium
 date: 2020-12-13T17:08:35.098Z
-length_layout: X-Small
+length_layout: null
 component_type: xs_2-3
 custom_bg: holly
 file: /assets/uploads/th_5_64.jpg
