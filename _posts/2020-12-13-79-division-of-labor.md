@@ -4,7 +4,7 @@ title: 79. Division of Labor
 entry_number: 79
 location: Bus to Luminy
 date: 2020-12-13T17:38:48.808Z
-length_layout: Small
+length_layout: null
 component_type: s_1
 custom_bg: greenWhite
 file: /assets/uploads/6_79_detail.png
