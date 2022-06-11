@@ -5,10 +5,10 @@ entry_number: 38
 location: Barcelona City Center
 date: 2020-12-13T16:43:25.546Z
 length_layout: null
-component_type: s_3
+component_type: m_1
 custom_css:
   - ImgAfter
-custom_bg: gray
+custom_bg: white
 interaction: null
 file: /assets/uploads/3_38_inline1.jpg
 file_2: /assets/uploads/3_38_after.jpg
