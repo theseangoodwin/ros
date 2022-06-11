@@ -8,7 +8,7 @@ length_layout: null
 component_type: xl_1
 custom_css:
   - ImgAfter
-custom_bg: white
+custom_bg: black
 file: /assets/uploads/3_37_quote1.jpg
 file_3: /assets/uploads/3_37_after.jpg
 ---
