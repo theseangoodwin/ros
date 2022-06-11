@@ -7,6 +7,8 @@ date: 2020-12-13T16:56:45.624Z
 length_layout: null
 component_type: s_3
 custom_bg: pampas
+interaction:
+  - draggable
 file: /assets/uploads/th_5_56_inline1.jpg
 file_2: /assets/uploads/th_5_56_inline2.jpg
 file_3: /assets/uploads/th_5_56_quote3.jpg
