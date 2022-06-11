@@ -79,6 +79,7 @@ body {
   display: flex;
   align-items: center;
 
+  /*TO-DO: Update image specific formats to be less egregiously big?? Consider compression*/
   img {
     object-fit: cover;
     width: 100%;
@@ -86,6 +87,9 @@ body {
 
   /* As we can't check with elements hold which background color via SCSS, I've opted to just have the
   * bg color be determined here.
+  */
+  /** TO-DO
+  *  Update the darker bg color logic to change up the color of the font text; it works but there are edge cases rn
   */
   &.gladeGreen { background-color: $color-glade-green; }
 
@@ -104,9 +108,13 @@ body {
   &.mutedPink { background-color: $color-muted-pink; }
 
   &.heavyMetal {
-    not &.xs_2-2 {
-      @include lightFont($color-off-white);
-    } 
+    // not &.xs_2-2 {
+    //   @include lightFont($color-off-white);
+    // }
+    &.xs_2-2 {
+      @include lightFont($color-black);
+    }
+    @include lightFont($color-off-white);
     background-color: $color-heavy-metal; 
   }
 
@@ -138,6 +146,11 @@ body {
 
   &.gray {
     background-color: $color-gray;
+  }
+
+  &.black {
+    @include lightFont($color-off-white);
+    background-color: $color-black;
   }
 }
 
@@ -343,6 +356,8 @@ a {
   // single column
   &_1 {
     border-left: $color-black;
+    min-width: $xsmall-entry;
+    max-width: $xsmall-entry;
   }
 
   &_2 {
@@ -398,7 +413,7 @@ a {
   }
 
   // body + png
-  &_3 {
+  &_1, &_3 {
     min-width: $xsmall-entry;
     max-width: $xsmall-entry;
   }
@@ -423,7 +438,16 @@ a {
 
   // draggable
   &_3 {
-    background-color: $color-muted-pink;
+    &.draggable {
+      width: 800px;
+      height: fit-content;
+      position: absolute;
+    }
+    .interaction-box {
+      position: fixed;
+      top: 5px;
+      left: 5px;
+    }
   }
 
   // paper, pull-up | large text quote | large text quote + png
@@ -494,7 +518,7 @@ a {
     // align-items: flex-end; may want to adjust this due to the way it's sitting on the laptop
 
     .centered-wrapper {
-      @include lightFont($color-off-white);
+      // @include lightFont($color-off-white);
       text-align: center;
       align-items: center;
       display: flex;
