@@ -54,6 +54,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
   }
 
   findPostLinks();
+
+  positionDraggables();
 });
 
 function addClass() { 
@@ -101,6 +103,43 @@ const findPostLinks = () => {
       });
     }
   });
+}
+
+const positionDraggables = () => {
+  // To-Do: Update to more reusable and less brute force function here
+  const draggablePosts = document.querySelectorAll('div[id^=entry_].draggable');
+  console.log(draggablePosts);
+
+  // const exampleImg = document.querySelector('[id=entry_41]');
+  // const output = exampleImg.getBoundingClientRect();
+  // const draggableImg = document.querySelector('[id=entry_40');
+  
+  // draggableImg.style.left = (output.left - 200) + 'px';
+
+  // Chap. 5 Draggable Posts
+  // Chap. 5 Draggable Posts
+  
+  const e57 = document.querySelector('[id=entry_57]');
+  const e57Rect = e57.getBoundingClientRect();
+  const e56 = document.querySelector('[id=entry_56');
+  
+  e56.style.left = (e57Rect.left - 200) + 'px';
+
+  const e73 = document.querySelector('[id=entry_73]');
+  const e73Rect = e73.getBoundingClientRect();
+  const e72 = document.querySelector('[id=entry_72');
+  
+  e72.style.left = (e73Rect.left - 200) + 'px';
+
+  //console.log(output.top, output.right, output.bottom, output.left);
+}
+
+const rotatePost = () => {
+  /**
+   * TO-DO: Create a reusable function that adds a click event listener to rotate
+   * post plus a timeout of 20 seconds to re rotate into it's inital spot
+   * NOTE: I believe we want for this to be floating, so we'll have to do some repositioning as well
+   */
 }
 
 
