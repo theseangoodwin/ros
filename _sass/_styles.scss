@@ -189,6 +189,7 @@ body {
   background-color: $color-chartreuse;
   background-image: url($image);
   background-position: center center;
+  background-repeat: no-repeat;
 }
 
 @mixin interaction-box-boilerplate-inline {
@@ -428,12 +429,18 @@ a {
   &_1 {
     // min-width: $small-entry;
     // max-width: $small-entry;
-
+    .interaction-box {
+      @include interaction-box-boilerplate('/assets/svg/rotate.svg');
+    }
   }
 
   // tap-to-rotate
   &_2 {
-    background-color: $color-muted-pink;
+    min-width: $small-entry;
+    max-width: $small-entry;
+    .interaction-box {
+      @include interaction-box-boilerplate('/assets/svg/rotate.svg');
+    }
   }
 
   // draggable
@@ -516,7 +523,14 @@ a {
     min-width: $medium-entry;
     max-width: $medium-entry;
     // align-items: flex-end; may want to adjust this due to the way it's sitting on the laptop
-
+    .interaction-box {
+      @include interaction-box-boilerplate('/assets/svg/scroll.svg');
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
     .centered-wrapper {
       // @include lightFont($color-off-white);
       text-align: center;
@@ -676,6 +690,14 @@ a {
   background: $color-heavy-metal;
   min-width: $xsmall-entry;
   max-width: $xsmall-entry;
+  .interaction-box {
+    @include interaction-box-boilerplate('/assets/svg/scroll.svg');
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
   .e_subblock { // re-visit and fix overarching e-subblock padding issue
     padding: 0;
   }
